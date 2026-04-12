@@ -1,9 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Loader2, Plus, Trash2, ArrowLeft, Download } from 'lucide-react';
+import { Loader2, Plus, Trash2, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useMealPlan } from '@/hooks/useMealPlan';
 import { useRecipeStore } from '@/lib/store';
@@ -12,7 +11,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import type { RecipeCard, MealPlanDay } from '@/types/recipe';
 
 export default function MealPlannerPage() {
-  const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [selectedDiet, setSelectedDiet] = useState<'omad' | 'high-protein' | 'all'>('all');
   const { plan, isLoading, generateMealPlan, updateMealInPlan } = useMealPlan();
@@ -50,15 +48,12 @@ export default function MealPlannerPage() {
       {/* Header */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex items-center justify-between px-4 py-4">
-          <Button
-            variant="ghost"
-            size="sm"
-            className="gap-2"
-            onClick={() => router.back()}
-          >
-            <ArrowLeft size={18} />
-            <span className="hidden sm:inline">Back</span>
-          </Button>
+          <Link href="/" className="flex items-center gap-2 font-bold text-xl hover:opacity-80 transition-opacity">
+            <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+            </svg>
+            <span className="text-foreground hidden sm:inline">FreshPlate</span>
+          </Link>
 
           <h1 className="text-xl font-bold text-foreground">Meal Planner</h1>
 
