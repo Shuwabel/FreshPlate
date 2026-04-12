@@ -69,7 +69,7 @@ function extractTags(tagsString: string | null | undefined): string[] {
 }
 
 function isVeganMeal(meal: TheMealDBMeal): boolean {
-  const category = meal.strCategory.toLowerCase();
+  const category = meal.strCategory?.toLowerCase() || '';
   const tags = (meal.strTags || '').toLowerCase();
 
   if (category === 'vegan') return true;
@@ -96,7 +96,7 @@ function isVeganMeal(meal: TheMealDBMeal): boolean {
 }
 
 function isVegetarianMeal(meal: TheMealDBMeal): boolean {
-  const category = meal.strCategory.toLowerCase();
+  const category = meal.strCategory?.toLowerCase() || '';
   const tags = (meal.strTags || '').toLowerCase();
 
   if (category === 'vegetarian' || category === 'vegan') return true;
