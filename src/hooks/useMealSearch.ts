@@ -12,48 +12,51 @@ export function useMealSearch() {
   const [error, setError] = useState<string | null>(null);
   const setSearchResults = useRecipeStore((state) => state.setSearchResults);
 
-  const search = useCallback(async (filters: SearchFilters) => {
-    setIsLoading(true);
-    setError(null);
+  const search = useCallback(
+    async (filters: SearchFilters) => {
+      setIsLoading(true);
+      setError(null);
 
-    try {
-      let meals = [];
+      try {
+        let meals = [];
 
-      if (filters.query) {
-        // Search by meal name
-        meals = await mealdbClient.searchByName(filters.query);
-      } else if (filters.category) {
-        // Filter by category
-        meals = await mealdbClient.filterByCategory(filters.category);
-      } else if (filters.cuisine) {
-        // Filter by cuisine/area
-        meals = await mealdbClient.filterByCuisine(filters.cuisine);
-      } else if (filters.ingredient) {
-        // Filter by ingredient
-        meals = await mealdbClient.filterByIngredient(filters.ingredient);
-      } else {
-        setResults([]);
-        return;
+        if (filters.query) {
+          // Search by meal name
+          meals = await mealdbClient.searchByName(filters.query);
+        } else if (filters.category) {
+          // Filter by category
+          meals = await mealdbClient.filterByCategory(filters.category);
+        } else if (filters.cuisine) {
+          // Filter by cuisine/area
+          meals = await mealdbClient.filterByCuisine(filters.cuisine);
+        } else if (filters.ingredient) {
+          // Filter by ingredient
+          meals = await mealdbClient.filterByIngredient(filters.ingredient);
+        } else {
+          setResults([]);
+          return;
+        }
+
+        // Normalize meals to RecipeCard format
+        let normalized = meals.map(normalizeToRecipeCard);
+
+        // Apply diet filter
+        if (filters.diet && filters.diet !== 'all') {
+          normalized = filterRecipesByDiet(normalized, filters.diet);
+        }
+
+        setResults(normalized);
+        setSearchResults(normalized);
+      } catch (err) {
+        const errorMessage = err instanceof Error ? err.message : 'Search failed';
+        setError(errorMessage);
+        console.error('[useMealSearch] error:', err);
+      } finally {
+        setIsLoading(false);
       }
-
-      // Normalize meals to RecipeCard format
-      let normalized = meals.map(normalizeToRecipeCard);
-
-      // Apply diet filter
-      if (filters.diet && filters.diet !== 'all') {
-        normalized = filterRecipesByDiet(normalized, filters.diet);
-      }
-
-      setResults(normalized);
-      setSearchResults(normalized);
-    } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : 'Search failed';
-      setError(errorMessage);
-      console.error('[useMealSearch] error:', err);
-    } finally {
-      setIsLoading(false);
-    }
-  }, [setSearchResults]);
+    },
+    [setSearchResults]
+  );
 
   const searchByName = useCallback(
     (query: string, diet?: 'vegan' | 'vegetarian' | 'all') => {
