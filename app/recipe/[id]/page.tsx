@@ -73,21 +73,22 @@ export default function RecipeDetailPage() {
       <div className="min-h-screen bg-background">
         <header className="border-b border-border bg-background/95 backdrop-blur">
           <div className="container mx-auto flex items-center gap-2 px-4 py-4">
-            <Link href="/">
-              <Button variant="ghost" size="sm" className="gap-2">
-                <ArrowLeft size={18} />
-                Back
-              </Button>
-            </Link>
+            <Button
+              variant="ghost"
+              size="sm"
+              className="gap-2"
+              onClick={() => router.back()}
+            >
+              <ArrowLeft size={18} />
+              Back
+            </Button>
           </div>
         </header>
         <div className="container mx-auto flex items-center justify-center px-4 py-24">
           <div className="text-center space-y-4">
             <p className="text-lg font-medium text-foreground">Recipe not found</p>
             <p className="text-muted-foreground">{error || 'The recipe you&apos;re looking for does not exist.'}</p>
-            <Link href="/">
-              <Button>Back to Home</Button>
-            </Link>
+            <Button onClick={() => router.push('/')}>Back to Home</Button>
           </div>
         </div>
       </div>
@@ -99,12 +100,15 @@ export default function RecipeDetailPage() {
       {/* Header */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex items-center justify-between px-4 py-4">
-          <Link href="/">
-            <Button variant="ghost" size="sm" className="gap-2">
-              <ArrowLeft size={18} />
-              <span className="hidden sm:inline">Back</span>
-            </Button>
-          </Link>
+          <Button
+            variant="ghost"
+            size="sm"
+            className="gap-2"
+            onClick={() => router.back()}
+          >
+            <ArrowLeft size={18} />
+            <span className="hidden sm:inline">Back</span>
+          </Button>
 
           <div className="flex items-center gap-2">
             <Button
@@ -267,12 +271,14 @@ export default function RecipeDetailPage() {
 
         {/* Bottom Action Buttons */}
         <div className="border-t border-border pt-8 flex gap-3 justify-center flex-wrap">
-          <Link href="/">
-            <Button variant="outline" size="lg">
-              <ArrowLeft size={18} />
-              Back to Recipes
-            </Button>
-          </Link>
+          <Button
+            variant="outline"
+            size="lg"
+            onClick={() => router.back()}
+          >
+            <ArrowLeft size={18} />
+            Back to Recipes
+          </Button>
         </div>
       </div>
     </main>

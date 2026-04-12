@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Loader2, Plus, Trash2, ArrowLeft, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -11,8 +12,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import type { RecipeCard, MealPlanDay } from '@/types/recipe';
 
 export default function MealPlannerPage() {
+  const router = useRouter();
   const [mounted, setMounted] = useState(false);
-  const [selectedDiet, setSelectedDiet] = useState<'vegan' | 'vegetarian' | 'all'>('all');
+  const [selectedDiet, setSelectedDiet] = useState<'omad' | 'high-protein' | 'all'>('all');
   const { plan, isLoading, generateMealPlan, updateMealInPlan } = useMealPlan();
   const { mealPlans, removeMealPlan, setActiveMealPlan } = useRecipeStore();
 
@@ -48,12 +50,15 @@ export default function MealPlannerPage() {
       {/* Header */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex items-center justify-between px-4 py-4">
-          <Link href="/">
-            <Button variant="ghost" size="sm" className="gap-2">
-              <ArrowLeft size={18} />
-              <span className="hidden sm:inline">Back</span>
-            </Button>
-          </Link>
+          <Button
+            variant="ghost"
+            size="sm"
+            className="gap-2"
+            onClick={() => router.back()}
+          >
+            <ArrowLeft size={18} />
+            <span className="hidden sm:inline">Back</span>
+          </Button>
 
           <h1 className="text-xl font-bold text-foreground">Meal Planner</h1>
 
@@ -70,15 +75,24 @@ export default function MealPlannerPage() {
             <div className="space-y-2">
               <label className="text-sm font-medium text-foreground">Diet Preference</label>
               <div className="flex gap-2 flex-wrap">
-                {(['all', 'vegetarian', 'vegan'] as const).map((diet) => (
-                  <Button
-                    key={diet}
-                    variant={selectedDiet === diet ? 'default' : 'outline'}
-                    onClick={() => setSelectedDiet(diet)}
-                  >
-                    {diet.charAt(0).toUpperCase() + diet.slice(1)}
-                  </Button>
-                ))}
+                <Button
+                  variant={selectedDiet === 'all' ? 'default' : 'outline'}
+                  onClick={() => setSelectedDiet('all')}
+                >
+                  All Meals
+                </Button>
+                <Button
+                  variant={selectedDiet === 'omad' ? 'default' : 'outline'}
+                  onClick={() => setSelectedDiet('omad')}
+                >
+                  OMAD (One Meal a Day)
+                </Button>
+                <Button
+                  variant={selectedDiet === 'high-protein' ? 'default' : 'outline'}
+                  onClick={() => setSelectedDiet('high-protein')}
+                >
+                  High Protein
+                </Button>
               </div>
             </div>
 
@@ -109,7 +123,7 @@ export default function MealPlannerPage() {
               <div>
                 <h2 className="text-2xl font-bold text-foreground">{activePlan.name}</h2>
                 <p className="text-sm text-muted-foreground">
-                  {activePlan.diet === 'all' ? 'All' : activePlan.diet.charAt(0).toUpperCase() + activePlan.diet.slice(1)} recipes
+                  {activePlan.diet === 'all' ? 'All Meals' : activePlan.diet === 'omad' ? 'OMAD (One Meal a Day)' : 'High Protein'} recipes
                 </p>
               </div>
 
