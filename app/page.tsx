@@ -9,17 +9,34 @@ import { CategoryBrowser } from '@/components/CategoryBrowser';
 import { RecipeGrid } from '@/components/RecipeGrid';
 import { useRecipeStore } from '@/lib/store';
 import { useRandomMeal } from '@/hooks/useRandomMeal';
+import { useMealSearch } from '@/hooks/useMealSearch';
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
   const searchResults = useRecipeStore((state) => state.searchResults);
   const favorites = useRecipeStore((state) => state.favorites);
   const { meal, getRandomMeal, isLoading: randomLoading } = useRandomMeal();
+  const { searchByCategory } = useMealSearch();
 
-  // Hydration safety
+  // Hydration safety and load default meals
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  // Load default meals on mount
+  useEffect(() => {
+    if (mounted && searchResults.length === 0) {
+      // Load default meals from Seafood category to show something by default
+      const loadDefaultMeals = async () => {
+        try {
+          await searchByCategory('Seafood');
+        } catch (error) {
+          console.error('Failed to load default meals:', error);
+        }
+      };
+      loadDefaultMeals();
+    }
+  }, [mounted, searchByCategory, searchResults.length]);
 
   if (!mounted) {
     return null;
@@ -96,27 +113,17 @@ export default function Home() {
           </section>
         )}
 
-        {/* Search Results or Category Browser */}
-        {searchResults.length > 0 ? (
+        {/* Category Browser */}
+        <section className="space-y-4">
+          <CategoryBrowser />
+        </section>
+
+        {/* Search Results or Meals */}
+        {searchResults.length > 0 && (
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-foreground">Search Results</h2>
             <RecipeGrid recipes={searchResults} />
           </section>
-        ) : (
-          <>
-            {/* Category Browser */}
-            <section className="space-y-4">
-              <CategoryBrowser />
-            </section>
-
-            {/* Featured Section */}
-            <section className="space-y-4">
-              <h2 className="text-2xl font-bold text-foreground">Browse All Meals</h2>
-              <p className="text-muted-foreground">
-                Select a category above or use the search bar to discover recipes that match your taste.
-              </p>
-            </section>
-          </>
         )}
 
         {/* Favorites Section */}

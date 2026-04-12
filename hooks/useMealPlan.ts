@@ -26,7 +26,7 @@ export interface MealPlan {
   name: string;
   week: DayPlan[];
   createdAt: Date;
-  diet?: 'vegan' | 'vegetarian' | 'all';
+  diet?: 'omad' | 'high-protein' | 'all';
 }
 
 export function useMealPlan() {
@@ -35,7 +35,7 @@ export function useMealPlan() {
   const [error, setError] = useState<string | null>(null);
 
   const generateWeekPlan = useCallback(
-    async (diet: 'vegan' | 'vegetarian' | 'all' = 'all') => {
+    async (diet: 'omad' | 'high-protein' | 'all' = 'all') => {
       setIsLoading(true);
       setError(null);
 
