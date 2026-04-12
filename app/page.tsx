@@ -13,6 +13,7 @@ import { useMealSearch } from '@/hooks/useMealSearch';
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
+  const [searchPerformed, setSearchPerformed] = useState(false);
   const searchResults = useRecipeStore((state) => state.searchResults);
   const favorites = useRecipeStore((state) => state.favorites);
   const { meal, getRandomMeal, isLoading: randomLoading } = useRandomMeal();
@@ -25,7 +26,7 @@ export default function Home() {
 
   // Load default meals on mount
   useEffect(() => {
-    if (mounted && searchResults.length === 0) {
+    if (mounted && !searchPerformed && searchResults.length === 0) {
       // Load default meals from Seafood category to show something by default
       const loadDefaultMeals = async () => {
         try {
@@ -36,7 +37,7 @@ export default function Home() {
       };
       loadDefaultMeals();
     }
-  }, [mounted, searchByCategory, searchResults.length]);
+  }, [mounted, searchByCategory, searchResults.length, searchPerformed]);
 
   if (!mounted) {
     return null;
@@ -87,7 +88,7 @@ export default function Home() {
 
           {/* Search Bar */}
           <div className="mt-8 flex justify-center">
-            <SearchBar className="max-w-md" />
+            <SearchBar className="max-w-md" onSearch={() => setSearchPerformed(true)} />
           </div>
 
           {/* Quick Actions */}
@@ -119,15 +120,19 @@ export default function Home() {
         </section>
 
         {/* Search Results or Meals */}
-        {searchResults.length > 0 && (
+        {searchResults.length > 0 ? (
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-foreground">Search Results</h2>
             <RecipeGrid recipes={searchResults} />
           </section>
-        )}
+        ) : searchPerformed ? (
+          <section className="space-y-4 text-center py-12">
+            <p className="text-lg text-muted-foreground">This recipe is not available at the moment.</p>
+          </section>
+        ) : null}
 
         {/* Favorites Section */}
-        {favorites.length > 0 && searchResults.length === 0 && (
+        {favorites.length > 0 && searchResults.length === 0 && !searchPerformed && (
           <section className="space-y-4 border-t border-border pt-12">
             <h2 className="text-2xl font-bold text-foreground">Your Favorites</h2>
             <RecipeGrid recipes={favorites.slice(0, 8)} />

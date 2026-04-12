@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Heart, ArrowLeft, Trash2 } from 'lucide-react';
+import { Heart, Trash2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { RecipeCard } from '@/components/RecipeCard';
@@ -40,11 +40,11 @@ export default function FavoritesPage() {
       {/* Header */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex items-center justify-between px-4 py-4">
-          <Link href="/">
-            <Button variant="ghost" size="sm" className="gap-2">
-              <ArrowLeft size={18} />
-              <span className="hidden sm:inline">Back</span>
-            </Button>
+          <Link href="/" className="flex items-center gap-2 font-bold text-xl hover:opacity-80 transition-opacity">
+            <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+            </svg>
+            <span className="text-foreground hidden sm:inline">FreshPlate</span>
           </Link>
 
           <h1 className="text-xl font-bold text-foreground flex items-center gap-2">

@@ -1,10 +1,10 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Heart, Clock, Flame, ChefHat, ArrowLeft, Share2, ExternalLink, Loader2 } from 'lucide-react';
+import { Heart, Clock, Flame, ChefHat, Share2, ExternalLink, Loader2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useMealDetails } from '@/hooks/useMealDetails';
@@ -15,7 +15,6 @@ export default function RecipeDetailPage() {
   const [mounted, setMounted] = useState(false);
   const [imageError, setImageError] = useState(false);
   const params = useParams();
-  const router = useRouter();
   const recipeId = params.id as string;
 
   const { recipe, isLoading, error, fetchRecipe } = useMealDetails();
@@ -73,22 +72,21 @@ export default function RecipeDetailPage() {
       <div className="min-h-screen bg-background">
         <header className="border-b border-border bg-background/95 backdrop-blur">
           <div className="container mx-auto flex items-center gap-2 px-4 py-4">
-            <Button
-              variant="ghost"
-              size="sm"
-              className="gap-2"
-              onClick={() => router.back()}
-            >
-              <ArrowLeft size={18} />
-              Back
-            </Button>
+            <Link href="/">
+              <Button variant="ghost" size="sm" className="gap-2">
+                <ArrowLeft size={18} />
+                Back
+              </Button>
+            </Link>
           </div>
         </header>
         <div className="container mx-auto flex items-center justify-center px-4 py-24">
           <div className="text-center space-y-4">
             <p className="text-lg font-medium text-foreground">Recipe not found</p>
             <p className="text-muted-foreground">{error || 'The recipe you&apos;re looking for does not exist.'}</p>
-            <Button onClick={() => router.push('/')}>Back to Home</Button>
+            <Link href="/">
+              <Button>Back to Home</Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -100,15 +98,12 @@ export default function RecipeDetailPage() {
       {/* Header */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex items-center justify-between px-4 py-4">
-          <Button
-            variant="ghost"
-            size="sm"
-            className="gap-2"
-            onClick={() => router.back()}
-          >
-            <ArrowLeft size={18} />
-            <span className="hidden sm:inline">Back</span>
-          </Button>
+          <Link href="/" className="flex items-center gap-2 font-bold text-xl hover:opacity-80 transition-opacity">
+            <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+            </svg>
+            <span className="text-foreground hidden sm:inline">FreshPlate</span>
+          </Link>
 
           <div className="flex items-center gap-2">
             <Button
@@ -271,14 +266,12 @@ export default function RecipeDetailPage() {
 
         {/* Bottom Action Buttons */}
         <div className="border-t border-border pt-8 flex gap-3 justify-center flex-wrap">
-          <Button
-            variant="outline"
-            size="lg"
-            onClick={() => router.back()}
-          >
-            <ArrowLeft size={18} />
-            Back to Recipes
-          </Button>
+          <Link href="/">
+            <Button variant="outline" size="lg">
+              <ArrowLeft size={18} />
+              Back to Recipes
+            </Button>
+          </Link>
         </div>
       </div>
     </main>

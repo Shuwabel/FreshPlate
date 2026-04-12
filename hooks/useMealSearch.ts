@@ -59,28 +59,28 @@ export function useMealSearch() {
   );
 
   const searchByName = useCallback(
-    (query: string, diet?: 'vegan' | 'vegetarian' | 'all') => {
+    (query: string, diet?: 'omad' | 'high-protein' | 'all') => {
       return search({ query, diet });
     },
     [search]
   );
 
   const searchByCategory = useCallback(
-    (category: string, diet?: 'vegan' | 'vegetarian' | 'all') => {
+    (category: string, diet?: 'omad' | 'high-protein' | 'all') => {
       return search({ category, diet });
     },
     [search]
   );
 
   const searchByCuisine = useCallback(
-    (cuisine: string, diet?: 'vegan' | 'vegetarian' | 'all') => {
+    (cuisine: string, diet?: 'omad' | 'high-protein' | 'all') => {
       return search({ cuisine, diet });
     },
     [search]
   );
 
   const searchByIngredient = useCallback(
-    (ingredient: string, diet?: 'vegan' | 'vegetarian' | 'all') => {
+    (ingredient: string, diet?: 'omad' | 'high-protein' | 'all') => {
       return search({ ingredient, diet });
     },
     [search]
