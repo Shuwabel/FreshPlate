@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { Utensils, Calendar, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -18,26 +18,20 @@ export default function Home() {
   const favorites = useRecipeStore((state) => state.favorites);
   const { meal, getRandomMeal, isLoading: randomLoading } = useRandomMeal();
   const { searchByCategory } = useMealSearch();
+  const defaultLoadedRef = useRef(false);
 
-  // Hydration safety and load default meals
+  // Hydration safety and load default meals once
   useEffect(() => {
     setMounted(true);
-  }, []);
-
-  // Load default meals on mount
-  useEffect(() => {
-    if (mounted && !searchPerformed && searchResults.length === 0) {
-      // Load default meals from Seafood category to show something by default
-      const loadDefaultMeals = async () => {
-        try {
-          await searchByCategory('Seafood');
-        } catch (error) {
-          console.error('Failed to load default meals:', error);
-        }
-      };
-      loadDefaultMeals();
+    
+    // Load default meals from Seafood category on first mount only
+    if (!defaultLoadedRef.current && searchResults.length === 0) {
+      defaultLoadedRef.current = true;
+      searchByCategory('Seafood').catch((error) => {
+        console.error('Failed to load default meals:', error);
+      });
     }
-  }, [mounted, searchByCategory, searchResults.length, searchPerformed]);
+  }, []);
 
   if (!mounted) {
     return null;
