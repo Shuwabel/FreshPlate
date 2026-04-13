@@ -22,7 +22,7 @@ export default function RecipeDetailPage() {
   const recipeId = params.id as string;
 
   const { recipe, isLoading, error, fetchRecipe } = useMealDetails();
-  const { searchByCategory } = useMealSearch();
+  const { results: searchResults, searchByCategory, isLoading: searchLoading } = useMealSearch();
   const { addFavorite, removeFavorite, isFavorite, addToRoutine, removeFromRoutine, isInRoutine } =
     useRecipeStore();
 
@@ -42,24 +42,21 @@ export default function RecipeDetailPage() {
   // Load similar recipes when recipe category changes
   useEffect(() => {
     if (mounted && recipe && recipe.category) {
-      const loadSimilar = async () => {
-        try {
-          setLoadingSimilar(true);
-          const results = await searchByCategory(recipe.category);
-          // Filter out current recipe and take first 4
-          const similar = results
-            .filter((r) => r.id !== recipe.id)
-            .slice(0, 4);
-          setSimilarRecipes(similar);
-        } catch (err) {
-          console.error('Failed to load similar recipes:', err);
-        } finally {
-          setLoadingSimilar(false);
-        }
-      };
-      loadSimilar();
+      setLoadingSimilar(true);
+      searchByCategory(recipe.category);
     }
   }, [mounted, recipe, searchByCategory]);
+
+  // Update similar recipes when search results change
+  useEffect(() => {
+    if (recipe && searchResults && searchResults.length > 0) {
+      const similar = searchResults
+        .filter((r) => r.id !== recipe.id)
+        .slice(0, 4);
+      setSimilarRecipes(similar);
+      setLoadingSimilar(searchLoading);
+    }
+  }, [searchResults, recipe, searchLoading]);
 
   if (!mounted) {
     return null;
