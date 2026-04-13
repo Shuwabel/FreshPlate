@@ -13,7 +13,7 @@ import type { RecipeCard, MealPlanDay } from '@/types/recipe';
 export default function MealPlannerPage() {
   const [mounted, setMounted] = useState(false);
   const [selectedDiet, setSelectedDiet] = useState<'omad' | 'high-protein' | 'all'>('all');
-  const { plan, isLoading, generateMealPlan, updateMealInPlan } = useMealPlan();
+  const { plan, isLoading, generateWeekPlan, updateMeal, swapMeals, exportPlan } = useMealPlan();
   const { mealPlans, removeMealPlan, setActiveMealPlan } = useRecipeStore();
 
   useEffect(() => {
@@ -25,16 +25,16 @@ export default function MealPlannerPage() {
   }
 
   const handleGeneratePlan = async () => {
-    await generateMealPlan(selectedDiet);
+    await generateWeekPlan(selectedDiet);
   };
 
   const handleDownloadPlan = () => {
-    if (!plan) return;
+    const planText = exportPlan();
+    if (!planText) return;
 
-    const planText = generatePlanText(plan);
     const element = document.createElement('a');
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(planText));
-    element.setAttribute('download', `meal-plan-${plan.id}.txt`);
+    element.setAttribute('download', `meal-plan-${plan?.id || 'export'}.txt`);
     element.style.display = 'none';
     document.body.appendChild(element);
     element.click();
