@@ -13,7 +13,6 @@ import { useMealSearch } from '@/hooks/useMealSearch';
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
-  const [searchPerformed, setSearchPerformed] = useState(false);
   const searchResults = useRecipeStore((state) => state.searchResults);
   const favorites = useRecipeStore((state) => state.favorites);
   const { meal, getRandomMeal, isLoading: randomLoading } = useRandomMeal();
@@ -82,7 +81,7 @@ export default function Home() {
 
           {/* Search Bar */}
           <div className="mt-8 flex justify-center">
-            <SearchBar className="max-w-md" onSearch={() => setSearchPerformed(true)} />
+            <SearchBar className="max-w-md" />
           </div>
 
           {/* Quick Actions */}
@@ -113,22 +112,16 @@ export default function Home() {
           <CategoryBrowser />
         </section>
 
-        {/* Recipes or Search Results */}
-        {searchResults.length > 0 ? (
+        {/* All Meals Section */}
+        {searchResults.length > 0 && (
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-foreground text-center">
-              {searchPerformed ? 'Search Results' : 'Recipes'}
-            </h2>
-            <RecipeGrid recipes={searchResults} centered={searchPerformed} />
+            <h2 className="text-2xl font-bold text-foreground">All Meals</h2>
+            <RecipeGrid recipes={searchResults} />
           </section>
-        ) : searchPerformed ? (
-          <section className="space-y-4 text-center py-12">
-            <p className="text-lg text-muted-foreground">This recipe is not available at the moment.</p>
-          </section>
-        ) : null}
+        )}
 
         {/* Favorites Section */}
-        {favorites.length > 0 && searchResults.length === 0 && !searchPerformed && (
+        {favorites.length > 0 && searchResults.length === 0 && (
           <section className="space-y-4 border-t border-border pt-12">
             <h2 className="text-2xl font-bold text-foreground">Your Favorites</h2>
             <RecipeGrid recipes={favorites.slice(0, 8)} />
