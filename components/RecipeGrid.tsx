@@ -10,6 +10,7 @@ interface RecipeGridProps {
   isLoading?: boolean;
   error?: string | null;
   className?: string;
+  category?: string;
 }
 
 export function RecipeGrid({
@@ -17,6 +18,7 @@ export function RecipeGrid({
   isLoading = false,
   error,
   className,
+  category,
 }: RecipeGridProps) {
   if (isLoading) {
     return (
@@ -47,7 +49,7 @@ export function RecipeGrid({
   return (
     <div className={cn('grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4', className)}>
       {recipes.map((recipe) => (
-        <RecipeCard key={recipe.id} recipe={recipe} />
+        <RecipeCard key={recipe.id} recipe={recipe} category={category} />
       ))}
     </div>
   );
