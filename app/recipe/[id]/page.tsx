@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Heart, Clock, Flame, ChefHat, Share2, ExternalLink, Loader2 } from 'lucide-react';
+import { Heart, Clock, Flame, ChefHat, Share2, ExternalLink, Loader2, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useMealDetails } from '@/hooks/useMealDetails';
