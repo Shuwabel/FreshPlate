@@ -12,9 +12,10 @@ import { cn } from '@/lib/utils';
 
 interface RecipeCardProps {
   recipe: RecipeCardType;
+  category?: string;
 }
 
-export function RecipeCard({ recipe }: RecipeCardProps) {
+export function RecipeCard({ recipe, category }: RecipeCardProps) {
   const [imageError, setImageError] = useState(false);
   const { addFavorite, removeFavorite, isFavorite } = useRecipeStore();
   const isFav = isFavorite(recipe.id);
@@ -28,8 +29,12 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
     }
   };
 
+  const recipeUrl = category
+    ? `/recipe/${recipe.id}?from=category&category=${encodeURIComponent(category)}`
+    : `/recipe/${recipe.id}`;
+
   return (
-    <Link href={`/recipe/${recipe.id}`}>
+    <Link href={recipeUrl}>
       <div className="group overflow-hidden rounded-lg border border-border bg-card shadow-sm transition-all hover:shadow-md hover:border-primary/30">
         {/* Image Container */}
         <div className="relative h-48 w-full overflow-hidden bg-muted">

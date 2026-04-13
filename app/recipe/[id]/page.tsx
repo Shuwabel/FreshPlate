@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Heart, Clock, Flame, ChefHat, Share2, ExternalLink, Loader2, ArrowLeft } from 'lucide-react';
@@ -19,7 +19,10 @@ export default function RecipeDetailPage() {
   const [similarRecipes, setSimilarRecipes] = useState([]);
   const [loadingSimilar, setLoadingSimilar] = useState(false);
   const params = useParams();
+  const searchParams = useSearchParams();
   const recipeId = params.id as string;
+  const from = searchParams.get('from') || 'home';
+  const category = searchParams.get('category');
 
   const { recipe, isLoading, error, fetchRecipe } = useMealDetails();
   const { results: searchResults, searchByCategory, isLoading: searchLoading } = useMealSearch();
@@ -152,12 +155,21 @@ export default function RecipeDetailPage() {
       <div className="relative container mx-auto px-4 py-8">
         {/* Fixed Sidebar */}
         <div className="fixed left-4 top-24 z-40 hidden xl:block">
-          <Link href="/">
-            <Button variant="outline" size="lg" className="gap-2 whitespace-nowrap">
-              <ArrowLeft size={20} />
-              Back to Recipes
-            </Button>
-          </Link>
+          {category ? (
+            <Link href={`/recipes/${encodeURIComponent(category)}`}>
+              <Button variant="outline" size="lg" className="gap-2 whitespace-nowrap">
+                <ArrowLeft size={20} />
+                Back to Category
+              </Button>
+            </Link>
+          ) : (
+            <Link href="/">
+              <Button variant="outline" size="lg" className="gap-2 whitespace-nowrap">
+                <ArrowLeft size={20} />
+                Back to Home
+              </Button>
+            </Link>
+          )}
         </div>
 
         <div className="space-y-8">
@@ -319,12 +331,21 @@ export default function RecipeDetailPage() {
 
         {/* Mobile Back Button */}
         <div className="border-t border-border pt-8 flex gap-3 justify-center flex-wrap xl:hidden">
-          <Link href="/">
-            <Button variant="outline" size="lg">
-              <ArrowLeft size={18} />
-              Back to Recipes
-            </Button>
-          </Link>
+          {category ? (
+            <Link href={`/recipes/${encodeURIComponent(category)}`}>
+              <Button variant="outline" size="lg">
+                <ArrowLeft size={18} />
+                Back to Category
+              </Button>
+            </Link>
+          ) : (
+            <Link href="/">
+              <Button variant="outline" size="lg">
+                <ArrowLeft size={18} />
+                Back to Home
+              </Button>
+            </Link>
+          )}
         </div>
         </div>
       </div>
