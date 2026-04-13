@@ -6,14 +6,14 @@ import { Loader2, Plus, Trash2, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useMealPlan } from '@/hooks/useMealPlan';
 import { useRecipeStore } from '@/lib/store';
-import { RecipeCard as RecipeCardComponent } from '@/components/RecipeCard';
+import { MealPlanDayCard } from '@/components/MealPlanDayCard';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import type { RecipeCard, MealPlanDay } from '@/types/recipe';
 
 export default function MealPlannerPage() {
   const [mounted, setMounted] = useState(false);
   const [selectedDiet, setSelectedDiet] = useState<'omad' | 'high-protein' | 'all'>('all');
-  const { plan, isLoading, generateMealPlan, updateMealInPlan } = useMealPlan();
+  const { plan, isLoading, generateWeekPlan, updateMeal, swapMeals, exportPlan } = useMealPlan();
   const { mealPlans, removeMealPlan, setActiveMealPlan } = useRecipeStore();
 
   useEffect(() => {
@@ -25,16 +25,16 @@ export default function MealPlannerPage() {
   }
 
   const handleGeneratePlan = async () => {
-    await generateMealPlan(selectedDiet);
+    await generateWeekPlan(selectedDiet);
   };
 
   const handleDownloadPlan = () => {
-    if (!plan) return;
+    const planText = exportPlan();
+    if (!planText) return;
 
-    const planText = generatePlanText(plan);
     const element = document.createElement('a');
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(planText));
-    element.setAttribute('download', `meal-plan-${plan.id}.txt`);
+    element.setAttribute('download', `meal-plan-${plan?.id || 'export'}.txt`);
     element.style.display = 'none';
     document.body.appendChild(element);
     element.click();
@@ -150,7 +150,7 @@ export default function MealPlannerPage() {
                 <MealPlanDayCard
                   key={day.dayOfWeek}
                   day={day}
-                  onUpdateMeal={updateMealInPlan}
+                  onUpdateMeal={updateMeal}
                 />
               ))}
             </div>
@@ -206,111 +206,6 @@ export default function MealPlannerPage() {
         )}
       </div>
     </main>
-  );
-}
-
-interface MealPlanDayCardProps {
-  day: MealPlanDay;
-  onUpdateMeal: (day: MealPlanDay['dayOfWeek'], type: 'breakfast' | 'lunch' | 'dinner', recipe: RecipeCard | null) => void;
-}
-
-function MealPlanDayCard({ day, onUpdateMeal }: MealPlanDayCardProps) {
-  return (
-    <div className="rounded-lg border border-border bg-card p-4 space-y-4">
-      <h3 className="text-lg font-semibold text-foreground">{day.dayOfWeek}</h3>
-
-      <Tabs defaultValue="breakfast" className="w-full">
-        <TabsList className="grid w-full grid-cols-3">
-          <TabsTrigger value="breakfast">
-            <span className="text-xs sm:text-sm">Breakfast</span>
-          </TabsTrigger>
-          <TabsTrigger value="lunch">
-            <span className="text-xs sm:text-sm">Lunch</span>
-          </TabsTrigger>
-          <TabsTrigger value="dinner">
-            <span className="text-xs sm:text-sm">Dinner</span>
-          </TabsTrigger>
-        </TabsList>
-
-        <TabsContent value="breakfast" className="mt-4 space-y-3">
-          {day.breakfast ? (
-            <div className="space-y-2">
-              <Link href={`/recipe/${day.breakfast.id}`}>
-                <div className="group rounded-lg border border-border bg-background p-3 cursor-pointer hover:border-primary/30 transition-colors">
-                  <p className="font-medium text-foreground group-hover:text-primary transition-colors">
-                    {day.breakfast.name}
-                  </p>
-                  <p className="text-xs text-muted-foreground">{day.breakfast.calories} cal</p>
-                </div>
-              </Link>
-
-              <Button
-                onClick={() => onUpdateMeal(day.dayOfWeek, 'breakfast', null)}
-                size="sm"
-                variant="outline"
-                className="w-full"
-              >
-                Change Recipe
-              </Button>
-            </div>
-          ) : (
-            <p className="text-sm text-muted-foreground text-center py-4">No meal planned</p>
-          )}
-        </TabsContent>
-
-        <TabsContent value="lunch" className="mt-4 space-y-3">
-          {day.lunch ? (
-            <div className="space-y-2">
-              <Link href={`/recipe/${day.lunch.id}`}>
-                <div className="group rounded-lg border border-border bg-background p-3 cursor-pointer hover:border-primary/30 transition-colors">
-                  <p className="font-medium text-foreground group-hover:text-primary transition-colors">
-                    {day.lunch.name}
-                  </p>
-                  <p className="text-xs text-muted-foreground">{day.lunch.calories} cal</p>
-                </div>
-              </Link>
-
-              <Button
-                onClick={() => onUpdateMeal(day.dayOfWeek, 'lunch', null)}
-                size="sm"
-                variant="outline"
-                className="w-full"
-              >
-                Change Recipe
-              </Button>
-            </div>
-          ) : (
-            <p className="text-sm text-muted-foreground text-center py-4">No meal planned</p>
-          )}
-        </TabsContent>
-
-        <TabsContent value="dinner" className="mt-4 space-y-3">
-          {day.dinner ? (
-            <div className="space-y-2">
-              <Link href={`/recipe/${day.dinner.id}`}>
-                <div className="group rounded-lg border border-border bg-background p-3 cursor-pointer hover:border-primary/30 transition-colors">
-                  <p className="font-medium text-foreground group-hover:text-primary transition-colors">
-                    {day.dinner.name}
-                  </p>
-                  <p className="text-xs text-muted-foreground">{day.dinner.calories} cal</p>
-                </div>
-              </Link>
-
-              <Button
-                onClick={() => onUpdateMeal(day.dayOfWeek, 'dinner', null)}
-                size="sm"
-                variant="outline"
-                className="w-full"
-              >
-                Change Recipe
-              </Button>
-            </div>
-          ) : (
-            <p className="text-sm text-muted-foreground text-center py-4">No meal planned</p>
-          )}
-        </TabsContent>
-      </Tabs>
-    </div>
   );
 }
 

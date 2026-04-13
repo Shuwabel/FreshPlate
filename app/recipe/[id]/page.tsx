@@ -1,23 +1,31 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Heart, Clock, Flame, ChefHat, Share2, ExternalLink, Loader2 } from 'lucide-react';
+import { Heart, Clock, Flame, ChefHat, Share2, ExternalLink, Loader2, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useMealDetails } from '@/hooks/useMealDetails';
+import { useMealSearch } from '@/hooks/useMealSearch';
 import { useRecipeStore } from '@/lib/store';
+import { RecipeCard } from '@/components/RecipeCard';
 import { cn } from '@/lib/utils';
 
 export default function RecipeDetailPage() {
   const [mounted, setMounted] = useState(false);
   const [imageError, setImageError] = useState(false);
+  const [similarRecipes, setSimilarRecipes] = useState([]);
+  const [loadingSimilar, setLoadingSimilar] = useState(false);
   const params = useParams();
+  const searchParams = useSearchParams();
   const recipeId = params.id as string;
+  const from = searchParams.get('from') || 'home';
+  const category = searchParams.get('category');
 
   const { recipe, isLoading, error, fetchRecipe } = useMealDetails();
+  const { results: searchResults, searchByCategory, isLoading: searchLoading } = useMealSearch();
   const { addFavorite, removeFavorite, isFavorite, addToRoutine, removeFromRoutine, isInRoutine } =
     useRecipeStore();
 
@@ -33,6 +41,25 @@ export default function RecipeDetailPage() {
       fetchRecipe(recipeId);
     }
   }, [mounted, recipeId, fetchRecipe]);
+
+  // Load similar recipes when recipe category changes
+  useEffect(() => {
+    if (mounted && recipe && recipe.category) {
+      setLoadingSimilar(true);
+      searchByCategory(recipe.category);
+    }
+  }, [mounted, recipe, searchByCategory]);
+
+  // Update similar recipes when search results change
+  useEffect(() => {
+    if (recipe && searchResults && searchResults.length > 0) {
+      const similar = searchResults
+        .filter((r) => r.id !== recipe.id)
+        .slice(0, 4);
+      setSimilarRecipes(similar);
+      setLoadingSimilar(searchLoading);
+    }
+  }, [searchResults, recipe, searchLoading]);
 
   if (!mounted) {
     return null;
@@ -125,7 +152,27 @@ export default function RecipeDetailPage() {
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-8 space-y-8">
+      <div className="relative container mx-auto px-4 py-8">
+        {/* Fixed Sidebar */}
+        <div className="fixed left-4 top-24 z-40 hidden xl:block">
+          {category ? (
+            <Link href={`/recipes/${encodeURIComponent(category)}`}>
+              <Button variant="outline" size="lg" className="gap-2 whitespace-nowrap">
+                <ArrowLeft size={20} />
+                Back to Category
+              </Button>
+            </Link>
+          ) : (
+            <Link href="/">
+              <Button variant="outline" size="lg" className="gap-2 whitespace-nowrap">
+                <ArrowLeft size={20} />
+                Back to Home
+              </Button>
+            </Link>
+          )}
+        </div>
+
+        <div className="space-y-8">
         {/* Image and Title Section */}
         <div className="grid gap-8 lg:grid-cols-3">
           <div className="lg:col-span-2 space-y-4">
@@ -264,14 +311,42 @@ export default function RecipeDetailPage() {
           </section>
         )}
 
-        {/* Bottom Action Buttons */}
-        <div className="border-t border-border pt-8 flex gap-3 justify-center flex-wrap">
-          <Link href="/">
-            <Button variant="outline" size="lg">
-              <ArrowLeft size={18} />
-              Back to Recipes
-            </Button>
-          </Link>
+        {/* Similar Recipes */}
+        {similarRecipes.length > 0 && (
+          <section className="border-t border-border pt-8">
+            <h2 className="mb-4 text-2xl font-bold text-foreground">Similar Recipes</h2>
+            {loadingSimilar ? (
+              <div className="flex items-center justify-center py-8">
+                <Loader2 className="h-6 w-6 animate-spin text-primary" />
+              </div>
+            ) : (
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                {similarRecipes.map((recipe) => (
+                  <RecipeCard key={recipe.id} recipe={recipe} />
+                ))}
+              </div>
+            )}
+          </section>
+        )}
+
+        {/* Mobile Back Button */}
+        <div className="border-t border-border pt-8 flex gap-3 justify-center flex-wrap xl:hidden">
+          {category ? (
+            <Link href={`/recipes/${encodeURIComponent(category)}`}>
+              <Button variant="outline" size="lg">
+                <ArrowLeft size={18} />
+                Back to Category
+              </Button>
+            </Link>
+          ) : (
+            <Link href="/">
+              <Button variant="outline" size="lg">
+                <ArrowLeft size={18} />
+                Back to Home
+              </Button>
+            </Link>
+          )}
+        </div>
         </div>
       </div>
     </main>

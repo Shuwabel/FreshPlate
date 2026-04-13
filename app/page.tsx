@@ -113,11 +113,13 @@ export default function Home() {
           <CategoryBrowser />
         </section>
 
-        {/* Search Results or Meals */}
+        {/* Recipes or Search Results */}
         {searchResults.length > 0 ? (
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-foreground">Search Results</h2>
-            <RecipeGrid recipes={searchResults} />
+            <h2 className="text-2xl font-bold text-foreground text-center">
+              {searchPerformed ? 'Search Results' : 'Recipes'}
+            </h2>
+            <RecipeGrid recipes={searchResults} centered={searchPerformed} />
           </section>
         ) : searchPerformed ? (
           <section className="space-y-4 text-center py-12">

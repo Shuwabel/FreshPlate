@@ -10,6 +10,8 @@ interface RecipeGridProps {
   isLoading?: boolean;
   error?: string | null;
   className?: string;
+  category?: string;
+  centered?: boolean;
 }
 
 export function RecipeGrid({
@@ -17,6 +19,8 @@ export function RecipeGrid({
   isLoading = false,
   error,
   className,
+  category,
+  centered = false,
 }: RecipeGridProps) {
   if (isLoading) {
     return (
@@ -44,10 +48,14 @@ export function RecipeGrid({
     );
   }
 
+  const gridClasses = centered 
+    ? 'flex flex-wrap gap-4 justify-center'
+    : 'grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4';
+
   return (
-    <div className={cn('grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4', className)}>
+    <div className={cn(gridClasses, className)}>
       {recipes.map((recipe) => (
-        <RecipeCard key={recipe.id} recipe={recipe} />
+        <RecipeCard key={recipe.id} recipe={recipe} category={category} />
       ))}
     </div>
   );
