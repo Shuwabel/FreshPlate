@@ -8,16 +8,21 @@ import { Heart, Clock, Flame, ChefHat, Share2, ExternalLink, Loader2, ArrowLeft 
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useMealDetails } from '@/hooks/useMealDetails';
+import { useMealSearch } from '@/hooks/useMealSearch';
 import { useRecipeStore } from '@/lib/store';
+import { RecipeCard } from '@/components/RecipeCard';
 import { cn } from '@/lib/utils';
 
 export default function RecipeDetailPage() {
   const [mounted, setMounted] = useState(false);
   const [imageError, setImageError] = useState(false);
+  const [similarRecipes, setSimilarRecipes] = useState([]);
+  const [loadingSimilar, setLoadingSimilar] = useState(false);
   const params = useParams();
   const recipeId = params.id as string;
 
   const { recipe, isLoading, error, fetchRecipe } = useMealDetails();
+  const { searchByCategory } = useMealSearch();
   const { addFavorite, removeFavorite, isFavorite, addToRoutine, removeFromRoutine, isInRoutine } =
     useRecipeStore();
 
@@ -33,6 +38,28 @@ export default function RecipeDetailPage() {
       fetchRecipe(recipeId);
     }
   }, [mounted, recipeId, fetchRecipe]);
+
+  // Load similar recipes when recipe category changes
+  useEffect(() => {
+    if (mounted && recipe && recipe.category) {
+      const loadSimilar = async () => {
+        try {
+          setLoadingSimilar(true);
+          const results = await searchByCategory(recipe.category);
+          // Filter out current recipe and take first 4
+          const similar = results
+            .filter((r) => r.id !== recipe.id)
+            .slice(0, 4);
+          setSimilarRecipes(similar);
+        } catch (err) {
+          console.error('Failed to load similar recipes:', err);
+        } finally {
+          setLoadingSimilar(false);
+        }
+      };
+      loadSimilar();
+    }
+  }, [mounted, recipe, searchByCategory]);
 
   if (!mounted) {
     return null;
@@ -125,7 +152,18 @@ export default function RecipeDetailPage() {
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-8 space-y-8">
+      <div className="relative container mx-auto px-4 py-8">
+        {/* Fixed Sidebar */}
+        <div className="fixed left-4 top-24 z-40 hidden xl:block">
+          <Link href="/">
+            <Button variant="outline" size="lg" className="gap-2 whitespace-nowrap">
+              <ArrowLeft size={20} />
+              Back to Recipes
+            </Button>
+          </Link>
+        </div>
+
+        <div className="space-y-8">
         {/* Image and Title Section */}
         <div className="grid gap-8 lg:grid-cols-3">
           <div className="lg:col-span-2 space-y-4">
@@ -264,14 +302,33 @@ export default function RecipeDetailPage() {
           </section>
         )}
 
-        {/* Bottom Action Buttons */}
-        <div className="border-t border-border pt-8 flex gap-3 justify-center flex-wrap">
+        {/* Similar Recipes */}
+        {similarRecipes.length > 0 && (
+          <section className="border-t border-border pt-8">
+            <h2 className="mb-4 text-2xl font-bold text-foreground">Similar Recipes</h2>
+            {loadingSimilar ? (
+              <div className="flex items-center justify-center py-8">
+                <Loader2 className="h-6 w-6 animate-spin text-primary" />
+              </div>
+            ) : (
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                {similarRecipes.map((recipe) => (
+                  <RecipeCard key={recipe.id} recipe={recipe} />
+                ))}
+              </div>
+            )}
+          </section>
+        )}
+
+        {/* Mobile Back Button */}
+        <div className="border-t border-border pt-8 flex gap-3 justify-center flex-wrap xl:hidden">
           <Link href="/">
             <Button variant="outline" size="lg">
               <ArrowLeft size={18} />
               Back to Recipes
             </Button>
           </Link>
+        </div>
         </div>
       </div>
     </main>
