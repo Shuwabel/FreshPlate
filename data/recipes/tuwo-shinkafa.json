@@ -1,0 +1,54 @@
+{
+  "slug": "tuwo-shinkafa",
+  "name": "Tuwo Shinkafa with Miyan Kuka",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "main",
+  "tags": ["northern nigeria", "swallow", "comfort", "hausa", "gluten-free"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "Soft, smooth mashed rice balls served with miyan kuka, a dark baobab leaf soup with dried fish and meat.",
+  "story": "Tuwo shinkafa is a soft rice swallow from northern Nigeria, widely eaten by the Hausa people. It is commonly paired with miyan kuka, made from dried, powdered baobab leaves, and other soups such as miyan taushe. It is an everyday family dish.",
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "Tuwo shinkafa", "items": [
+      {"name": "Short-grain or local rice", "amount": "2 cups (400 g)", "note": "washed"},
+      {"name": "Water", "amount": "6 cups (1.4 litres)"}
+    ]},
+    {"group": "Miyan kuka", "items": [
+      {"name": "Kuka (dried baobab leaf powder)", "amount": "4 tbsp (about 30 g)"},
+      {"name": "Beef or goat", "amount": "400 g", "note": "cubed"},
+      {"name": "Smoked or dried fish", "amount": "80 g"},
+      {"name": "Dawadawa (iru)", "amount": "1 tbsp"},
+      {"name": "Onion", "amount": "1 medium"},
+      {"name": "Fresh pepper (tatashe, scotch bonnet)", "amount": "3 peppers", "note": "blended"},
+      {"name": "Groundnut or vegetable oil", "amount": "3 tbsp"},
+      {"name": "Dried ground okra or potash", "amount": "1 tsp", "note": "optional"},
+      {"name": "Stock cube and salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the meat", "text": "Boil the meat with half the onion, a stock cube and salt until tender, about 35 minutes. Reserve 3 cups of stock.", "minutes": 35},
+    {"title": "Fry the pepper base", "text": "Heat the oil, add the rest of the chopped onion and the blended peppers, and fry for 10 minutes until thick and the oil separates.", "minutes": 12},
+    {"title": "Combine soup", "text": "Add the stock, meat, fish and dawadawa to the base. Simmer for 10 minutes.", "minutes": 10},
+    {"title": "Add the kuka", "text": "Sprinkle kuka powder into the pot in small amounts, stirring constantly to avoid lumps. Simmer for 8 to 10 minutes until thick, smooth and dark green.", "minutes": 10},
+    {"title": "Soften the rice", "text": "Boil the rice in the water over medium heat, uncovered at first, then covered, for 25 to 30 minutes until very soft and overcooked, adding hot water if it dries.", "minutes": 28},
+    {"title": "Mash it", "text": "Mash and stir firmly with a wooden spoon for 5 minutes, folding and pressing, until it forms a smooth, sticky dough with no grains showing.", "minutes": 6},
+    {"title": "Shape and serve", "text": "With a wet spoon or bowl, shape into balls and serve warm with miyan kuka.", "minutes": 3}
+  ],
+  "tips": [
+    "Sprinkle kuka slowly while stirring; adding it at once makes lumps.",
+    "Overcook the rice on purpose so it mashes smoothly.",
+    "Serve tuwo soon after making; it firms up as it cools."
+  ],
+  "swaps": [
+    {"ingredient": "Kuka", "swap": "Dried baobab leaf powder is sold in some African shops. A mix of dried spinach powder and a little okra powder will roughly match the texture."},
+    {"ingredient": "Dawadawa", "swap": "Iru or a small spoon of miso."},
+    {"ingredient": "Local short-grain rice", "swap": "Sushi or arborio rice, which also mashes well."}
+  ],
+  "servesWith": [],
+  "nutrition": {"calories": 560, "proteinG": 28, "carbsG": 82, "fatG": 14}
+}

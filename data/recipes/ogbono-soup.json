@@ -1,0 +1,51 @@
+{
+  "slug": "ogbono-soup",
+  "name": "Ogbono Soup",
+  "localName": "Ofe Ogbono",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["comfort", "swallow", "draw soup", "festive", "protein-rich"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "A silky, slippery draw soup made from ground wild mango seeds, palm oil, crayfish and meat.",
+  "story": "Ogbono soup is made from the ground seeds of the wild African mango, which gives it a distinctive slippery, drawing texture. It is a common family and party dish across southern Nigeria, usually eaten with a swallow like eba, fufu or pounded yam. Cooks often add okra or leaves to vary it.",
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "servings": 5,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "Soup", "items": [
+      {"name": "Ground ogbono", "amount": "1 cup (110 g)"},
+      {"name": "Palm oil", "amount": "1/2 cup (120 ml)"},
+      {"name": "Assorted meat and shaki", "amount": "500 g", "note": "cooked, keep the stock"},
+      {"name": "Dried fish or stockfish", "amount": "100 g", "note": "soaked"},
+      {"name": "Ground crayfish", "amount": "3 tbsp"},
+      {"name": "Onion", "amount": "1 medium", "note": "chopped"},
+      {"name": "Ground dried pepper or fresh scotch bonnet", "amount": "1 to 2 tsp / 1 pepper"},
+      {"name": "Stock", "amount": "3 cups (750 ml)", "note": "from the meat"},
+      {"name": "Fluted pumpkin (ugu) or spinach", "amount": "150 g", "note": "optional, chopped"},
+      {"name": "Stock cube and salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the meat", "text": "Boil the meat with onion, a stock cube and salt until tender, adding stockfish near the end. Keep all the stock, you will need around 3 cups.", "minutes": 40},
+    {"title": "Melt the palm oil", "text": "Place the palm oil in a pot over low heat just until it melts and becomes clear, about 1 to 2 minutes. Do not boil it.", "minutes": 2},
+    {"title": "Cream the ogbono", "text": "Add the ground ogbono to the oil and stir with a wooden spoon to make a smooth thick paste. Cook gently for 2 to 3 minutes until it loosens and smells nutty.", "minutes": 3},
+    {"title": "Add stock slowly", "text": "Pour in the warm stock a ladle at a time, stirring constantly, until the soup is smooth with no lumps. Keep the heat low to medium.", "minutes": 5},
+    {"title": "Simmer", "text": "Add crayfish, pepper, meat and fish. Cover and simmer on low for 15 minutes, stirring now and then so it does not stick; it should draw into stretchy strings from the spoon.", "minutes": 15},
+    {"title": "Finish", "text": "Stir in the greens if using and cook for 2 to 3 minutes. Adjust salt and thin with a little stock or hot water if too thick.", "minutes": 4}
+  ],
+  "tips": [
+    "Cream the ogbono in oil first; dropping it into hot liquid makes lumps.",
+    "Keep the heat low. High heat makes the soup stick and burn at the bottom.",
+    "Add stock gradually to control the thickness."
+  ],
+  "swaps": [
+    {"ingredient": "Ogbono", "swap": "There is no true substitute; for a different draw soup use okra, but flavour and texture will change."},
+    {"ingredient": "Palm oil", "swap": "Vegetable oil works but the colour and flavour will be milder."},
+    {"ingredient": "Ugu leaf", "swap": "Spinach or kale."}
+  ],
+  "servesWith": ["pounded-yam", "eba", "tuwo-shinkafa"],
+  "nutrition": {"calories": 540, "proteinG": 35, "carbsG": 9, "fatG": 40}
+}

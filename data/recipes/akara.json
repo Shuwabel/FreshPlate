@@ -1,0 +1,45 @@
+{
+  "slug": "akara",
+  "name": "Akara",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "breakfast",
+  "tags": ["street food", "fried", "breakfast", "snack", "gluten-free"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 1,
+  "summary": "Crisp-edged, fluffy fritters of whipped black-eyed pea batter, fried until deep golden and best eaten hot.",
+  "story": "Akara is a popular Nigerian street food and breakfast made from peeled black-eyed peas, blended and whipped before frying. It is commonly eaten with pap (ogi) or soft bread. In parts of Brazil a related fritter, acaraje, is also eaten.",
+  "prepMinutes": 40,
+  "cookMinutes": 20,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": null, "items": [
+      {"name": "Black-eyed peas (brown beans)", "amount": "2 cups (400 g)", "note": "soaked and peeled"},
+      {"name": "Onion", "amount": "1 small", "note": "roughly chopped"},
+      {"name": "Scotch bonnet or fresh chilli", "amount": "1 to 2"},
+      {"name": "Salt", "amount": "1 tsp"},
+      {"name": "Water", "amount": "about 1/2 cup (120 ml)", "note": "as little as possible"},
+      {"name": "Vegetable oil for deep frying", "amount": "about 750 ml"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Peel the beans", "text": "Soak the beans for 10 to 15 minutes, then rub them between your hands to loosen the skins. Rinse and pour off the floating skins several times until most are removed.", "minutes": 20},
+    {"title": "Blend", "text": "Blend the beans with the onion and pepper using the minimum water, until the batter is thick, smooth and creamy with no gritty bits.", "minutes": 8},
+    {"title": "Whip the batter", "text": "Pour into a bowl and beat vigorously with a wooden spoon or whisk for 5 to 8 minutes until pale, fluffy and slightly increased in volume. Stir in the salt at the end.", "minutes": 8},
+    {"title": "Heat the oil", "text": "Heat the oil in a deep pan to about 180 C (350 F). A drop of batter should sizzle and rise within seconds.", "minutes": 8},
+    {"title": "Fry in batches", "text": "Scoop a heaped tablespoon of batter and gently slide it into the oil. Fry 4 to 5 minutes, turning once, until deep golden brown and crisp outside.", "minutes": 12},
+    {"title": "Drain and serve", "text": "Lift out and drain on paper towels. Serve hot with pap, bread or a spicy pepper sauce.", "minutes": 2}
+  ],
+  "tips": [
+    "Whipping the batter is the secret to light, airy akara.",
+    "Add salt at the end; early salt thins the batter.",
+    "Keep the oil hot enough; oil that is too cool makes greasy akara."
+  ],
+  "swaps": [
+    {"ingredient": "Fresh black-eyed peas", "swap": "Use skinless dried black-eyed peas or ready-made bean flour (ewa flour) mixed with water to save peeling time."},
+    {"ingredient": "Scotch bonnet", "swap": "Habanero or a milder red chilli."}
+  ],
+  "servesWith": ["pap-akamu"],
+  "nutrition": {"calories": 350, "proteinG": 15, "carbsG": 38, "fatG": 16}
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "nkwobi",
+  "course": "snack",
+  "tags": [
+    "party",
+    "spicy",
+    "Igbo",
+    "bar food",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 2,
+  "summary": "Tender cow foot in a thick, spicy palm oil and utazi sauce thickened with potash, served warm with sliced onions.",
+  "story": "Nkwobi is an Igbo delicacy of cow foot cooked until soft and coated in a thick, spiced palm-oil sauce. It is commonly served at bars, restaurants and gatherings, often with a cold drink.",
+  "prepMinutes": 30,
+  "cookMinutes": 150,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": "For the cow foot",
+      "items": [
+        {
+          "name": "Cow foot (cleaned)",
+          "amount": "1.2 kg (about 2 1/2 lb)",
+          "note": "cut into pieces"
+        },
+        {
+          "name": "Onion",
+          "amount": "1",
+          "note": "quartered"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Salt",
+          "amount": "1 tsp"
+        }
+      ]
+    },
+    {
+      "group": "For the sauce",
+      "items": [
+        {
+          "name": "Red palm oil",
+          "amount": "1/2 cup (120 ml)"
+        },
+        {
+          "name": "Potash (kaun)",
+          "amount": "1 tsp",
+          "note": "see swaps"
+        },
+        {
+          "name": "Water",
+          "amount": "3 tbsp"
+        },
+        {
+          "name": "Ground ehuru (calabash nutmeg)",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Ground crayfish",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Scotch bonnet peppers",
+          "amount": "2 to 3",
+          "note": "blended or finely chopped"
+        },
+        {
+          "name": "Seasoning cube",
+          "amount": "1"
+        },
+        {
+          "name": "Utazi leaves",
+          "amount": "8 to 10",
+          "note": "finely sliced"
+        },
+        {
+          "name": "Onion",
+          "amount": "1 medium",
+          "note": "sliced thinly into rings"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Boil the cow foot",
+      "text": "Place the cow foot in a pot with the quartered onion, cubes and salt. Cover with water and pressure-cook for 45 minutes or simmer 2 to 2 1/2 hours. It is ready when the skin is very soft and gelatinous and the meat pulls from the bone.",
+      "minutes": 150
+    },
+    {
+      "title": "Drain and keep warm",
+      "text": "Lift out the cow foot and keep it hot. Save a small cup of the stock in case you need to loosen the sauce.",
+      "minutes": 2
+    },
+    {
+      "title": "Make the potash liquid",
+      "text": "Stir the potash into the water, let the grit settle, and pour off only the clear liquid. A little of this makes the palm oil thicken.",
+      "minutes": 3
+    },
+    {
+      "title": "Whip the palm oil",
+      "text": "Add the palm oil to about 1 tbsp of the clear potash liquid in a pot and stir over very low heat until it turns thick, creamy and pale orange-yellow. This is the characteristic nkwobi texture.",
+      "minutes": 4
+    },
+    {
+      "title": "Add the spices",
+      "text": "Stir in the ehuru, crayfish, scotch bonnet and seasoning cube. Cook for 2 to 3 minutes just until warm and fragrant. Add a spoonful of reserved stock if it is too thick.",
+      "minutes": 4
+    },
+    {
+      "title": "Coat the meat",
+      "text": "Fold the hot cow foot into the sauce until each piece is thoroughly coated. Taste and add salt if needed.",
+      "minutes": 2
+    },
+    {
+      "title": "Finish with utazi",
+      "text": "Stir in most of the utazi and half of the sliced onion. Serve warm in a bowl or on a wooden plate, topped with the remaining onion and utazi.",
+      "minutes": 2
+    }
+  ],
+  "tips": [
+    "Add the potash liquid gradually. Too much leaves a harsh, soapy taste.",
+    "Do not boil the sauce hard once the palm oil is whipped or it will split and turn oily.",
+    "Utazi is bitter by design, so use it in moderation.",
+    "Serve warm; the sauce stiffens as it cools."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Potash (kaun)",
+      "swap": "A tiny pinch of baking soda dissolved in water thickens the palm oil in a similar way, though less authentically."
+    },
+    {
+      "ingredient": "Utazi",
+      "swap": "Use a few leaves of endive or rocket for similar bitterness, or leave out and add extra onion."
+    },
+    {
+      "ingredient": "Ehuru",
+      "swap": "Substitute a small pinch of ground nutmeg plus black pepper."
+    }
+  ],
+  "servesWith": [
+    "isi-ewu"
+  ],
+  "nutrition": {
+    "calories": 420,
+    "proteinG": 35,
+    "carbsG": 5,
+    "fatG": 29
+  },
+  "name": "Nkwobi",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

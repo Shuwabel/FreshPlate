@@ -1,0 +1,167 @@
+{
+  "slug": "gizdodo",
+  "course": "snack",
+  "tags": [
+    "party",
+    "spicy",
+    "fried",
+    "plantain",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 2,
+  "summary": "Chicken gizzards simmered tender and tossed in a peppery tomato and bell pepper sauce with cubes of golden fried plantain.",
+  "story": "Gizdodo joins gizzard with dodo, fried plantain, in a spicy sauce. It is a popular party dish and small chop at Nigerian celebrations.",
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": "For the gizzards",
+      "items": [
+        {
+          "name": "Chicken gizzards",
+          "amount": "500 g (1 lb)",
+          "note": "cleaned and trimmed"
+        },
+        {
+          "name": "Onion",
+          "amount": "1/2",
+          "note": "sliced"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Thyme",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "1/2 tsp"
+        }
+      ]
+    },
+    {
+      "group": "For the sauce",
+      "items": [
+        {
+          "name": "Ripe plantains",
+          "amount": "2",
+          "note": "cubed"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "about 1 cup (240 ml)",
+          "note": "for frying plantain, plus 3 tbsp for the sauce"
+        },
+        {
+          "name": "Red bell peppers",
+          "amount": "2",
+          "note": "blended coarsely"
+        },
+        {
+          "name": "Tomato",
+          "amount": "1",
+          "note": "blended"
+        },
+        {
+          "name": "Scotch bonnet",
+          "amount": "1 to 2",
+          "note": "blended"
+        },
+        {
+          "name": "Onion",
+          "amount": "1",
+          "note": "half blended, half sliced"
+        },
+        {
+          "name": "Garlic",
+          "amount": "2 cloves",
+          "note": "minced"
+        },
+        {
+          "name": "Curry powder",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        },
+        {
+          "name": "Green bell pepper",
+          "amount": "1/2",
+          "note": "diced, for garnish"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cook the gizzards",
+      "text": "Place the gizzards in a pot with the sliced onion, cubes, thyme and salt. Add water to cover and simmer for 40 to 50 minutes, or 20 minutes in a pressure cooker, until tender when pierced. Keep 1/2 cup of the stock.",
+      "minutes": 50
+    },
+    {
+      "title": "Fry the plantain",
+      "text": "Heat the oil in a pan and fry the plantain cubes in batches for 2 to 3 minutes per side, until golden and slightly crisp on the edges. Drain on paper towels.",
+      "minutes": 10
+    },
+    {
+      "title": "Blend the base",
+      "text": "Blend the red peppers, tomato, scotch bonnet and half the onion until almost smooth. Boil in a dry pot for 8 to 10 minutes to evaporate excess water.",
+      "minutes": 10
+    },
+    {
+      "title": "Fry the sauce",
+      "text": "Heat 3 tbsp oil in a pan, fry the sliced onion and garlic for 2 minutes, then add the reduced blend and curry. Fry 10 to 12 minutes, stirring, until the sauce is thick and the oil separates.",
+      "minutes": 12
+    },
+    {
+      "title": "Combine",
+      "text": "Add the gizzards and a splash of stock. Stir to coat and cook another 5 minutes until the gizzards are glazed. Season with salt.",
+      "minutes": 5
+    },
+    {
+      "title": "Add the plantain",
+      "text": "Fold in the fried plantain gently just before serving so it keeps its crisp edges. Garnish with diced green pepper and serve warm.",
+      "minutes": 2
+    }
+  ],
+  "tips": [
+    "Gizzards must be tender. Cook them until a fork enters easily before saucing.",
+    "Add the plantain at the last moment or it will go soggy.",
+    "Use ripe but firm plantains for neat cubes.",
+    "Pat the gizzards dry if you want an extra fried finish."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Chicken gizzards",
+      "swap": "Use diced chicken thigh or chicken hearts. Chicken thigh needs only 20 minutes of cooking."
+    },
+    {
+      "ingredient": "Scotch bonnet",
+      "swap": "Habanero or a milder red chilli."
+    }
+  ],
+  "servesWith": [
+    "jollof-rice",
+    "nigerian-fried-rice"
+  ],
+  "nutrition": {
+    "calories": 420,
+    "proteinG": 28,
+    "carbsG": 35,
+    "fatG": 19
+  },
+  "name": "Gizdodo",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

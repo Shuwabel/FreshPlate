@@ -1,0 +1,57 @@
+{
+  "slug": "chicken-tagine",
+  "name": "Chicken Tagine with Preserved Lemon and Olives",
+  "localName": "Tajine de poulet aux citrons confits et olives",
+  "country": "Morocco",
+  "region": "North Africa",
+  "course": "main",
+  "tags": ["one-pot", "slow-cooked", "festive", "fragrant", "family"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 1,
+  "summary": "Chicken braised with saffron, ginger, onion, preserved lemon and green olives into a silky, tangy golden sauce.",
+  "story": "Chicken with preserved lemon and olives is among the best-known Moroccan tagines, named for the conical clay pot it is cooked in. It is a typical family lunch and also appears at gatherings, with bread to mop up the sauce. The braise relies on a lot of onion and gentle heat.",
+  "prepMinutes": 20,
+  "cookMinutes": 75,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"items": [
+      {"name": "Chicken thighs and drumsticks, bone-in", "amount": "1.2 kg (8 pieces)"},
+      {"name": "Olive oil", "amount": "3 tbsp"},
+      {"name": "Onions", "amount": "2 large", "note": "grated or very finely chopped"},
+      {"name": "Garlic", "amount": "4 cloves", "note": "crushed"},
+      {"name": "Ground ginger", "amount": "1 tsp"},
+      {"name": "Ground turmeric", "amount": "1/2 tsp"},
+      {"name": "Saffron threads", "amount": "a generous pinch", "note": "soaked in 2 tbsp warm water"},
+      {"name": "Black pepper", "amount": "1/2 tsp"},
+      {"name": "Cinnamon stick", "amount": "1 small"},
+      {"name": "Salt", "amount": "1 tsp, to taste"},
+      {"name": "Water or chicken stock", "amount": "300 ml"},
+      {"name": "Preserved lemons", "amount": "2", "note": "pulp discarded, rind rinsed and sliced"},
+      {"name": "Green olives", "amount": "100 g (3/4 cup)", "note": "rinsed, stoned if preferred"},
+      {"name": "Fresh coriander and flat-leaf parsley", "amount": "1 small bunch, chopped"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Season the chicken", "text": "Pat the chicken dry. Toss with the ginger, turmeric, pepper, salt and half of the garlic and let stand for 15 minutes.", "minutes": 15},
+    {"title": "Soften the onions", "text": "Heat the oil in a wide, heavy pot or tagine base over medium-low heat. Cook the onions for 8 to 10 minutes until soft and translucent but not browned.", "minutes": 10},
+    {"title": "Add the chicken", "text": "Add the chicken, the remaining garlic, cinnamon and the saffron with its soaking water. Turn the chicken a few times for 5 minutes until the pieces are lightly golden and coated.", "minutes": 5},
+    {"title": "Add the liquid", "text": "Pour in the water or stock so it comes halfway up the chicken. Bring to a gentle simmer, cover, and cook on low for 35 minutes, turning the pieces once.", "minutes": 35},
+    {"title": "Add lemon and olives", "text": "Add the preserved lemon rind and olives and simmer, uncovered, for 15 to 20 minutes. The chicken should be very tender and the sauce should reduce to a thick glossy gravy.", "minutes": 20},
+    {"title": "Finish with herbs", "text": "Stir in half the coriander and parsley and cook 2 minutes. Taste; the preserved lemon and olives add salt, so add more only if needed."},
+    {"title": "Serve", "text": "Transfer to a serving dish, spoon the sauce over, and scatter with the remaining herbs. Serve with crusty bread or couscous."}
+  ],
+  "tips": [
+    "Grate the onions: they melt into the sauce and give it body without needing flour.",
+    "Rinse the preserved lemon and olives to avoid an over-salty sauce.",
+    "Cook on low heat; a hard boil makes the chicken stringy and the sauce split.",
+    "Use only the lemon rind; the pulp is very salty and bitter."
+  ],
+  "swaps": [
+    {"ingredient": "Preserved lemons", "swap": "Use the zest of 1 fresh lemon and 2 tbsp lemon juice added at the end, plus an extra pinch of salt; less complex but still bright."},
+    {"ingredient": "Saffron", "swap": "Use extra turmeric (1/2 tsp more) for colour; the aroma will differ."},
+    {"ingredient": "Tagine pot", "swap": "A heavy casserole with a tight lid works well."}
+  ],
+  "servesWith": ["harira", "shakshuka"],
+  "nutrition": {"calories": 420, "proteinG": 36, "carbsG": 9, "fatG": 26}
+}

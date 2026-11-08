@@ -1,0 +1,56 @@
+{
+  "slug": "egusi-soup",
+  "name": "Egusi Soup",
+  "localName": "Obe Egusi",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["comfort", "festive", "protein-rich", "swallow", "spicy"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "A rich, nutty soup of ground melon seeds simmered in palm oil with leaves, crayfish and assorted meats.",
+  "story": "Egusi, made from the ground seeds of a type of melon, is one of the most widely cooked soups in Nigeria, found in many regions with small variations. It is typically eaten with a swallow such as pounded yam or eba at family meals and gatherings. Some cooks like it in loose curds, others smooth and thick.",
+  "prepMinutes": 25,
+  "cookMinutes": 55,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "Meat and stock", "items": [
+      {"name": "Beef, goat or assorted meat", "amount": "600 g", "note": "cut in chunks"},
+      {"name": "Dried stockfish", "amount": "100 g", "note": "soaked and flaked"},
+      {"name": "Onion", "amount": "1 medium", "note": "chopped"},
+      {"name": "Stock cubes", "amount": "2"},
+      {"name": "Salt", "amount": "to taste"}
+    ]},
+    {"group": "For the soup", "items": [
+      {"name": "Ground egusi (melon seeds)", "amount": "1.5 cups (200 g)"},
+      {"name": "Palm oil", "amount": "1/2 cup (120 ml)"},
+      {"name": "Scotch bonnet and red bell pepper", "amount": "1 each", "note": "blended coarsely"},
+      {"name": "Ground crayfish", "amount": "3 tbsp (30 g)"},
+      {"name": "Iru (locust beans)", "amount": "1 tbsp", "note": "optional"},
+      {"name": "Spinach or bitterleaf, washed", "amount": "300 g", "note": "chopped"},
+      {"name": "Stock from the meat", "amount": "2 cups (500 ml)"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the meat", "text": "Season the meat with onion, stock cubes and salt, add a splash of water and cook covered until tender, about 40 minutes for beef. Add the soaked stockfish for the last 15 minutes, and keep the stock.", "minutes": 40},
+    {"title": "Heat the palm oil", "text": "In a wide pot warm the palm oil over medium heat for 2 minutes, just until it is hot and slightly shimmering. Do not let it smoke.", "minutes": 3},
+    {"title": "Fry the pepper blend", "text": "Add the blended peppers and cook for 8 to 10 minutes, stirring, until the water has gone and the sauce has darkened and thickened.", "minutes": 10},
+    {"title": "Make egusi paste", "text": "Mix the ground egusi with a few spoonfuls of water to form a thick paste. Spoon it into the pot in clumps and leave undisturbed for 5 minutes so the underside sets.", "minutes": 5},
+    {"title": "Fry the curds", "text": "Stir gently and fry for 8 to 10 minutes, until the egusi forms soft curds, looks golden and releases a nutty smell. Add the crayfish and iru.", "minutes": 10},
+    {"title": "Add stock and meat", "text": "Pour in about 2 cups of the meat stock, add the meat and stockfish, and simmer on low for 15 minutes. The oil should rise to the top; add a little stock if it gets too thick.", "minutes": 15},
+    {"title": "Add the leaves", "text": "Stir in the chopped leaves and cook for 3 to 5 minutes only, so they stay green and slightly firm. Taste and adjust salt before serving.", "minutes": 5}
+  ],
+  "tips": [
+    "Do not add all the water at once; egusi should fry before it boils, which is what makes the curds.",
+    "Keep the heat moderate when frying egusi because the seeds scorch quickly.",
+    "Add leaves last and briefly to keep their colour."
+  ],
+  "swaps": [
+    {"ingredient": "Egusi", "swap": "Ground pumpkin seeds (pepitas) are the closest substitute; the soup will taste slightly greener and less rich."},
+    {"ingredient": "Bitterleaf", "swap": "Use spinach, kale or collard greens; the soup will be milder and not bitter."},
+    {"ingredient": "Stockfish and iru", "swap": "Use extra crayfish or a spoon of fish sauce for savoury depth."}
+  ],
+  "servesWith": ["pounded-yam", "eba", "amala-ewedu-gbegiri"],
+  "nutrition": {"calories": 560, "proteinG": 38, "carbsG": 8, "fatG": 41}
+}

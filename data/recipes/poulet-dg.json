@@ -1,0 +1,63 @@
+{
+  "slug": "poulet-dg",
+  "name": "Poulet DG",
+  "country": "Cameroon",
+  "region": "Central Africa",
+  "course": "main",
+  "tags": ["festive", "plantain", "party", "one-pan", "celebration"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 1,
+  "summary": "Cameroonian chicken stewed with fried ripe plantain, carrots, peppers and green beans in a savoury tomato sauce.",
+  "story": "Poulet DG, meaning the Director General's chicken, is a festive Cameroonian dish associated with special occasions, restaurants and gatherings, partly because chicken and plantain were once considered luxuries. The name is commonly explained as a dish fit for a company director. It is served with extra plantain or rice.",
+  "prepMinutes": 30,
+  "cookMinutes": 55,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the chicken", "items": [
+      {"name": "Chicken pieces, bone-in", "amount": "1.2 kg"},
+      {"name": "Onion", "amount": "1", "note": "quartered"},
+      {"name": "Garlic", "amount": "4 cloves"},
+      {"name": "Fresh ginger", "amount": "1 tbsp"},
+      {"name": "Thyme and bay leaf", "amount": "2 sprigs thyme, 1 bay leaf"},
+      {"name": "Bouillon cube", "amount": "1"},
+      {"name": "Salt", "amount": "1 tsp"}
+    ]},
+    {"group": "For the sauce", "items": [
+      {"name": "Oil", "amount": "4 tbsp"},
+      {"name": "Onion", "amount": "1 large", "note": "sliced"},
+      {"name": "Green beans", "amount": "150 g", "note": "trimmed, cut into 4 cm pieces"},
+      {"name": "Carrots", "amount": "2", "note": "sliced thin"},
+      {"name": "Green or red pepper", "amount": "1", "note": "sliced"},
+      {"name": "Celery", "amount": "1 stalk", "note": "sliced"},
+      {"name": "Ripe tomatoes", "amount": "4", "note": "blended"},
+      {"name": "Tomato paste", "amount": "2 tbsp"},
+      {"name": "Scotch bonnet (optional)", "amount": "1/2", "note": "pricked, left whole"},
+      {"name": "Very ripe plantains", "amount": "3", "note": "peeled, cut in thick diagonal slices"},
+      {"name": "Oil for frying plantain", "amount": "200 ml"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Boil the chicken", "text": "Put the chicken, quartered onion, garlic, ginger, thyme, bay, bouillon and salt in a pot with water just to cover. Simmer 25 minutes until cooked through, then lift out and keep the stock.", "minutes": 25},
+    {"title": "Brown the chicken", "text": "Heat 4 tablespoons of oil in a wide pan and fry the chicken for 8 minutes, turning, until the skin is golden. Remove and set aside.", "minutes": 8},
+    {"title": "Fry the plantain", "text": "Heat the plantain oil to medium-high and fry the slices in batches for 3 to 4 minutes per side. They are ready when deep golden and caramelised at the edges. Drain on paper.", "minutes": 12},
+    {"title": "Sauté vegetables", "text": "In the chicken pan, cook the sliced onion 4 minutes, then add the carrots, celery and green beans and cook 5 minutes. They should stay slightly crisp.", "minutes": 9},
+    {"title": "Add the sauce", "text": "Stir in the tomato paste, then the blended tomatoes and scotch bonnet, and cook 10 to 12 minutes until the sauce thickens and the oil separates.", "minutes": 12},
+    {"title": "Simmer together", "text": "Return the chicken to the pan with the pepper and 150 ml of the reserved stock. Cover and simmer 8 to 10 minutes until the vegetables are just tender and the sauce coats the chicken.", "minutes": 10},
+    {"title": "Add plantain", "text": "Fold in half the fried plantain gently so it keeps its shape and cook 2 minutes. Remove the scotch bonnet and taste for salt."},
+    {"title": "Serve", "text": "Pile into a serving dish with the remaining plantain on top. Serve warm, with rice if you like."}
+  ],
+  "tips": [
+    "Use plantains that are almost fully black-yellow and soft, as they caramelise and sweeten the sauce.",
+    "Add the green beans and pepper late so they keep colour and bite.",
+    "Leave the scotch bonnet whole for flavour with only mild heat; burst it for more.",
+    "Keep the chicken stock; it makes a good base for rice."
+  ],
+  "swaps": [
+    {"ingredient": "Very ripe plantains", "swap": "Firm bananas are too soft; use semi-ripe plantains or fry thick slices of sweet potato."},
+    {"ingredient": "Scotch bonnet", "swap": "Habanero, or a whole red chilli for gentler heat."},
+    {"ingredient": "Fresh tomatoes", "swap": "One 400 g tin of chopped tomatoes."}
+  ],
+  "servesWith": ["ndole", "dodo"],
+  "nutrition": {"calories": 640, "proteinG": 38, "carbsG": 55, "fatG": 31}
+}

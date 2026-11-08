@@ -1,0 +1,60 @@
+{
+  "slug": "jollof-rice",
+  "name": "Jollof Rice",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "main",
+  "tags": ["party", "festive", "one-pot", "spicy", "crowd-pleaser"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "Long-grain rice steamed in a deep red, slow-fried pepper base until each grain is smoky, savoury and gently spicy.",
+  "story": "Jollof is the rice dish of Nigerian celebrations, served at weddings, naming ceremonies and birthdays, usually with fried plantain and chicken or beef. The friendly argument over whose version is best is part of the fun across West Africa. The slightly smoky bottom layer, from rice left to catch lightly on the pot, is something many people look forward to.",
+  "prepMinutes": 25,
+  "cookMinutes": 70,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the pepper base", "items": [
+      {"name": "Ripe plum tomatoes", "amount": "6 large (about 600 g)", "note": "roughly chopped"},
+      {"name": "Red bell pepper (tatashe)", "amount": "3 large (about 450 g)", "note": "deseeded"},
+      {"name": "Scotch bonnet peppers", "amount": "1 to 3", "note": "adjust to your heat tolerance"},
+      {"name": "Onions", "amount": "2 medium", "note": "1 blended, 1 sliced"}
+    ]},
+    {"group": "For the rice", "items": [
+      {"name": "Long-grain parboiled rice", "amount": "3 cups (600 g)", "note": "washed until the water runs mostly clear"},
+      {"name": "Vegetable oil", "amount": "1/2 cup (120 ml)"},
+      {"name": "Tomato paste", "amount": "3 tbsp (about 50 g)"},
+      {"name": "Thyme, dried", "amount": "2 tsp"},
+      {"name": "Curry powder", "amount": "1 tbsp"},
+      {"name": "Bay leaves", "amount": "2"},
+      {"name": "Stock or water", "amount": "3 cups (750 ml)", "note": "hot, plus more if needed"},
+      {"name": "Stock cubes", "amount": "2", "note": "crumbled"},
+      {"name": "Salt", "amount": "to taste"},
+      {"name": "Butter", "amount": "1 tbsp (15 g)", "note": "optional, for finishing"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Blend the base", "text": "Blend the tomatoes, bell peppers, scotch bonnets and one onion until smooth. Pour into a wide pot and boil on medium-high heat, stirring now and then, until the volume has reduced by about half and the mixture is thick and no longer tastes raw.", "minutes": 25},
+    {"title": "Fry the onion and paste", "text": "In a heavy pot heat the oil over medium heat and fry the sliced onion until soft and golden at the edges, about 4 minutes. Add the tomato paste and fry for 3 to 4 minutes, stirring, until it darkens to brick red and smells sweet.", "minutes": 8},
+    {"title": "Fry until it splits", "text": "Add the reduced pepper mixture to the oil. Fry for 15 to 20 minutes, stirring often, until the oil floats clearly on top and the sauce is thick, glossy and deep red with no sourness.", "minutes": 18},
+    {"title": "Season the stew", "text": "Stir in the thyme, curry powder, bay leaves, crumbled stock cubes and a little salt. Cook for 2 more minutes so the spices lose their raw edge.", "minutes": 2},
+    {"title": "Add stock and rice", "text": "Pour in the hot stock and bring to a boil. Add the washed rice, stir once to spread it evenly, and check the liquid just covers the rice. Taste the liquid and adjust the salt, since it should taste slightly salty now.", "minutes": 3},
+    {"title": "Seal and steam", "text": "Cover the rice with a layer of foil or baking paper, then press the lid on tightly so little steam escapes. Cook on the lowest heat for 25 to 30 minutes without stirring.", "minutes": 28},
+    {"title": "Check the grains", "text": "Uncover and test a few grains: they should be tender with no hard centre. If they are still firm, sprinkle a few spoonfuls of hot water, re-cover and steam for 5 to 8 minutes more.", "minutes": 6},
+    {"title": "Toast for smokiness", "text": "Turn the heat up for 2 to 3 minutes with the lid on, listening for a faint crackle and smelling for a gentle toasty smell. Do not let it go acrid.", "minutes": 3},
+    {"title": "Fold and rest", "text": "Switch off the heat, dot with butter if using, and fold the rice gently from the bottom with a fork so the colour is even. Rest, covered, for 10 minutes before serving.", "minutes": 10}
+  ],
+  "tips": [
+    "Boil the pepper blend down until thick before adding oil; a watery base is the main reason jollof turns out soggy or pale.",
+    "Use parboiled long-grain rice. Basmati or short-grain rice turns mushy with this much liquid.",
+    "Never stir after the rice goes in, apart from the first mix. Stirring releases starch and makes it gluey.",
+    "Seal the pot well. If steam escapes, the top grains stay hard while the bottom burns."
+  ],
+  "swaps": [
+    {"ingredient": "Tatashe (red bell pepper)", "swap": "Use ordinary red bell peppers, or add one roasted red pepper from a jar for sweetness."},
+    {"ingredient": "Scotch bonnet", "swap": "Habanero is nearly identical; for a milder dish use a jalapeno or cayenne pepper."},
+    {"ingredient": "Parboiled long-grain rice", "swap": "Any converted or parboiled rice such as Uncle Ben's style works. Plain long-grain needs about 10 percent less stock."}
+  ],
+  "servesWith": ["dodo", "nigerian-stew", "moi-moi"],
+  "nutrition": {"calories": 520, "proteinG": 9, "carbsG": 85, "fatG": 16}
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "kunu",
+  "name": "Kunu",
+  "localName": "Kunun zaki",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "drink",
+  "tags": ["drink", "vegan", "northern", "refreshing", "spiced"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 1,
+  "summary": "A creamy, lightly fermented millet drink spiced with ginger and cloves, served chilled in northern Nigeria.",
+  "story": "Kunu, known in Hausa as kunun zaki, is a traditional non-alcoholic drink from northern Nigeria made from millet or sorghum. It is commonly sold in bottles and enjoyed cold, often with snacks like masa or kilishi.",
+  "prepMinutes": 30,
+  "cookMinutes": 15,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"items": [
+      {"name": "millet grains", "amount": "2 cups (400 g)", "note": "or sorghum, washed"},
+      {"name": "fresh ginger", "amount": "2 inch (50 g)", "note": "peeled"},
+      {"name": "whole cloves", "amount": "6"},
+      {"name": "dried chilli or black pepper", "amount": "1/2 tsp", "note": "a pinch only"},
+      {"name": "sweet potato", "amount": "1 small (150 g)", "note": "peeled, boiled and mashed, optional for sweetness"},
+      {"name": "boiling water", "amount": "2 cups (480 ml)"},
+      {"name": "cold water", "amount": "about 6 cups (1.5 litres)"},
+      {"name": "sugar", "amount": "1/2 cup (100 g)", "note": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Soak the millet", "text": "Wash the millet and soak in plenty of cold water for 6-8 hours or overnight until swollen and soft to the touch. Drain well.", "minutes": 480},
+    {"title": "Blend the spices", "text": "Blend the soaked millet with the ginger, cloves and chilli, adding a little water, until you have a thick, slightly gritty paste. A good blender helps here.", "minutes": 8},
+    {"title": "Make the slurry", "text": "Scoop out about one third of the paste into a bowl. Pour in 2 cups of boiling water and stir fast until it forms a thick, glossy gruel with no lumps. This cooked portion thickens the drink.", "minutes": 5},
+    {"title": "Mix and rest", "text": "Fold the remaining raw paste into the cooked gruel along with the mashed sweet potato, if using. Cover and let it rest for 2-3 hours so the starch softens and it turns slightly tangy.", "minutes": 150},
+    {"title": "Add water and strain", "text": "Stir in the cold water until the mixture is pourable like thin custard. Pass through a clean cloth or fine sieve, squeezing out the liquid and leaving the coarse bits behind.", "minutes": 10},
+    {"title": "Sweeten and chill", "text": "Add sugar a little at a time and taste. Refrigerate for at least 2 hours and stir before serving over ice.", "minutes": 120}
+  ],
+  "tips": [
+    "Use millet that smells fresh and has no musty odour for a clean taste.",
+    "Stir the drink before pouring because the starch settles.",
+    "It ferments fast in hot weather; keep it cold and drink within 2-3 days.",
+    "For a smoother drink strain twice through muslin."
+  ],
+  "swaps": [
+    {"ingredient": "Millet", "swap": "Sorghum is the other traditional grain; if neither is available, use rolled oats for a milder, creamier drink."},
+    {"ingredient": "Sweet potato", "swap": "Use a ripe banana or just extra sugar; the sweetness changes but the drink still works."}
+  ],
+  "servesWith": ["masa", "kilishi", "suya"],
+  "nutrition": {"calories": 150, "proteinG": 3, "carbsG": 32, "fatG": 1}
+}

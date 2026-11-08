@@ -1,0 +1,48 @@
+{
+  "slug": "injera",
+  "name": "Injera",
+  "localName": "እንጀራ",
+  "country": "Ethiopia",
+  "region": "East Africa",
+  "course": "side",
+  "tags": ["fermented", "staple", "bread", "gluten-free", "sourdough"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 0,
+  "summary": "Spongy, tangy fermented flatbread with a honeycomb surface, the edible plate for every Ethiopian stew.",
+  "story": "Injera is the everyday bread of Ethiopia and Eritrea, traditionally made from teff, a tiny local grain. It is cooked on one side only on a large clay or metal griddle, and serves as plate, spoon and food at once. Meals are served on a large round of injera with stews placed on top and extra rolled alongside.",
+  "prepMinutes": 30,
+  "cookMinutes": 40,
+  "servings": 4,
+  "difficulty": "Hard",
+  "ingredients": [
+    {"items": [
+      {"name": "Teff flour (ivory or brown)", "amount": "300 g (about 2 1/2 cups)"},
+      {"name": "Water, non-chlorinated", "amount": "about 600 ml (2 1/2 cups), plus more", "note": "room temperature"},
+      {"name": "Salt", "amount": "1/2 tsp"},
+      {"name": "Baking soda (optional)", "amount": "pinch", "note": "only if too sour"},
+      {"name": "Boiling water", "amount": "120 ml (1/2 cup)", "note": "for the absit step"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Start the batter", "text": "Whisk the teff flour and 600 ml water in a large non-metal bowl into a smooth, thin batter like pancake batter. Cover loosely with a cloth and leave at room temperature (22 to 26 C) for 2 to 3 days.", "minutes": 5},
+    {"title": "Ferment", "text": "Stir once a day. The batter is ready when it has bubbles on top, smells pleasantly sour like yoghurt or sourdough, and a clear amber liquid has risen to the top. Pour off this liquid and discard.", "minutes": 4000},
+    {"title": "Make the absit", "text": "Take 60 ml of the batter and whisk with the boiling water in a small pot. Cook over low heat, stirring, for 2 minutes until it thickens to a paste. Cool completely.", "minutes": 5},
+    {"title": "Combine and rest", "text": "Stir the cooled paste and the salt back into the batter. Rest 1 hour. The batter should be thin and pourable, like single cream; add a little water if thick.", "minutes": 60},
+    {"title": "Heat the pan", "text": "Heat a large non-stick frying pan or crepe pan over medium heat. It is hot enough when a drop of water dances and evaporates quickly. Do not oil the pan."},
+    {"title": "Pour the batter", "text": "Pour about 120 ml batter in a spiral, starting from the outside and moving to the centre, then quickly swirl the pan to cover the base. Tilt so the batter is a thin even layer.", "minutes": 1},
+    {"title": "Cook one side", "text": "Bubbles will form and burst across the surface, leaving small holes called eyes. Cover with a lid and cook 2 to 3 minutes until the top is dry and the edges lift easily from the pan; do not flip.", "minutes": 3},
+    {"title": "Cool flat", "text": "Slide the injera onto a clean cloth or tray, holes up, in a single layer. Let it cool fully before stacking or it will stick together. Repeat with the rest of the batter."}
+  ],
+  "tips": [
+    "Use filtered or boiled-and-cooled water if your tap water is heavily chlorinated; it can slow fermentation.",
+    "A very sour batter can be softened with a pinch of baking soda before cooking.",
+    "If no eyes form, the batter is too thick or the pan too cool; if it browns, the pan is too hot.",
+    "Teff is expensive and hard to find. Many cooks outside Ethiopia blend it with other flours (see swaps)."
+  ],
+  "swaps": [
+    {"ingredient": "Teff flour", "swap": "Use half teff and half plain or self-raising flour with a little sparkling water; the injera is milder and softer but not gluten-free."},
+    {"ingredient": "2 to 3 days fermentation", "swap": "Add 1 tbsp live plain yoghurt and ferment 24 hours in a warm place for a quicker, less complex sourness."}
+  ],
+  "servesWith": ["doro-wat"],
+  "nutrition": {"calories": 210, "proteinG": 8, "carbsG": 42, "fatG": 1}
+}

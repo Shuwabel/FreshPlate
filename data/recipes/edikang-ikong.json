@@ -1,0 +1,52 @@
+{
+  "slug": "edikang-ikong",
+  "name": "Edikang Ikong",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["festive", "leafy greens", "swallow", "protein-rich", "regional"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "A generous vegetable soup of fluted pumpkin and waterleaf with palm oil, periwinkles, meats and dried fish.",
+  "story": "Edikang ikong comes from the Efik and Ibibio people of south-eastern Nigeria and is well known for its large quantity of leaves. It is often served at weddings and special meals. It is usually eaten with a swallow such as fufu, garri or pounded yam.",
+  "prepMinutes": 30,
+  "cookMinutes": 50,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "Greens", "items": [
+      {"name": "Fluted pumpkin leaves (ugu)", "amount": "400 g", "note": "washed and thinly sliced"},
+      {"name": "Waterleaf", "amount": "400 g", "note": "washed and chopped"}
+    ]},
+    {"group": "Base", "items": [
+      {"name": "Assorted meat and cow skin", "amount": "500 g"},
+      {"name": "Stockfish and dried fish", "amount": "150 g", "note": "soaked"},
+      {"name": "Palm oil", "amount": "1/2 cup (120 ml)"},
+      {"name": "Ground crayfish", "amount": "3 tbsp"},
+      {"name": "Periwinkles", "amount": "1/2 cup", "note": "optional"},
+      {"name": "Onion", "amount": "1 medium", "note": "chopped"},
+      {"name": "Scotch bonnet", "amount": "1 to 2", "note": "ground"},
+      {"name": "Stock cubes and salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the meats", "text": "Boil the meat with onion, stock cubes and salt until tender, adding stockfish near the end. Reserve about 1 cup of stock.", "minutes": 45},
+    {"title": "Prepare greens", "text": "Slice the ugu thinly and chop the waterleaf. Squeeze the waterleaf lightly to remove excess water.", "minutes": 12},
+    {"title": "Start with palm oil", "text": "In a wide pot warm the palm oil briefly, add the onion and pepper, and cook for 2 to 3 minutes. Add the crayfish, periwinkles and meats with a little stock.", "minutes": 6},
+    {"title": "Add waterleaf", "text": "Add the waterleaf first and cook for 4 to 5 minutes until it wilts and releases juice, which becomes the soup liquid.", "minutes": 5},
+    {"title": "Add the pumpkin leaves", "text": "Stir in the ugu, cover for 3 minutes, then stir again. Cook for 5 to 8 minutes in total until the leaves are tender but still green.", "minutes": 8},
+    {"title": "Season and serve", "text": "Taste and adjust salt. The soup should be thick with greens, glistening with palm oil and not watery.", "minutes": 2}
+  ],
+  "tips": [
+    "Do not add much water; the waterleaf supplies the liquid.",
+    "Cook ugu briefly to keep colour and a little bite.",
+    "Use plenty of greens, since they cook down a lot."
+  ],
+  "swaps": [
+    {"ingredient": "Ugu", "swap": "Spinach, kale or chard are the usual substitutes abroad; kale needs a few more minutes."},
+    {"ingredient": "Waterleaf", "swap": "Baby spinach with a splash of stock."},
+    {"ingredient": "Periwinkles", "swap": "Omit or add a handful of small clams or shrimp."}
+  ],
+  "servesWith": ["pounded-yam", "eba", "tuwo-shinkafa"],
+  "nutrition": {"calories": 500, "proteinG": 36, "carbsG": 9, "fatG": 35}
+}

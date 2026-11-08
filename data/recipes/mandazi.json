@@ -1,0 +1,51 @@
+{
+  "slug": "mandazi",
+  "name": "Mandazi",
+  "localName": "Mandazi",
+  "country": "Kenya / Tanzania",
+  "region": "East Africa",
+  "course": "snack",
+  "tags": ["fried", "breakfast", "snack", "street food", "tea time"],
+  "diet": {"vegetarian": true, "vegan": false, "glutenFree": false, "containsNuts": false},
+  "spice": 0,
+  "summary": "Light, cardamom-scented triangles of coconut milk dough, fried until puffed and golden.",
+  "story": "Mandazi are a Swahili-coast fried bread eaten across Kenya and Tanzania at breakfast, with tea, or as a snack. They are sold in the morning at stalls and make a regular treat in many homes.",
+  "prepMinutes": 30,
+  "cookMinutes": 20,
+  "servings": 6,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"items": [
+      {"name": "plain flour", "amount": "3 cups (375 g)", "note": "plus extra for rolling"},
+      {"name": "sugar", "amount": "1/3 cup (65 g)"},
+      {"name": "baking powder", "amount": "2 tsp"},
+      {"name": "ground cardamom", "amount": "1 tsp"},
+      {"name": "salt", "amount": "1/4 tsp"},
+      {"name": "coconut milk", "amount": "3/4 cup (180 ml)", "note": "full-fat, warm"},
+      {"name": "egg", "amount": "1", "note": "beaten"},
+      {"name": "melted butter or oil", "amount": "2 tbsp"},
+      {"name": "vegetable oil", "amount": "4 cups (1 litre)", "note": "for deep frying"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Mix dry ingredients", "text": "Whisk the flour, sugar, baking powder, cardamom and salt in a large bowl until evenly combined.", "minutes": 3},
+    {"title": "Add the wet", "text": "Make a well, then pour in the coconut milk, beaten egg and melted butter. Stir with a spoon until a rough dough forms.", "minutes": 3},
+    {"title": "Knead briefly", "text": "Knead on a floured surface for 3-4 minutes until smooth and soft but not sticky. If sticky, add a spoon of flour; if dry, a splash of milk. Cover and rest for 15 minutes.", "minutes": 20},
+    {"title": "Roll and cut", "text": "Divide the dough in half and roll each piece into a circle about 6 mm thick. Cut into triangles or diamonds with a knife.", "minutes": 8},
+    {"title": "Heat the oil", "text": "Heat the oil to 175 C (350 F). A small scrap of dough should bubble and float quickly within 5 seconds.", "minutes": 6},
+    {"title": "Fry until golden", "text": "Fry 4-5 pieces at a time for about 2 minutes per side. They should puff up and turn deep golden brown. Turn them gently with a slotted spoon.", "minutes": 12},
+    {"title": "Drain and serve", "text": "Drain on paper towels and let cool a few minutes. Serve warm with chai or coffee."}
+  ],
+  "tips": [
+    "If the oil is too hot, mandazi brown quickly and stay raw inside; too cool and they absorb oil.",
+    "Do not roll too thin or they will not puff properly.",
+    "Store in an airtight container and eat within 2 days; reheat briefly in the oven.",
+    "Add a teaspoon of grated lemon zest for a fresh note."
+  ],
+  "swaps": [
+    {"ingredient": "Coconut milk", "swap": "Whole milk works but the flavour is less rich and tropical."},
+    {"ingredient": "Cardamom", "swap": "A pinch of cinnamon or nutmeg gives warmth, with a different aroma."}
+  ],
+  "servesWith": [],
+  "nutrition": {"calories": 340, "proteinG": 6, "carbsG": 48, "fatG": 14}
+}

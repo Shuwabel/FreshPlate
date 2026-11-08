@@ -1,0 +1,58 @@
+{
+  "slug": "piri-piri-chicken",
+  "name": "Piri Piri Chicken",
+  "localName": "Frango piri-piri",
+  "country": "Mozambique",
+  "region": "Southern Africa",
+  "course": "main",
+  "tags": ["grilled", "spicy", "braai", "party", "weekend"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 3,
+  "summary": "Spatchcocked chicken marinated in a fiery chilli, garlic, lemon and oil sauce, then grilled until charred and juicy.",
+  "story": "Piri piri (also written peri-peri) chicken is strongly associated with Mozambique, where Portuguese cooking met African bird's eye chillies. The chicken is marinated, grilled over coals, and basted with more sauce. It is a favourite for Sunday gatherings and beachside restaurants, usually with chips or rice.",
+  "prepMinutes": 25,
+  "cookMinutes": 50,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the piri piri sauce", "items": [
+      {"name": "Fresh bird's eye chillies", "amount": "10 to 15", "note": "stems removed, or 2 tbsp dried flakes"},
+      {"name": "Garlic", "amount": "6 cloves"},
+      {"name": "Lemon juice", "amount": "4 tbsp (2 lemons)"},
+      {"name": "Lemon zest", "amount": "1 tsp"},
+      {"name": "Red wine vinegar", "amount": "2 tbsp"},
+      {"name": "Olive oil", "amount": "120 ml (1/2 cup)"},
+      {"name": "Smoked paprika", "amount": "2 tsp"},
+      {"name": "Dried oregano", "amount": "1 tsp"},
+      {"name": "Salt", "amount": "1 1/2 tsp"},
+      {"name": "Sweet red pepper", "amount": "1 small", "note": "roasted or from a jar"}
+    ]},
+    {"group": "For the chicken", "items": [
+      {"name": "Whole chicken", "amount": "1.6 kg", "note": "spatchcocked (backbone removed and flattened)"},
+      {"name": "Butter", "amount": "2 tbsp", "note": "melted, for basting"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Blend the sauce", "text": "Put all the sauce ingredients in a blender and blend 1 to 2 minutes until smooth and thick, with a deep red colour. Taste a tiny amount; it should be hot, sour and salty.", "minutes": 3},
+    {"title": "Prepare the bird", "text": "Place the chicken breast-side up, press down on the breastbone until it flattens. Slash the thickest parts of the thighs and breast twice to the bone so the marinade can reach the meat."},
+    {"title": "Marinate", "text": "Reserve 4 tablespoons of sauce for basting, and rub the rest all over and under the skin of the chicken. Cover and refrigerate for at least 4 hours, ideally overnight.", "minutes": 240},
+    {"title": "Bring to room temp", "text": "Take the chicken out 30 minutes before cooking so it cooks evenly. Heat the oven to 200 C, or light a barbecue to medium heat with the coals ashed over.", "minutes": 30},
+    {"title": "Start cooking", "text": "Lay the chicken skin-side up on a rack in a roasting tin, or skin-side down on the barbecue. Cook 20 minutes, then turn and baste with the reserved sauce mixed with the melted butter.", "minutes": 20},
+    {"title": "Finish and char", "text": "Cook a further 25 to 30 minutes, basting every 10 minutes. The chicken is done when the skin is blistered and charred in spots, and the juices run clear when the thigh is pierced; the thickest part should read 75 C.", "minutes": 30},
+    {"title": "Rest", "text": "Rest the chicken, loosely covered, for 10 minutes so the juices settle. Carve into pieces with a heavy knife or kitchen scissors."},
+    {"title": "Serve", "text": "Serve with any remaining warm sauce, lemon wedges, chips or rice and a simple tomato and onion salad."}
+  ],
+  "tips": [
+    "Never baste with sauce that has touched raw chicken unless it is cooked through; set aside a clean portion first.",
+    "Wear gloves when handling lots of bird's eye chillies.",
+    "A long marinade is the most important step for flavour.",
+    "If the skin chars too fast on the barbecue, move the chicken to a cooler part of the grill."
+  ],
+  "swaps": [
+    {"ingredient": "Bird's eye (piri piri) chillies", "swap": "Thai chillies or small red chillies with a pinch of cayenne; use fewer if unsure of the heat."},
+    {"ingredient": "Whole spatchcocked chicken", "swap": "Use chicken thighs or legs; they need 35 to 40 minutes."},
+    {"ingredient": "Roasted red pepper", "swap": "Use 1 tbsp tomato paste for a similar sweetness."}
+  ],
+  "servesWith": ["coconut-rice", "pap-chakalaka"],
+  "nutrition": {"calories": 520, "proteinG": 45, "carbsG": 4, "fatG": 36}
+}

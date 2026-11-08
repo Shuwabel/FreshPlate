@@ -1,0 +1,168 @@
+{
+  "slug": "ofada-rice-ayamase",
+  "localName": "Ofada Rice ati Ayamase",
+  "course": "main",
+  "tags": [
+    "spicy",
+    "festive",
+    "Yoruba",
+    "stew",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 3,
+  "summary": "Nutty, aromatic local rice served with ayamase, a fiery green pepper stew rich with palm oil, locust beans and assorted meats.",
+  "story": "Ofada rice is a locally grown, unpolished Nigerian rice named after the town of Ofada in Ogun State, and ayamase (also called designer stew) is the green pepper sauce traditionally served with it. It is often eaten at parties and celebrations, wrapped in leaves for serving.",
+  "prepMinutes": 40,
+  "cookMinutes": 90,
+  "servings": 6,
+  "difficulty": "Hard",
+  "ingredients": [
+    {
+      "group": "For the rice",
+      "items": [
+        {
+          "name": "Ofada rice",
+          "amount": "3 cups (600 g)"
+        },
+        {
+          "name": "Salt",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Water",
+          "amount": "for boiling"
+        }
+      ]
+    },
+    {
+      "group": "For the ayamase",
+      "items": [
+        {
+          "name": "Green bell peppers (tatashe verde)",
+          "amount": "4 large",
+          "note": "deseeded, chopped"
+        },
+        {
+          "name": "Green scotch bonnet or atarodo",
+          "amount": "4 to 6",
+          "note": "to taste"
+        },
+        {
+          "name": "Onions",
+          "amount": "2 medium",
+          "note": "1 for blending, 1 chopped"
+        },
+        {
+          "name": "Red palm oil",
+          "amount": "3/4 cup (180 ml)"
+        },
+        {
+          "name": "Iru (locust beans)",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Assorted meat (beef, shaki, ponmo)",
+          "amount": "600 g (1 1/4 lb)",
+          "note": "boiled in seasoned stock"
+        },
+        {
+          "name": "Boiled eggs",
+          "amount": "4",
+          "note": "optional"
+        },
+        {
+          "name": "Ground crayfish",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pick and wash the rice",
+      "text": "Ofada rice often carries small stones and husk. Pour it onto a tray, pick through, then wash in several changes of water until the water is mostly clear.",
+      "minutes": 8
+    },
+    {
+      "title": "Boil the meat",
+      "text": "Season the beef, shaki and ponmo with onion, a cube and salt. Simmer in just enough water for 40 to 60 minutes until tender, then reserve the stock.",
+      "minutes": 55
+    },
+    {
+      "title": "Cook the rice",
+      "text": "Bring plenty of water to the boil with a pinch of salt, add the rice, and cook for 30 to 40 minutes. The grains should be tender yet slightly firm, with a nutty smell. Drain and cover to steam for 10 minutes.",
+      "minutes": 45
+    },
+    {
+      "title": "Blend the peppers",
+      "text": "Blend the green peppers, scotch bonnets and one onion coarsely, using as little water as possible. The mixture should be thick.",
+      "minutes": 4
+    },
+    {
+      "title": "Cook down the peppers",
+      "text": "Pour into a pot and boil uncovered, stirring, for 15 to 20 minutes until all the water has evaporated and the mixture looks reduced and sticky.",
+      "minutes": 20
+    },
+    {
+      "title": "Heat the palm oil",
+      "text": "In a separate pot heat the palm oil gently until it clears and smells fragrant but does not smoke, about 5 minutes. Add the chopped onion and iru and fry for 2 minutes.",
+      "minutes": 7
+    },
+    {
+      "title": "Fry the sauce",
+      "text": "Add the reduced pepper mix and fry on medium heat for 20 to 25 minutes, stirring often, until the oil separates and rises to the top and the sauce darkens to deep olive. Stir in the meat, crayfish, cubes and a little stock, and simmer 5 more minutes. Adjust salt.",
+      "minutes": 30
+    },
+    {
+      "title": "Serve",
+      "text": "Spoon the rice onto plates or leaves, ladle over the ayamase and add boiled eggs and meat."
+    }
+  ],
+  "tips": [
+    "Fry slowly in the palm oil. The sauce should look dark olive, not bright green, and smell rich.",
+    "Be sure to reduce the pepper mix first or the stew will be watery.",
+    "Do not rush the rice. Ofada takes longer to soften than long-grain rice.",
+    "Ayamase is hot. Reduce scotch bonnets if cooking for a mixed crowd."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Ofada rice",
+      "swap": "Brown rice or unpolished short-grain rice gives a similar chewy bite, though the earthy aroma is milder."
+    },
+    {
+      "ingredient": "Iru (locust beans)",
+      "swap": "A teaspoon of miso or fermented soybean paste gives a similar savoury funk."
+    },
+    {
+      "ingredient": "Green scotch bonnet",
+      "swap": "Use green jalapeno or serrano peppers; the heat and flavour will differ slightly."
+    }
+  ],
+  "servesWith": [
+    "dodo",
+    "moi-moi"
+  ],
+  "nutrition": {
+    "calories": 620,
+    "proteinG": 28,
+    "carbsG": 70,
+    "fatG": 26
+  },
+  "name": "Ofada Rice with Ayamase",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

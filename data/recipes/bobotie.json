@@ -1,0 +1,61 @@
+{
+  "slug": "bobotie",
+  "name": "Bobotie",
+  "country": "South Africa",
+  "region": "Southern Africa",
+  "course": "main",
+  "tags": ["baked", "comfort", "cape malay", "family", "mild"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": false, "containsNuts": true},
+  "spice": 1,
+  "summary": "Cape Malay baked mince lightly spiced with curry, apricot and chutney, under a golden egg-custard topping.",
+  "story": "Bobotie is a classic of Cape Malay cooking in South Africa and is often called one of the country's national dishes. It combines sweet and savoury notes, with dried fruit and mild curry spices, under a savoury custard. It is a family Sunday lunch favourite, traditionally with yellow rice.",
+  "prepMinutes": 25,
+  "cookMinutes": 55,
+  "servings": 6,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"group": "For the meat", "items": [
+      {"name": "White bread slice", "amount": "2 slices", "note": "crusts removed"},
+      {"name": "Milk", "amount": "250 ml", "note": "divided"},
+      {"name": "Minced beef or lamb", "amount": "700 g"},
+      {"name": "Onions", "amount": "2 medium", "note": "chopped"},
+      {"name": "Garlic", "amount": "2 cloves", "note": "crushed"},
+      {"name": "Mild curry powder", "amount": "2 tbsp"},
+      {"name": "Ground turmeric", "amount": "1 tsp"},
+      {"name": "Fruit chutney", "amount": "3 tbsp"},
+      {"name": "Dried apricots", "amount": "8", "note": "chopped"},
+      {"name": "Sultanas", "amount": "50 g (1/3 cup)"},
+      {"name": "Flaked almonds", "amount": "30 g (1/4 cup)"},
+      {"name": "Lemon juice", "amount": "2 tbsp"},
+      {"name": "Oil", "amount": "2 tbsp"},
+      {"name": "Salt and black pepper", "amount": "to taste"}
+    ]},
+    {"group": "For the topping", "items": [
+      {"name": "Eggs", "amount": "2 large"},
+      {"name": "Bay leaves", "amount": "4"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Soak the bread", "text": "Heat the oven to 180 C. Soak the bread in 125 ml of the milk for 5 minutes, then squeeze out the milk and keep it for the topping. Mash the bread to a paste."},
+    {"title": "Soften the onions", "text": "Fry the onions in oil over medium heat for 6 to 8 minutes until golden and soft. Add the garlic, curry powder and turmeric and stir 1 minute until fragrant.", "minutes": 8},
+    {"title": "Brown the mince", "text": "Add the mince and cook, breaking it up, for 8 to 10 minutes until all the pink is gone and it begins to brown. Drain off excess fat if there is a lot.", "minutes": 10},
+    {"title": "Add the sweet notes", "text": "Stir in the chutney, apricots, sultanas, lemon juice, mashed bread, and half the almonds. Season well and cook 3 minutes; the mixture should be moist but not wet."},
+    {"title": "Fill the dish", "text": "Spoon the mixture into a greased 22 cm baking dish and press down firmly with the back of a spoon to make an even, compact layer."},
+    {"title": "Make the custard", "text": "Beat the eggs with the reserved squeezed milk and the remaining fresh milk, plus a pinch of salt. Pour over the meat and lay bay leaves on top.", "minutes": 3},
+    {"title": "Bake", "text": "Scatter the remaining almonds and bake for 30 to 35 minutes. The custard is done when it is just set, lightly golden, and does not wobble when the dish is shaken.", "minutes": 35},
+    {"title": "Rest and serve", "text": "Let it rest for 10 minutes so it cuts cleanly into squares. Serve with turmeric yellow rice, sliced banana, coconut and more chutney."}
+  ],
+  "tips": [
+    "Do not use hot curry powder; the dish should be fragrant and sweet rather than fiery.",
+    "A compact, firmly pressed base stops the custard soaking right through.",
+    "Bobotie reheats very well and often tastes better on day two.",
+    "Remove the bay leaves before serving."
+  ],
+  "swaps": [
+    {"ingredient": "Fruit chutney (Mrs Ball's style)", "swap": "Use mango chutney, or a spoonful of apricot jam with a splash of vinegar."},
+    {"ingredient": "Almonds", "swap": "Omit for a nut-free version; no other change is needed."},
+    {"ingredient": "Beef or lamb mince", "swap": "A mix of the two is traditional; turkey mince is leaner but drier."}
+  ],
+  "servesWith": ["pap-chakalaka"],
+  "nutrition": {"calories": 430, "proteinG": 28, "carbsG": 24, "fatG": 25}
+}
