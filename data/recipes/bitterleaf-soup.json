@@ -1,0 +1,51 @@
+{
+  "slug": "bitterleaf-soup",
+  "name": "Bitterleaf Soup (Ofe Onugbu)",
+  "localName": "Ofe Onugbu",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["festive", "swallow", "regional", "comfort", "protein-rich"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "An Igbo soup of washed bitterleaf thickened with cocoyam, scented with palm oil, crayfish and ogiri.",
+  "story": "Ofe onugbu is a well-loved Igbo soup, traditionally thickened with pounded cocoyam and made with washed bitterleaf. It is often cooked for family gatherings and special visits and is eaten with swallows like fufu or pounded yam. The leaves are washed to reduce their bitterness, but a pleasant edge should remain.",
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 6,
+  "difficulty": "Hard",
+  "ingredients": [
+    {"group": "Soup", "items": [
+      {"name": "Fresh bitterleaf", "amount": "300 g", "note": "washed and squeezed"},
+      {"name": "Cocoyam", "amount": "3 medium (about 400 g)", "note": "peeled, boiled and pounded"},
+      {"name": "Palm oil", "amount": "1/2 cup (120 ml)"},
+      {"name": "Assorted meat and cow skin", "amount": "500 g"},
+      {"name": "Stockfish and dried fish", "amount": "150 g", "note": "soaked"},
+      {"name": "Ground crayfish", "amount": "3 tbsp"},
+      {"name": "Ogiri", "amount": "1 tbsp", "note": "optional"},
+      {"name": "Ground pepper", "amount": "1 to 2 tsp"},
+      {"name": "Onion", "amount": "1 medium"},
+      {"name": "Stock cubes and salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Wash the leaves", "text": "Wash the bitterleaf repeatedly in plenty of water, squeezing between your hands, for 8 to 10 minutes until the water no longer foams and the leaves taste mildly bitter. Squeeze dry.", "minutes": 12},
+    {"title": "Cook the meats", "text": "Boil the meat, cow skin and onion with stock cubes and salt until tender. Add stockfish for the last 15 minutes and reserve the stock.", "minutes": 45},
+    {"title": "Make the thickener", "text": "Boil the cocoyam until a knife slides in easily, about 25 minutes. Peel, then pound or blend to a smooth paste with a little water.", "minutes": 25},
+    {"title": "Thicken the stock", "text": "To the meat and stock add the cocoyam paste in small lumps. Cover and cook for 10 minutes without stirring, then stir until it dissolves into a smooth, thick base.", "minutes": 12},
+    {"title": "Add oil and seasoning", "text": "Pour in the palm oil, crayfish, ogiri and pepper and simmer for 5 minutes until the oil floats on top and the soup smells strongly savoury.", "minutes": 6},
+    {"title": "Add the bitterleaf", "text": "Stir in the washed leaves and simmer for 5 to 8 minutes until tender. Taste; add salt, or a little more stock if too thick.", "minutes": 8}
+  ],
+  "tips": [
+    "Wash the leaves until they are only gently bitter; it is easier to add bitterness than remove it.",
+    "Do not stir the cocoyam immediately, or it will form lumps.",
+    "Stir the pot from the bottom while simmering to prevent sticking."
+  ],
+  "swaps": [
+    {"ingredient": "Fresh bitterleaf", "swap": "Frozen or dried bitterleaf from African shops works. If unavailable, mix kale and a small amount of chicory or rocket for a bitter edge."},
+    {"ingredient": "Cocoyam", "swap": "A small amount of potato or yam, boiled and mashed, thickens the soup, though the taste is milder."},
+    {"ingredient": "Ogiri", "swap": "Iru or a teaspoon of miso."}
+  ],
+  "servesWith": ["pounded-yam", "eba", "tuwo-shinkafa"],
+  "nutrition": {"calories": 520, "proteinG": 36, "carbsG": 16, "fatG": 34}
+}

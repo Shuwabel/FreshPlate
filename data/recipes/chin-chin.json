@@ -1,0 +1,137 @@
+{
+  "slug": "chin-chin",
+  "course": "snack",
+  "tags": [
+    "party",
+    "crunchy",
+    "fried",
+    "sweet",
+    "make-ahead"
+  ],
+  "diet": {
+    "vegetarian": true,
+    "vegan": false,
+    "glutenFree": false,
+    "containsNuts": false
+  },
+  "spice": 0,
+  "summary": "Crunchy, golden, lightly sweet fried dough nuggets scented with nutmeg, made to snack on by the handful.",
+  "story": "Chin chin is a crunchy fried pastry that is a staple of Nigerian parties, Christmas tables and school bags. It is made in big batches, stored in airtight tins and shared around.",
+  "prepMinutes": 30,
+  "cookMinutes": 30,
+  "servings": 8,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        {
+          "name": "All-purpose flour",
+          "amount": "3 cups (375 g)",
+          "note": "plus extra for dusting"
+        },
+        {
+          "name": "Granulated sugar",
+          "amount": "1/2 cup (100 g)"
+        },
+        {
+          "name": "Baking powder",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Fine salt",
+          "amount": "1/2 tsp"
+        },
+        {
+          "name": "Freshly grated nutmeg",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Cold unsalted butter",
+          "amount": "1/4 cup (55 g)",
+          "note": "cut into small cubes"
+        },
+        {
+          "name": "Large egg",
+          "amount": "1"
+        },
+        {
+          "name": "Milk",
+          "amount": "about 1/3 cup (80 ml)",
+          "note": "add gradually"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "about 4 cups (1 litre)",
+          "note": "for deep frying"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Rub in the butter",
+      "text": "Combine the flour, sugar, baking powder, salt and nutmeg in a large bowl. Rub in the cold butter with your fingertips until the mixture looks like coarse breadcrumbs with no big lumps.",
+      "minutes": 5
+    },
+    {
+      "title": "Form a stiff dough",
+      "text": "Beat the egg with 1/4 cup of the milk and mix it in. Add more milk a spoonful at a time until the dough just holds together. It should be firm and not sticky, stiffer than bread dough.",
+      "minutes": 5
+    },
+    {
+      "title": "Knead and rest",
+      "text": "Knead on a lightly floured surface for 2 to 3 minutes until smooth. Cover and rest for 15 minutes so the gluten relaxes and rolling is easier.",
+      "minutes": 17
+    },
+    {
+      "title": "Roll thin",
+      "text": "Roll the dough to about 4 mm, no thicker, since thin pieces fry crisp all the way through. Use a knife or pastry wheel to cut into small squares or diamonds about 1.5 cm across.",
+      "minutes": 10
+    },
+    {
+      "title": "Heat the oil",
+      "text": "Heat the oil to about 170°C in a deep pot. A test piece should sink then rise within 3 to 4 seconds, surrounded by gentle bubbles.",
+      "minutes": 7
+    },
+    {
+      "title": "Fry in batches",
+      "text": "Fry a handful at a time, stirring constantly with a slotted spoon so the pieces colour evenly. They are done after 3 to 5 minutes, when light golden brown. They darken a little after leaving the oil, so lift them slightly early.",
+      "minutes": 12
+    },
+    {
+      "title": "Drain and cool",
+      "text": "Drain on paper towels, then spread out in a single layer to cool fully. They crisp up as they cool. Store in an airtight container once cold.",
+      "minutes": 15
+    }
+  ],
+  "tips": [
+    "If chin chin comes out hard rather than crunchy, the dough was too stiff or rolled too thick.",
+    "Fry in small batches. Overcrowding drops the oil temperature and makes the pieces oily.",
+    "Stored airtight, chin chin keeps for 2 to 3 weeks.",
+    "Do not store until completely cold or steam will soften them."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Butter",
+      "swap": "Use margarine or 3 tbsp neutral oil. Texture is nearly the same, with a little less richness."
+    },
+    {
+      "ingredient": "Milk and egg",
+      "swap": "For a vegan version, use plant milk and omit the egg, adding a little extra milk. The dough is slightly crisper and paler."
+    }
+  ],
+  "servesWith": [
+    "puff-puff",
+    "zobo"
+  ],
+  "nutrition": {
+    "calories": 340,
+    "proteinG": 5,
+    "carbsG": 44,
+    "fatG": 16
+  },
+  "name": "Chin Chin",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

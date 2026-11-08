@@ -1,0 +1,49 @@
+{
+  "slug": "nigerian-pepper-soup",
+  "name": "Nigerian Pepper Soup",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["spicy", "comfort", "light", "party", "quick"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 3,
+  "summary": "A thin, fiery broth scented with calabash nutmeg and uda, cooked with goat meat, chicken or catfish.",
+  "story": "Pepper soup is a light, intensely spiced broth enjoyed across Nigeria, often served at gatherings, in bars and as a comforting dish when someone has a cold. It is made with goat, chicken, fish or offal, and spice mixes vary by region. It is usually eaten as a soup by itself, sometimes with boiled yam.",
+  "prepMinutes": 15,
+  "cookMinutes": 50,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"group": "Soup", "items": [
+      {"name": "Goat meat or chicken", "amount": "700 g", "note": "cut into pieces"},
+      {"name": "Onion", "amount": "1 medium", "note": "chopped"},
+      {"name": "Pepper soup spice mix", "amount": "2 tbsp", "note": "calabash nutmeg, uda, uziza, ehuru"},
+      {"name": "Scotch bonnet", "amount": "1 to 3", "note": "blended"},
+      {"name": "Fresh ginger", "amount": "2 tsp", "note": "grated"},
+      {"name": "Garlic", "amount": "3 cloves", "note": "crushed"},
+      {"name": "Water", "amount": "6 cups (1.5 litres)"},
+      {"name": "Scent leaves or basil", "amount": "1 handful"},
+      {"name": "Stock cube and salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Season the meat", "text": "Wash the meat and put it in a pot with the onion, ginger, garlic, a stock cube and salt. Cover and steam on low heat for 10 minutes until the meat releases its juices.", "minutes": 10},
+    {"title": "Add water", "text": "Pour in the water and bring to a boil, skimming off any grey foam that rises to the surface.", "minutes": 8},
+    {"title": "Cook until tender", "text": "Simmer covered until the meat is tender: goat takes about 40 minutes, chicken 20 minutes. A knife should slide in easily.", "minutes": 30},
+    {"title": "Add the spice", "text": "Stir in the pepper soup spice mix and blended scotch bonnet. Simmer for 10 minutes until the aroma is strong and peppery.", "minutes": 10},
+    {"title": "Add leaves", "text": "Drop in the scent leaves and cook for 2 minutes, just until wilted and fragrant.", "minutes": 2},
+    {"title": "Taste and serve", "text": "Adjust salt and pepper. Serve very hot in bowls with the broth, which should be thin, clear-ish and slightly oily.", "minutes": 2}
+  ],
+  "tips": [
+    "Toast whole spices lightly before grinding to deepen the flavour.",
+    "Add the spice mix after the meat is tender so it does not turn bitter from long cooking.",
+    "For catfish, add the fish only for the last 10 to 12 minutes to keep it intact."
+  ],
+  "swaps": [
+    {"ingredient": "Pepper soup spice mix", "swap": "Ready-made Nigerian pepper soup spice from African shops. In a pinch, use black pepper, ground cloves, nutmeg and a pinch of ground coriander; the taste will be different."},
+    {"ingredient": "Scent leaves", "swap": "Fresh basil or a mix of basil and mint."},
+    {"ingredient": "Goat", "swap": "Lamb or bone-in chicken thighs."}
+  ],
+  "servesWith": ["pounded-yam"],
+  "nutrition": {"calories": 310, "proteinG": 38, "carbsG": 4, "fatG": 15}
+}

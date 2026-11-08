@@ -1,0 +1,58 @@
+{
+  "slug": "shakshuka",
+  "name": "Shakshuka",
+  "localName": "شكشوكة",
+  "country": "Tunisia",
+  "region": "North Africa",
+  "course": "breakfast",
+  "tags": ["one-pot", "eggs", "weeknight", "brunch", "spicy"],
+  "diet": {"vegetarian": true, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "Eggs gently poached in a smoky, spiced tomato and pepper sauce, scooped up with crusty bread.",
+  "story": "Shakshuka is a staple across North Africa, particularly in Tunisia, Libya and Algeria, and is eaten from breakfast to light dinner. The name is often explained as meaning something like a mixture. It is traditionally cooked and served in the same pan, with bread for scooping.",
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"items": [
+      {"name": "Olive oil", "amount": "3 tbsp"},
+      {"name": "Onion", "amount": "1 large", "note": "diced"},
+      {"name": "Red or green peppers", "amount": "2", "note": "diced"},
+      {"name": "Garlic", "amount": "4 cloves", "note": "sliced"},
+      {"name": "Tomato paste", "amount": "1 tbsp"},
+      {"name": "Harissa paste", "amount": "1 to 2 tbsp"},
+      {"name": "Ground cumin", "amount": "1 tsp"},
+      {"name": "Sweet paprika", "amount": "1 tsp"},
+      {"name": "Ground caraway", "amount": "1/2 tsp"},
+      {"name": "Tinned chopped tomatoes", "amount": "2 tins (800 g)"},
+      {"name": "Salt", "amount": "1 tsp"},
+      {"name": "Sugar", "amount": "1/2 tsp"},
+      {"name": "Eggs", "amount": "6 to 8"},
+      {"name": "Fresh coriander or parsley", "amount": "small handful", "note": "chopped"},
+      {"name": "Crusty bread", "amount": "to serve"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Soften the base", "text": "Heat the oil in a wide, deep frying pan with a lid over medium heat. Cook the onion and peppers for 8 to 10 minutes until soft and slightly browned at the edges.", "minutes": 10},
+    {"title": "Add the aromatics", "text": "Add the garlic, tomato paste, harissa, cumin, paprika and caraway. Stir for 2 minutes until the paste darkens and the pan smells fragrant.", "minutes": 2},
+    {"title": "Simmer the sauce", "text": "Pour in the tomatoes, salt and sugar. Simmer, uncovered, for 12 to 15 minutes until the sauce is thick and jammy, with no watery liquid pooling.", "minutes": 15},
+    {"title": "Taste and adjust", "text": "Taste and adjust salt, harissa and sugar. The sauce must be well seasoned since the eggs will dilute it."},
+    {"title": "Make wells", "text": "Use the back of a spoon to make 6 to 8 hollows in the sauce. Crack an egg into each, season the whites lightly with salt and pepper."},
+    {"title": "Poach the eggs", "text": "Cover and cook on low heat for 5 to 8 minutes. The whites should be set and opaque while the yolks remain glossy and soft; cook longer for firm yolks.", "minutes": 7},
+    {"title": "Finish and serve", "text": "Scatter over the herbs and bring the pan to the table. Serve straight from the pan with bread for scooping."}
+  ],
+  "tips": [
+    "Reduce the sauce well before adding the eggs, or they will sink and the whites will stay runny.",
+    "Keep the heat low once the eggs go in so the bases do not scorch.",
+    "Take care not to overcook; the eggs keep cooking in the hot pan after it comes off the heat.",
+    "Top with crumbled feta or merguez if you like."
+  ],
+  "swaps": [
+    {"ingredient": "Harissa paste", "swap": "Use 1 tsp chilli flakes plus 1 tsp extra paprika and a little extra tomato paste."},
+    {"ingredient": "Tinned tomatoes", "swap": "Use 1 kg ripe fresh tomatoes, chopped, and cook a few minutes longer."},
+    {"ingredient": "Caraway", "swap": "Leave out or use fennel seed for a hint of anise."}
+  ],
+  "servesWith": [],
+  "nutrition": {"calories": 270, "proteinG": 14, "carbsG": 20, "fatG": 16}
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "afang-soup",
+  "name": "Afang Soup",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["festive", "swallow", "leafy greens", "protein-rich", "comfort"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "A lush green soup of ground afang leaves and waterleaf, simmered in palm oil with periwinkles, meat and dried fish.",
+  "story": "Afang soup is a specialty of the Efik and Ibibio people of south-eastern Nigeria, made from the wild afang leaf. It is often served at celebrations and to guests, with swallows such as fufu, eba or pounded yam. It is usually packed with several kinds of meat and fish.",
+  "prepMinutes": 30,
+  "cookMinutes": 50,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "Greens", "items": [
+      {"name": "Afang leaves", "amount": "200 g", "note": "dried or fresh, finely shredded or blended"},
+      {"name": "Waterleaf", "amount": "500 g", "note": "washed and chopped"}
+    ]},
+    {"group": "Base", "items": [
+      {"name": "Assorted meat, shaki and cow skin", "amount": "600 g"},
+      {"name": "Stockfish and dried fish", "amount": "150 g", "note": "soaked"},
+      {"name": "Palm oil", "amount": "1/2 cup (120 ml)"},
+      {"name": "Ground crayfish", "amount": "3 tbsp"},
+      {"name": "Periwinkles", "amount": "1/2 cup", "note": "optional, cleaned"},
+      {"name": "Scotch bonnet", "amount": "1 to 2", "note": "ground"},
+      {"name": "Onion", "amount": "1 medium"},
+      {"name": "Stock cubes and salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the meats", "text": "Boil the meat with onion, stock cubes and salt until tender, adding tougher cuts like cow skin first. Add stockfish later and keep the stock.", "minutes": 45},
+    {"title": "Prepare the leaves", "text": "Shred the afang leaves very finely or pulse them in a blender with a splash of water until a coarse paste. Chop the waterleaf and squeeze out its water.", "minutes": 12},
+    {"title": "Cook the waterleaf", "text": "In a pot, add the waterleaf and cook with about a cup of stock for 5 to 8 minutes until it collapses and releases juice.", "minutes": 8},
+    {"title": "Add palm oil", "text": "Pour in the palm oil, crayfish, pepper and periwinkles. Stir and simmer for 5 minutes.", "minutes": 5},
+    {"title": "Add the afang", "text": "Stir in the afang and the meats. Simmer on medium-low for 10 to 12 minutes until the leaves are tender and the soup thick, with palm oil shining on top.", "minutes": 12},
+    {"title": "Adjust and serve", "text": "Taste and adjust salt and heat. If too thick add stock; if too thin cook uncovered for a few minutes.", "minutes": 3}
+  ],
+  "tips": [
+    "Shred afang very fine; coarse leaves stay tough.",
+    "Waterleaf is high in water, so drain it or the soup will be thin.",
+    "Do not skimp on palm oil, it carries the flavour."
+  ],
+  "swaps": [
+    {"ingredient": "Afang leaves", "swap": "Dried afang from African shops is fine. If you cannot find it, a mix of spinach and shredded collards is the nearest substitute, but the taste is different."},
+    {"ingredient": "Waterleaf", "swap": "Spinach, with a little extra stock."},
+    {"ingredient": "Periwinkles", "swap": "Leave out, or add a few small clams."}
+  ],
+  "servesWith": ["pounded-yam", "eba", "tuwo-shinkafa"],
+  "nutrition": {"calories": 520, "proteinG": 38, "carbsG": 10, "fatG": 37}
+}

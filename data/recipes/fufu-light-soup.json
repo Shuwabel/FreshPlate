@@ -1,0 +1,57 @@
+{
+  "slug": "fufu-light-soup",
+  "name": "Fufu with Light Soup",
+  "localName": "Fufu ne nkwan",
+  "country": "Ghana",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["soup", "spicy", "comfort", "festive", "chicken"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 3,
+  "summary": "A thin, fiery tomato and ginger broth with chicken, served with stretchy cassava and plantain fufu.",
+  "story": "Light soup, or nkwan, is a thin, peppery Ghanaian broth eaten with fufu pounded from cassava and plantain. It is a classic Sunday and celebration meal, and also comforting when someone has a cold.",
+  "prepMinutes": 25,
+  "cookMinutes": 60,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the soup", "items": [
+      {"name": "chicken pieces", "amount": "2 lb (900 g)", "note": "bone-in thighs and drumsticks"},
+      {"name": "onion", "amount": "1 large", "note": "half sliced, half blended"},
+      {"name": "ripe tomatoes", "amount": "4 medium (500 g)"},
+      {"name": "fresh ginger", "amount": "2 inch (50 g)"},
+      {"name": "garlic", "amount": "4 cloves"},
+      {"name": "scotch bonnet", "amount": "2", "note": "or to taste"},
+      {"name": "garden eggs or aubergine", "amount": "2 small", "note": "optional"},
+      {"name": "dried herbs (curry leaf or basil)", "amount": "1 tsp", "note": "or a few fresh basil leaves"},
+      {"name": "stock cube", "amount": "1"},
+      {"name": "salt", "amount": "to taste"},
+      {"name": "water", "amount": "6 cups (1.4 litres)"}
+    ]},
+    {"group": "For the fufu", "items": [
+      {"name": "cassava", "amount": "1 lb (450 g)", "note": "peeled and chopped"},
+      {"name": "green plantain", "amount": "2 large", "note": "peeled and chopped"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Season the chicken", "text": "Blend half the onion with the ginger, garlic and one scotch bonnet. Rub this over the chicken with some salt and leave it to marinate for 20 minutes.", "minutes": 20},
+    {"title": "Start the broth", "text": "Put the chicken in a pot with the water, sliced onion and stock cube. Bring to a boil, skim any foam, then simmer for 20 minutes.", "minutes": 25},
+    {"title": "Add the tomato", "text": "Blend the tomatoes with the remaining scotch bonnet and add to the pot with the garden eggs. Simmer uncovered for 25-30 minutes until the chicken is falling tender and the broth is deep red-orange.", "minutes": 30},
+    {"title": "Finish the soup", "text": "Mash the garden eggs into the soup for body and add the herbs. Taste for salt and pepper; it should taste hot, gingery and savoury. Keep warm.", "minutes": 5},
+    {"title": "Boil the fufu base", "text": "Boil the cassava and plantain in water for 20-25 minutes until a fork slides in with no resistance. Drain, keeping a cup of the water.", "minutes": 25},
+    {"title": "Pound the fufu", "text": "Pound in a large mortar, adding a little water, until smooth, sticky and stretchy with no lumps. Alternatively, mash then process in a food processor in short bursts, scraping often.", "minutes": 15},
+    {"title": "Shape and serve", "text": "Wet your hands and shape the fufu into smooth balls. Place in bowls, ladle soup and chicken around it and eat by pinching off pieces and swallowing without chewing."}
+  ],
+  "tips": [
+    "Do not skimp on ginger and pepper; the soup is meant to be sharp and clear.",
+    "Overboiled tomatoes make the broth cloudy, so simmer gently.",
+    "Fufu must be pounded hot; cold cassava will not become smooth.",
+    "Fish or goat can replace chicken; adjust time accordingly."
+  ],
+  "swaps": [
+    {"ingredient": "Cassava and plantain", "swap": "Instant fufu flour from African shops, or yam and plantain mash; texture is slightly softer."},
+    {"ingredient": "Garden eggs", "swap": "Small green aubergine or Thai aubergine gives similar bitterness."}
+  ],
+  "servesWith": ["kelewele"],
+  "nutrition": {"calories": 520, "proteinG": 36, "carbsG": 55, "fatG": 17}
+}

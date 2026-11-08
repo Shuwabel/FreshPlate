@@ -1,0 +1,168 @@
+{
+  "slug": "suya",
+  "course": "street-food",
+  "tags": [
+    "grilled",
+    "spicy",
+    "street food",
+    "party",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": true
+  },
+  "spice": 3,
+  "summary": "Thin slices of beef rubbed with a smoky peanut-and-chilli yaji spice and grilled hot over charcoal, served with raw onion and tomato.",
+  "story": "Suya is a skewered, spiced grilled meat strongly associated with the Hausa of northern Nigeria and now eaten across the country, typically in the evening from roadside grills. It is traditionally served wrapped in paper with sliced onion, tomato and extra spice.",
+  "prepMinutes": 30,
+  "cookMinutes": 15,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": "For the meat",
+      "items": [
+        {
+          "name": "Beef sirloin or rump, in one piece",
+          "amount": "600 g (about 1 1/4 lb)",
+          "note": "partially frozen for easy slicing"
+        },
+        {
+          "name": "Vegetable or groundnut oil",
+          "amount": "3 tbsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Seasoning cube",
+          "amount": "1",
+          "note": "crushed, optional"
+        }
+      ]
+    },
+    {
+      "group": "For the yaji spice",
+      "items": [
+        {
+          "name": "Roasted unsalted peanuts",
+          "amount": "1/2 cup (70 g)"
+        },
+        {
+          "name": "Ground cayenne or dried chilli",
+          "amount": "1 tbsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "Ground ginger",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Garlic powder",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Onion powder",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "1 tsp"
+        }
+      ]
+    },
+    {
+      "group": "To serve",
+      "items": [
+        {
+          "name": "Red onion",
+          "amount": "1",
+          "note": "thinly sliced"
+        },
+        {
+          "name": "Tomatoes",
+          "amount": "2",
+          "note": "sliced"
+        },
+        {
+          "name": "Extra yaji",
+          "amount": "2 tbsp"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Slice the beef",
+      "text": "Slice the semi-frozen beef across the grain into very thin sheets, about 3 to 4 mm. Thin slices are the secret to tender suya and a good char.",
+      "minutes": 10
+    },
+    {
+      "title": "Make the yaji",
+      "text": "Blitz the peanuts in a dry grinder until they form a coarse powder, not a paste. Mix with the cayenne, ginger, garlic and onion powders, paprika and salt. Set 2 tbsp aside for serving.",
+      "minutes": 5
+    },
+    {
+      "title": "Coat the meat",
+      "text": "Toss the beef with the oil and salt, then work in about 4 tbsp of yaji until every slice is thoroughly coated. Marinate for at least 1 hour, or overnight in the fridge for deeper flavour.",
+      "minutes": 60
+    },
+    {
+      "title": "Skewer",
+      "text": "Thread the slices onto soaked wooden skewers, folding or ribboning them so they are packed loosely but compactly.",
+      "minutes": 8
+    },
+    {
+      "title": "Heat the grill",
+      "text": "Light charcoal and let it burn to glowing red with a light grey ash, or heat a grill pan or oven grill very hot. You want strong direct heat.",
+      "minutes": 15
+    },
+    {
+      "title": "Grill the suya",
+      "text": "Grill 3 to 4 minutes per side, turning once or twice, until the edges are charred and the meat looks dry and slightly crusty. Brush on a drip of oil if it looks dry. Do not cook past this point or it will toughen.",
+      "minutes": 8
+    },
+    {
+      "title": "Serve hot",
+      "text": "Slide the meat off the skewers onto a plate or paper. Sprinkle generously with the reserved yaji and serve at once with sliced onion and tomato."
+    }
+  ],
+  "tips": [
+    "Freezing the meat for about 30 minutes before slicing makes thin, even slices easy.",
+    "Do not over-grill. Suya should be chewy-tender, not hard.",
+    "Yaji keeps for months in a sealed jar, so make extra.",
+    "Peanut allergy: suya spice is peanut-based, so warn guests."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Roasted peanuts",
+      "swap": "Use smooth natural peanut butter mixed into the other spices if you cannot grind peanuts; it clumps more but tastes similar."
+    },
+    {
+      "ingredient": "Charcoal grill",
+      "swap": "Use the oven grill on its hottest setting with the rack close to the element. You lose some smoke, so add a pinch of smoked paprika."
+    }
+  ],
+  "servesWith": [
+    "jollof-rice",
+    "nigerian-fried-rice",
+    "dodo"
+  ],
+  "nutrition": {
+    "calories": 380,
+    "proteinG": 36,
+    "carbsG": 7,
+    "fatG": 23
+  },
+  "name": "Suya",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

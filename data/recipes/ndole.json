@@ -1,0 +1,57 @@
+{
+  "slug": "ndole",
+  "name": "Ndolé",
+  "localName": "Ndolé",
+  "country": "Cameroon",
+  "region": "Central Africa",
+  "course": "main",
+  "tags": ["festive", "national dish", "bitter greens", "peanut", "party"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": true},
+  "spice": 1,
+  "summary": "Cameroon's bitterleaf and ground peanut stew, rich with beef, shrimp and fried onions.",
+  "story": "Ndolé is often described as Cameroon's national dish, and comes from the Douala and coastal Sawa people. It combines bitter leaves with a creamy ground peanut sauce, meat and fish or shrimp. It is cooked for celebrations and Sunday meals, and served with plantains, bobolo (cassava sticks) or rice.",
+  "prepMinutes": 45,
+  "cookMinutes": 75,
+  "servings": 6,
+  "difficulty": "Hard",
+  "ingredients": [
+    {"items": [
+      {"name": "Bitterleaf (fresh or frozen)", "amount": "500 g", "note": "washed well; see swaps"},
+      {"name": "Raw shelled peanuts", "amount": "300 g (2 cups)", "note": "skins removed"},
+      {"name": "Beef, stewing cuts", "amount": "500 g", "note": "cubed"},
+      {"name": "Dried or smoked fish (optional)", "amount": "50 g"},
+      {"name": "Raw prawns", "amount": "300 g", "note": "peeled, deveined"},
+      {"name": "Onions", "amount": "3 medium", "note": "2 blended, 1 sliced"},
+      {"name": "Garlic", "amount": "6 cloves"},
+      {"name": "Fresh ginger", "amount": "2 tbsp", "note": "chopped"},
+      {"name": "Bouillon cube or stock", "amount": "2"},
+      {"name": "Ground crayfish", "amount": "2 tbsp"},
+      {"name": "Palm or vegetable oil", "amount": "120 ml (1/2 cup)"},
+      {"name": "Salt", "amount": "to taste"},
+      {"name": "Water", "amount": "about 1.5 litres"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the beef", "text": "Put the beef in a pot with half the blended onion, 3 garlic cloves, ginger, a bouillon cube and 1 litre water. Simmer 45 to 60 minutes until tender, then keep the stock.", "minutes": 55},
+    {"title": "Prepare the bitterleaf", "text": "If using fresh leaf, wash and squeeze in several changes of water; if using frozen, thaw, then boil 15 minutes. Taste a piece; it should be pleasantly bitter, not harsh. Squeeze dry.", "minutes": 20},
+    {"title": "Grind the peanuts", "text": "Boil the peanuts in water for 10 minutes to soften, drain, then blitz with the remaining garlic and onion and a little stock to a smooth, creamy paste.", "minutes": 15},
+    {"title": "Cook the peanut sauce", "text": "Stir the peanut paste into the beef stock and simmer on low for 20 to 25 minutes, stirring often. It is ready when thick, and oil rises to the top and the raw peanut taste is gone.", "minutes": 25},
+    {"title": "Add the leaf", "text": "Add the bitterleaf, crayfish, fish and beef, and simmer 10 minutes so the flavours join. Add the second bouillon cube and salt to taste.", "minutes": 10},
+    {"title": "Fry the onions", "text": "Heat the oil in a pan and fry the sliced onion for 8 minutes until golden. Add the prawns and cook 3 to 4 minutes until pink and curled.", "minutes": 12},
+    {"title": "Combine", "text": "Fold the fried onion, prawns and their oil into the ndolé and cook 5 minutes more. The sauce should be thick and creamy with a little gleam of oil.", "minutes": 5},
+    {"title": "Serve", "text": "Serve hot with boiled or fried plantain, bobolo or white rice."}
+  ],
+  "tips": [
+    "Do not over-wash the bitterleaf; a mild bitterness is part of the dish.",
+    "Stir the peanut sauce often because it scorches easily at the bottom.",
+    "Ndolé keeps well and is even better the next day.",
+    "If the sauce seems too thick, loosen with hot stock, not cold water."
+  ],
+  "swaps": [
+    {"ingredient": "Bitterleaf", "swap": "Frozen bitterleaf from African stores is best; outside them, use a mix of spinach and a little kale, rocket or dandelion greens for bitterness."},
+    {"ingredient": "Raw peanuts", "swap": "Unsweetened natural peanut butter (about 250 g) is a convenient shortcut."},
+    {"ingredient": "Ground crayfish", "swap": "A teaspoon of fish sauce or dried shrimp powder."}
+  ],
+  "servesWith": ["poulet-dg", "dodo"],
+  "nutrition": {"calories": 590, "proteinG": 40, "carbsG": 16, "fatG": 41}
+}

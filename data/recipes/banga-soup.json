@@ -1,0 +1,53 @@
+{
+  "slug": "banga-soup",
+  "name": "Banga Soup (Ofe Akwu)",
+  "localName": "Ofe Akwu",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["festive", "swallow", "rich", "regional", "comfort"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "A fragrant soup built on fresh palm fruit extract, spiced with banga herbs and cooked with fish and meat.",
+  "story": "Banga is made from the juice of boiled palm fruit and is cooked by the Urhobo, Itsekiri and Igbo people, among others, where it is also called ofe akwu. The spice mix often includes oburunbebe stick and banga spice. It is usually served with starch, a swallow or rice.",
+  "prepMinutes": 25,
+  "cookMinutes": 70,
+  "servings": 6,
+  "difficulty": "Hard",
+  "ingredients": [
+    {"group": "Palm fruit extract", "items": [
+      {"name": "Palm fruit pulp", "amount": "800 g", "note": "or 1 can palm fruit concentrate (about 800 g)"},
+      {"name": "Water", "amount": "3 cups (750 ml)"}
+    ]},
+    {"group": "Soup", "items": [
+      {"name": "Assorted meat or fresh catfish", "amount": "600 g"},
+      {"name": "Dried fish", "amount": "100 g"},
+      {"name": "Banga spice mix", "amount": "1 tbsp", "note": "oburunbebe stick, rogoje, ataiko"},
+      {"name": "Onion", "amount": "1 medium"},
+      {"name": "Ground crayfish", "amount": "2 tbsp"},
+      {"name": "Scotch bonnet", "amount": "1 to 2"},
+      {"name": "Scent leaves or bitter leaf", "amount": "a handful", "note": "optional"},
+      {"name": "Stock cube and salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Soften palm fruit", "text": "If using fresh palm fruit, wash and boil it for 30 minutes until the skin softens and pulls away from the seed. Skip this if using canned concentrate.", "minutes": 30},
+    {"title": "Pound and extract", "text": "Pound the cooked fruit lightly in a mortar to separate the pulp from the nuts. Add warm water and squeeze, then strain to get a thick orange extract.", "minutes": 15},
+    {"title": "Cook the meat", "text": "Boil the meat with onion, stock cube and salt until nearly tender. Add the dried fish toward the end.", "minutes": 30},
+    {"title": "Boil the extract", "text": "Pour the extract into a clean pot and boil on medium heat for 20 to 30 minutes, stirring now and then, until thick and a layer of red oil rises to the top.", "minutes": 25},
+    {"title": "Add spices", "text": "Add the banga spice mix, crayfish, pepper and the meats with some stock. Simmer for 10 to 15 minutes until the soup smells strongly aromatic.", "minutes": 15},
+    {"title": "Finish with leaves", "text": "Stir in the leaves if using and cook for 2 minutes. The soup should be fairly thick, glossy and clearly oily; adjust with stock and salt.", "minutes": 3}
+  ],
+  "tips": [
+    "Boil the extract long enough that it stops tasting raw; it should smell rich and nutty.",
+    "Stir often during the boil, as the thick extract can scorch.",
+    "Go gently with the oburunbebe stick; it is strongly flavoured."
+  ],
+  "swaps": [
+    {"ingredient": "Fresh palm fruit", "swap": "Canned palm fruit concentrate (often sold as banga paste) from African grocers is the usual solution abroad."},
+    {"ingredient": "Banga spice mix", "swap": "If unavailable, use a little crushed black pepper, ground cloves and a small piece of dried ginger; the flavour will be different but still pleasant."},
+    {"ingredient": "Catfish", "swap": "Firm white fish such as tilapia or cod."}
+  ],
+  "servesWith": ["eba", "pounded-yam", "tuwo-shinkafa"],
+  "nutrition": {"calories": 600, "proteinG": 36, "carbsG": 8, "fatG": 47}
+}

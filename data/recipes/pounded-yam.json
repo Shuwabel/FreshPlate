@@ -1,0 +1,43 @@
+{
+  "slug": "pounded-yam",
+  "name": "Pounded Yam",
+  "localName": "Iyan",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "side",
+  "tags": ["swallow", "festive", "gluten-free", "staple", "comfort"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 0,
+  "summary": "Smooth, stretchy, soft dough made by boiling white yam and pounding it, perfect for scooping soup.",
+  "story": "Pounded yam, or iyan, is a prized Nigerian swallow, eaten with soups like egusi, efo riro and ogbono. Traditionally it is pounded with a wooden mortar and pestle, which gives a very smooth, elastic texture. It is often served at celebrations and for guests.",
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": null, "items": [
+      {"name": "White yam (Dioscorea rotundata)", "amount": "1 kg", "note": "peeled and cut into chunks"},
+      {"name": "Water", "amount": "enough to just cover the yam"},
+      {"name": "Salt", "amount": "1/2 tsp", "note": "optional"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Peel and rinse", "text": "Peel the yam, cut into slices about 3 cm thick, and rinse them in cold water to remove sap. Keep covered in water until ready to boil to prevent browning.", "minutes": 10},
+    {"title": "Boil the yam", "text": "Place in a pot with water just covering the yam and bring to a boil. Cook for 20 to 25 minutes until a knife slides through with no resistance.", "minutes": 25},
+    {"title": "Drain", "text": "Reserve about 1 cup of the hot cooking water and drain the rest. Work while the yam is still very hot, as cold yam will not become smooth.", "minutes": 2},
+    {"title": "Pound or mix", "text": "Pound in a mortar, or use a stand mixer with a dough hook, adding a spoonful of hot water if needed. Keep going for 8 to 10 minutes.", "minutes": 10},
+    {"title": "Check texture", "text": "Stop when the dough is smooth, shiny and stretches without lumps. If you see small white lumps, keep pounding.", "minutes": 3},
+    {"title": "Shape and serve", "text": "Wet your hands or a bowl, mould the dough into balls, and serve at once with soup.", "minutes": 3}
+  ],
+  "tips": [
+    "Pound while the yam is hot; it gets gluey and lumpy as it cools.",
+    "Use only the minimum water needed for a smooth dough.",
+    "Do not blend in a regular blender; it makes the dough sticky."
+  ],
+  "swaps": [
+    {"ingredient": "White yam", "swap": "Frozen peeled yam from African shops is fine. Instant pounded yam flour works in a pinch, but it lacks the real texture."},
+    {"ingredient": "Mortar and pestle", "swap": "Stand mixer with dough hook or a potato ricer followed by vigorous beating with a wooden spoon."}
+  ],
+  "servesWith": ["egusi-soup", "efo-riro", "ogbono-soup", "okra-soup"],
+  "nutrition": {"calories": 330, "proteinG": 4, "carbsG": 78, "fatG": 0}
+}

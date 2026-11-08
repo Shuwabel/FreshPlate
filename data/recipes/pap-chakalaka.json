@@ -1,0 +1,61 @@
+{
+  "slug": "pap-chakalaka",
+  "name": "Pap and Chakalaka",
+  "country": "South Africa",
+  "region": "Southern Africa",
+  "course": "side",
+  "tags": ["braai", "staple", "vegan", "spicy relish", "comfort"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "Firm maize porridge served with chakalaka, a warm relish of peppers, carrot, beans and curry spice.",
+  "story": "Pap is the maize porridge at the centre of everyday South African meals, and it appears at nearly every braai (barbecue). Chakalaka is a spicy vegetable relish said to have grown from the townships around Johannesburg. Together they accompany grilled meat such as boerewors, or are eaten on their own.",
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "servings": 6,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"group": "For the chakalaka", "items": [
+      {"name": "Oil", "amount": "2 tbsp"},
+      {"name": "Onion", "amount": "1 large", "note": "finely chopped"},
+      {"name": "Garlic", "amount": "3 cloves", "note": "minced"},
+      {"name": "Fresh ginger", "amount": "1 tbsp", "note": "grated"},
+      {"name": "Green pepper", "amount": "1", "note": "diced"},
+      {"name": "Red pepper", "amount": "1", "note": "diced"},
+      {"name": "Carrots", "amount": "2 medium", "note": "coarsely grated"},
+      {"name": "Mild curry powder", "amount": "2 tbsp"},
+      {"name": "Chilli", "amount": "1 to 2", "note": "finely chopped, or to taste"},
+      {"name": "Chopped tomatoes", "amount": "1 tin (400 g)"},
+      {"name": "Baked beans in tomato sauce", "amount": "1 tin (410 g)"},
+      {"name": "Salt and sugar", "amount": "1 tsp salt, 1 tsp sugar"}
+    ]},
+    {"group": "For the pap", "items": [
+      {"name": "Fine white maize meal", "amount": "2 cups (about 300 g)"},
+      {"name": "Water", "amount": "4 cups (1 litre)"},
+      {"name": "Salt", "amount": "1 tsp"},
+      {"name": "Butter (optional)", "amount": "1 tbsp"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Soften the onion", "text": "Heat the oil in a pot over medium heat and cook the onion for 5 minutes until soft and translucent. Add the garlic and ginger and cook 1 minute.", "minutes": 6},
+    {"title": "Cook the vegetables", "text": "Add the peppers and carrots and cook 6 minutes, stirring, until they begin to soften. They should keep a little bite.", "minutes": 6},
+    {"title": "Add the spices", "text": "Stir in the curry powder and chilli and cook 1 minute until the spices smell toasty, adding a splash of water if they stick.", "minutes": 1},
+    {"title": "Simmer the relish", "text": "Add the tomatoes, beans, salt and sugar. Simmer 15 to 20 minutes, uncovered, until thick, glossy and the carrots are tender. Taste and adjust the seasoning.", "minutes": 20},
+    {"title": "Boil the water", "text": "While the relish simmers, bring 3 cups of the water and the salt to a boil in a heavy pot. Mix the remaining 1 cup of cold water with 1/2 cup of the maize meal to make a slurry."},
+    {"title": "Make the porridge", "text": "Stir the slurry into the boiling water and cook 5 minutes until it thickens and looks like loose porridge. Slowly rain in the remaining maize meal, stirring, until you have a thick mound.", "minutes": 5},
+    {"title": "Steam to stiff pap", "text": "Reduce the heat to very low, cover, and cook for 20 to 25 minutes without stirring. The pap is done when it has a stiff texture and no raw maize taste; fold in the butter if using.", "minutes": 25},
+    {"title": "Serve", "text": "Dish the pap in mounds or press into a wet bowl and turn out. Serve with a generous spoonful of warm chakalaka alongside."}
+  ],
+  "tips": [
+    "Make the slurry first to avoid lumps; lumpy pap is the most common mistake.",
+    "Keep the pap at a very low heat once covered, or it sticks and burns on the base.",
+    "Chakalaka keeps for a week in the fridge and is good cold on sandwiches.",
+    "For softer, creamy pap (slap pap), use 5 cups water instead of 4."
+  ],
+  "swaps": [
+    {"ingredient": "Fine white maize meal", "swap": "Polenta or fine cornmeal is the closest alternative; it is yellow and slightly sweeter."},
+    {"ingredient": "Baked beans", "swap": "Use tinned haricot or kidney beans with an extra spoon of tomato paste."},
+    {"ingredient": "Curry powder", "swap": "A mix of cumin, coriander, turmeric and paprika works if you have no curry powder."}
+  ],
+  "servesWith": ["bobotie", "bunny-chow", "nyama-choma"],
+  "nutrition": {"calories": 330, "proteinG": 10, "carbsG": 66, "fatG": 5}
+}

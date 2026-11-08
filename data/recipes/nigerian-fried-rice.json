@@ -1,0 +1,169 @@
+{
+  "slug": "nigerian-fried-rice",
+  "course": "main",
+  "tags": [
+    "party",
+    "festive",
+    "one-pot",
+    "colourful",
+    "weeknight"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 1,
+  "summary": "Parboiled rice stir-fried with carrots, green beans, peas and sweetcorn, with a savoury curry and thyme flavour, a party staple beside jollof.",
+  "story": "Nigerian fried rice is a festive dish served at weddings, holidays and big gatherings, often alongside jollof rice, chicken and plantain. It is made by parboiling rice in seasoned stock, then stir-frying it with diced vegetables.",
+  "prepMinutes": 30,
+  "cookMinutes": 45,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        {
+          "name": "Long-grain parboiled rice",
+          "amount": "3 cups (600 g)"
+        },
+        {
+          "name": "Chicken stock",
+          "amount": "about 4 cups (1 litre)",
+          "note": "from boiling chicken"
+        },
+        {
+          "name": "Curry powder",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Dried thyme",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "1/3 cup (80 ml)"
+        },
+        {
+          "name": "Onion",
+          "amount": "1 large",
+          "note": "diced"
+        },
+        {
+          "name": "Carrots",
+          "amount": "2",
+          "note": "finely diced"
+        },
+        {
+          "name": "Green beans",
+          "amount": "1 cup (120 g)",
+          "note": "finely chopped"
+        },
+        {
+          "name": "Sweetcorn",
+          "amount": "1/2 cup (80 g)"
+        },
+        {
+          "name": "Green peas",
+          "amount": "1/2 cup (75 g)"
+        },
+        {
+          "name": "Garlic",
+          "amount": "3 cloves",
+          "note": "minced"
+        },
+        {
+          "name": "Scotch bonnet pepper",
+          "amount": "1",
+          "note": "finely chopped, optional"
+        },
+        {
+          "name": "Liver or shrimp",
+          "amount": "150 g",
+          "note": "optional, diced"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cook the chicken stock",
+      "text": "Boil chicken with onion, thyme, a cube and salt for 25 minutes until cooked. Remove the chicken and keep the stock, measuring about 4 cups for the rice.",
+      "minutes": 25
+    },
+    {
+      "title": "Wash the rice",
+      "text": "Rinse the rice in warm water 2 to 3 times to remove excess starch, which helps keep the grains separate.",
+      "minutes": 3
+    },
+    {
+      "title": "Parboil the rice",
+      "text": "Bring the stock to a boil with the curry powder and thyme. Add the rice and boil for 12 to 15 minutes, until it is about 80 percent cooked: a grain should have a firm white centre when bitten. Drain in a sieve and run through with warm water.",
+      "minutes": 15
+    },
+    {
+      "title": "Steam briefly",
+      "text": "Return the rice to the pot, cover tightly and leave over the lowest heat for 5 minutes so the grains finish cooking and dry out, then spread to cool slightly.",
+      "minutes": 5
+    },
+    {
+      "title": "Fry the vegetables",
+      "text": "Heat the oil in a wide pan. Fry the onion and garlic for 2 minutes, then add the carrots and green beans and cook 3 minutes. Add the peas, sweetcorn and pepper, and stir-fry another 2 minutes so they stay bright and a little crisp.",
+      "minutes": 8
+    },
+    {
+      "title": "Add liver or shrimp",
+      "text": "If using, add diced liver or shrimp and stir-fry for about 3 minutes until just cooked through and no longer pink.",
+      "minutes": 3
+    },
+    {
+      "title": "Combine",
+      "text": "Add the rice to the pan and toss over medium heat for 4 to 5 minutes with a seasoning cube, crushed. Add salt to taste. The rice should be colourful, loose and fragrant. Serve with chicken and plantain.",
+      "minutes": 6
+    }
+  ],
+  "tips": [
+    "Avoid overcooking the rice. Mushy rice stir-fries into clumps.",
+    "Cut vegetables small and evenly for the classic look.",
+    "Use a wide pan for tossing. Cooking too much in a deep pot leads to steam, not fry.",
+    "Spread cooked rice on a tray if you have time. Cooler, drier rice fries better."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Parboiled rice",
+      "swap": "Basmati or any long-grain rice works. Cook it a little less since it softens faster."
+    },
+    {
+      "ingredient": "Chicken stock",
+      "swap": "Use stock cubes dissolved in water if you do not have time to boil chicken."
+    },
+    {
+      "ingredient": "Liver",
+      "swap": "Use extra shrimp, or omit for a vegetarian version made with vegetable stock."
+    }
+  ],
+  "servesWith": [
+    "jollof-rice",
+    "dodo",
+    "suya"
+  ],
+  "nutrition": {
+    "calories": 480,
+    "proteinG": 16,
+    "carbsG": 75,
+    "fatG": 14
+  },
+  "name": "Nigerian Fried Rice",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

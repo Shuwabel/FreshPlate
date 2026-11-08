@@ -1,0 +1,109 @@
+{
+  "slug": "dodo",
+  "course": "side",
+  "tags": [
+    "fried",
+    "street food",
+    "sweet",
+    "vegan",
+    "quick"
+  ],
+  "diet": {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 0,
+  "summary": "Ripe plantain slices fried until caramelised, with crisp golden edges and a soft, sweet centre.",
+  "story": "Dodo is a Yoruba name for fried ripe plantain, and it is eaten across Nigeria beside jollof rice, beans, stews and many other meals. It is also sold as a snack and sometimes sprinkled with a little salt or chilli.",
+  "prepMinutes": 5,
+  "cookMinutes": 12,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        {
+          "name": "Very ripe plantains",
+          "amount": "3",
+          "note": "yellow with many black spots"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "about 1 cup (240 ml)",
+          "note": "for shallow frying"
+        },
+        {
+          "name": "Fine salt",
+          "amount": "1/4 tsp",
+          "note": "optional, for sprinkling"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Peel and slice",
+      "text": "Peel the plantains. Slice on a diagonal into pieces about 1 cm thick for oval shapes. Keep them an even thickness so they cook uniformly.",
+      "minutes": 4
+    },
+    {
+      "title": "Salt lightly",
+      "text": "Toss the slices with a small pinch of salt, which balances the sweetness. Do not add too much.",
+      "minutes": 1
+    },
+    {
+      "title": "Heat the oil",
+      "text": "Pour oil into a wide frying pan to a depth of about 1.5 cm and heat over medium heat. A slice dropped in should sizzle gently and not spit aggressively.",
+      "minutes": 3
+    },
+    {
+      "title": "Fry first side",
+      "text": "Add as many slices as fit without touching. Fry for 2 to 3 minutes until the underside is deep golden brown, with darker caramelised edges.",
+      "minutes": 3
+    },
+    {
+      "title": "Flip and finish",
+      "text": "Turn each slice and fry another 2 minutes until golden on both sides. Very ripe plantains brown quickly, so lower the heat if they darken too fast.",
+      "minutes": 2
+    },
+    {
+      "title": "Drain",
+      "text": "Lift out onto paper towels. Serve while hot, as dodo softens as it cools.",
+      "minutes": 1
+    }
+  ],
+  "tips": [
+    "Plantain must be very ripe, almost black, for sweet dodo. Yellow ones turn starchy.",
+    "Do not crowd the pan or the plantains steam rather than fry.",
+    "Medium heat is best: too hot and the sugar burns before the middle softens.",
+    "For less oil, brush with oil and bake at 220°C."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Ripe plantains",
+      "swap": "Very ripe, firm bananas can stand in, though they are softer and sweeter and cook in about half the time."
+    },
+    {
+      "ingredient": "Vegetable oil",
+      "swap": "Groundnut or sunflower oil both work."
+    }
+  ],
+  "servesWith": [
+    "jollof-rice",
+    "nigerian-beans-porridge",
+    "ewa-agoyin",
+    "nigerian-fried-rice"
+  ],
+  "nutrition": {
+    "calories": 290,
+    "proteinG": 2,
+    "carbsG": 46,
+    "fatG": 12
+  },
+  "name": "Dodo (Fried Plantain)",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

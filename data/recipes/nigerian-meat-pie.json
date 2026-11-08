@@ -1,0 +1,61 @@
+{
+  "slug": "nigerian-meat-pie",
+  "name": "Nigerian Meat Pie",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "snack",
+  "tags": ["baked", "party", "snack", "lunchbox", "bakery"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": false, "containsNuts": false},
+  "spice": 1,
+  "summary": "Flaky, buttery pastry parcels filled with peppery minced beef, potato and carrot, baked until golden.",
+  "story": "Meat pie is a staple of Nigerian bakeries and is sold at roadside stalls, school gates and events. It is a favourite in lunchboxes and at birthday parties, often eaten warm with a cold drink.",
+  "prepMinutes": 50,
+  "cookMinutes": 35,
+  "servings": 8,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the pastry", "items": [
+      {"name": "plain flour", "amount": "3 cups (375 g)", "note": "plus extra for dusting"},
+      {"name": "cold butter", "amount": "3/4 cup (170 g)", "note": "cut into small cubes"},
+      {"name": "salt", "amount": "1/2 tsp"},
+      {"name": "baking powder", "amount": "1/2 tsp"},
+      {"name": "ice-cold water", "amount": "about 1/2 cup (120 ml)"},
+      {"name": "egg yolk", "amount": "1", "note": "beaten with 1 tbsp milk for glazing"}
+    ]},
+    {"group": "For the filling", "items": [
+      {"name": "minced beef", "amount": "1 lb (450 g)"},
+      {"name": "potatoes", "amount": "2 medium (300 g)", "note": "peeled and diced very small"},
+      {"name": "carrots", "amount": "1 large (100 g)", "note": "diced very small"},
+      {"name": "onion", "amount": "1 large", "note": "finely chopped"},
+      {"name": "vegetable oil", "amount": "2 tbsp"},
+      {"name": "curry powder", "amount": "2 tsp"},
+      {"name": "dried thyme", "amount": "1 tsp"},
+      {"name": "stock cube", "amount": "1", "note": "crumbled"},
+      {"name": "scotch bonnet", "amount": "1/2", "note": "finely chopped, or to taste"},
+      {"name": "plain flour", "amount": "1 tbsp", "note": "to thicken"},
+      {"name": "water or beef stock", "amount": "3/4 cup (180 ml)"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Make the dough", "text": "Rub the cold butter into the flour, salt and baking powder with your fingertips until it looks like coarse crumbs with a few pea-sized lumps. Add the iced water a tablespoon at a time and bring it together into a soft dough without kneading. It should hold when squeezed but not feel sticky.", "minutes": 15},
+    {"title": "Chill the dough", "text": "Flatten the dough into a disc, wrap it and refrigerate for at least 30 minutes. Cold butter is what gives the flaky layers, so do not skip this.", "minutes": 30},
+    {"title": "Brown the beef", "text": "Heat the oil and fry the onion for 3 minutes until soft and translucent. Add the beef, breaking up lumps, and cook for 6-8 minutes until no pink remains and the liquid has evaporated. Stir in the curry powder, thyme, crumbled stock cube and scotch bonnet.", "minutes": 12},
+    {"title": "Simmer the filling", "text": "Add the potatoes and carrots, sprinkle over the tablespoon of flour and stir for a minute. Pour in the stock, cover and simmer for 12-15 minutes until the vegetables are tender and the mixture is thick and almost dry. Taste and adjust salt, then cool completely.", "minutes": 20},
+    {"title": "Cut the rounds", "text": "Heat the oven to 200 C (400 F). Roll the dough about 3 mm thick on a floured surface and cut circles of about 12 cm. Re-roll the offcuts once only.", "minutes": 10},
+    {"title": "Fill and seal", "text": "Put 2 heaped tablespoons of cooled filling on one half of each circle, leaving a clear border. Brush the edge with water, fold over and press shut, then crimp with a fork. A hot filling would melt the butter, so make sure it is cold.", "minutes": 15},
+    {"title": "Glaze and bake", "text": "Place the pies on a lined tray, brush with the egg yolk mixture and prick the tops once with a fork. Bake for 25-30 minutes until deep golden and firm to the touch.", "minutes": 28},
+    {"title": "Rest and serve", "text": "Let the pies cool on a rack for 10 minutes so the filling settles. Serve warm or at room temperature.", "minutes": 10}
+  ],
+  "tips": [
+    "Dice the potato and carrot tiny, about 5 mm, so the filling packs neatly and cooks through.",
+    "Keep the filling fairly dry; a wet filling makes soggy bottoms and splits the pastry.",
+    "Pies freeze well unbaked; bake from frozen adding 8-10 minutes.",
+    "Cold butter and quick handling are the secret to a flaky crust."
+  ],
+  "swaps": [
+    {"ingredient": "Scotch bonnet", "swap": "Use habanero or half a red chilli; the heat is similar but the fruity flavour is slightly different."},
+    {"ingredient": "Minced beef", "swap": "Minced chicken or turkey works and gives a lighter pie; add a little extra oil as it is leaner."}
+  ],
+  "servesWith": ["zobo", "nigerian-egg-roll"],
+  "nutrition": {"calories": 420, "proteinG": 14, "carbsG": 38, "fatG": 24}
+}

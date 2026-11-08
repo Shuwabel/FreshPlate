@@ -1,0 +1,54 @@
+{
+  "slug": "efo-riro",
+  "name": "Efo Riro",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["comfort", "festive", "swallow", "spicy", "leafy greens"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "A Yoruba spinach stew cooked in a thick pepper and palm oil base with iru, smoked fish and assorted meats.",
+  "story": "Efo riro is a classic Yoruba vegetable stew, usually made with soft leafy greens such as efo tete or spinach. It is a staple at family meals and parties and is commonly served with pounded yam, amala or eba. The word riro refers to the stirring or rubbing of the leaves into the stew.",
+  "prepMinutes": 25,
+  "cookMinutes": 45,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "Base", "items": [
+      {"name": "Fresh spinach or efo tete", "amount": "500 g", "note": "washed, squeezed and chopped"},
+      {"name": "Red bell peppers (tatashe)", "amount": "3 large", "note": "deseeded"},
+      {"name": "Scotch bonnet", "amount": "1 to 2"},
+      {"name": "Onions", "amount": "2 medium", "note": "1 blended with peppers, 1 sliced"},
+      {"name": "Palm oil", "amount": "1/2 cup (120 ml)"},
+      {"name": "Iru (locust beans)", "amount": "2 tbsp"}
+    ]},
+    {"group": "Protein", "items": [
+      {"name": "Assorted meat (beef, shaki)", "amount": "500 g", "note": "cooked, keep stock"},
+      {"name": "Smoked fish", "amount": "150 g", "note": "cleaned and flaked"},
+      {"name": "Dried or stockfish", "amount": "80 g", "note": "soaked, optional"},
+      {"name": "Ground crayfish", "amount": "2 tbsp"},
+      {"name": "Stock cube and salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Prep the greens", "text": "If using spinach, blanch it in hot water for 1 minute, drain and squeeze out the water firmly, then chop. This prevents a watery stew.", "minutes": 8},
+    {"title": "Blend and reduce", "text": "Blend the peppers and one onion coarsely. Boil the blend in a pot for 15 to 20 minutes until thick and most of the water has evaporated.", "minutes": 20},
+    {"title": "Fry in palm oil", "text": "Heat the palm oil gently for 2 minutes, then add the sliced onion and fry until soft. Add the reduced pepper and fry for 10 minutes until the oil separates and the sauce is dark red.", "minutes": 12},
+    {"title": "Add the savoury notes", "text": "Stir in the iru, crayfish, stock cube and a little salt. Cook for 2 minutes to release the smell.", "minutes": 2},
+    {"title": "Add proteins", "text": "Add the cooked meat, a ladle of meat stock, smoked fish and stockfish. Simmer for 8 to 10 minutes so the flavours join.", "minutes": 10},
+    {"title": "Fold in the vegetables", "text": "Add the squeezed greens, stir well and cook for 3 to 5 minutes, just until the leaves are hot and bright. Do not overcook or the colour turns dull.", "minutes": 5},
+    {"title": "Taste and rest", "text": "Check the salt and heat, and leave covered for 5 minutes off the heat before serving.", "minutes": 5}
+  ],
+  "tips": [
+    "Squeeze the greens dry or the stew will be thin and bland.",
+    "Fry the pepper base until the oil clearly rises; the stew should taste sweet and rich, not sour.",
+    "Add the greens at the end so they keep their texture."
+  ],
+  "swaps": [
+    {"ingredient": "Efo tete", "swap": "Baby spinach, Swiss chard or kale all work; kale needs longer cooking."},
+    {"ingredient": "Iru", "swap": "A small spoon of miso or fish sauce adds the same pungent savoury note."},
+    {"ingredient": "Palm oil", "swap": "Red palm oil from African shops is best; otherwise use vegetable oil with a pinch of paprika for colour, though the flavour will differ."}
+  ],
+  "servesWith": ["pounded-yam", "eba", "amala-ewedu-gbegiri"],
+  "nutrition": {"calories": 470, "proteinG": 34, "carbsG": 12, "fatG": 32}
+}

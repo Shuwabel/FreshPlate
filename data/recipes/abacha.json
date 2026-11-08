@@ -1,0 +1,161 @@
+{
+  "slug": "abacha",
+  "name": "Abacha (African Salad)",
+  "localName": "Abacha Ncha",
+  "course": "snack",
+  "tags": [
+    "Igbo",
+    "party",
+    "cold",
+    "palm oil",
+    "spicy"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 2,
+  "summary": "Shredded dried cassava tossed in a creamy palm oil and potash sauce with ugba, garden egg leaves, fish and crunchy onion.",
+  "story": "Abacha is an Igbo dish of dried, shredded cassava that is soaked and tossed with a palm oil sauce, ugba and toppings. It is often served as a snack or starter at gatherings, topped with fish, ponmo or garden eggs.",
+  "prepMinutes": 40,
+  "cookMinutes": 15,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        {
+          "name": "Dried shredded cassava (abacha)",
+          "amount": "2 cups (about 200 g)"
+        },
+        {
+          "name": "Red palm oil",
+          "amount": "1/2 cup (120 ml)"
+        },
+        {
+          "name": "Potash (kaun)",
+          "amount": "1 tsp",
+          "note": "mixed with 3 tbsp water, see swaps"
+        },
+        {
+          "name": "Ugba (oil bean slices)",
+          "amount": "1 cup (150 g)",
+          "note": "soaked and drained"
+        },
+        {
+          "name": "Ground crayfish",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Ground ehuru",
+          "amount": "1/2 tsp",
+          "note": "optional"
+        },
+        {
+          "name": "Scotch bonnet peppers",
+          "amount": "2",
+          "note": "finely chopped"
+        },
+        {
+          "name": "Seasoning cube",
+          "amount": "1",
+          "note": "crushed"
+        },
+        {
+          "name": "Red onion",
+          "amount": "1 large",
+          "note": "half chopped, half sliced"
+        },
+        {
+          "name": "Utazi leaves",
+          "amount": "6 to 8",
+          "note": "finely sliced"
+        },
+        {
+          "name": "Garden egg",
+          "amount": "2",
+          "note": "sliced, to serve"
+        },
+        {
+          "name": "Smoked or fried fish",
+          "amount": "150 g",
+          "note": "flaked"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Soak the abacha",
+      "text": "Place the abacha in a bowl and cover with hot water. Leave for about 3 minutes, then drain and rinse. Cover with cold water and soak for 30 to 60 minutes until the strands are tender but still have a slight bite.",
+      "minutes": 45
+    },
+    {
+      "title": "Rinse the ugba",
+      "text": "Rinse the ugba in warm water for a minute to remove excess smell, drain well and set aside.",
+      "minutes": 3
+    },
+    {
+      "title": "Make the potash liquid",
+      "text": "Dissolve the potash in 3 tbsp of water. Leave to settle and pour off the clear liquid, leaving any sediment behind.",
+      "minutes": 3
+    },
+    {
+      "title": "Thicken the palm oil",
+      "text": "In a large bowl or pot, combine the palm oil with 1 tbsp of the clear potash liquid. Stir over very low heat for 2 to 3 minutes until it turns thick, creamy and a lighter yellow-orange.",
+      "minutes": 4
+    },
+    {
+      "title": "Season the sauce",
+      "text": "Stir in the crayfish, ehuru, pepper, cube, chopped onion and salt. Taste: it should be well seasoned.",
+      "minutes": 2
+    },
+    {
+      "title": "Fold in the abacha and ugba",
+      "text": "Drain the abacha well. Add it with the ugba to the sauce and toss gently until every strand is coloured. Add fish and half the utazi.",
+      "minutes": 3
+    },
+    {
+      "title": "Serve",
+      "text": "Pile onto plates and garnish with the sliced onion, remaining utazi and sliced garden egg. Serve at room temperature."
+    }
+  ],
+  "tips": [
+    "Do not oversoak the abacha or it turns slimy. Test a strand for texture.",
+    "Add potash liquid gradually. Too much tastes harsh.",
+    "Drain the abacha thoroughly or the sauce will turn watery.",
+    "Add toppings at the end to keep them crisp."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Abacha (dried cassava)",
+      "swap": "Thin rice noodles briefly soaked are a distant stand-in for texture only. The flavour will differ."
+    },
+    {
+      "ingredient": "Ugba",
+      "swap": "Leave it out, or use finely sliced steamed green beans for texture."
+    },
+    {
+      "ingredient": "Potash",
+      "swap": "A pinch of baking soda in water; use sparingly."
+    }
+  ],
+  "servesWith": [
+    "nkwobi"
+  ],
+  "nutrition": {
+    "calories": 430,
+    "proteinG": 14,
+    "carbsG": 48,
+    "fatG": 21
+  },
+  "country": "Nigeria",
+  "region": "West Africa"
+}

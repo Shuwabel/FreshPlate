@@ -1,0 +1,63 @@
+{
+  "slug": "harira",
+  "name": "Harira",
+  "localName": "حريرة",
+  "country": "Morocco",
+  "region": "North Africa",
+  "course": "soup",
+  "tags": ["ramadan", "soup", "comfort", "lentils", "hearty"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": false, "containsNuts": false},
+  "spice": 1,
+  "summary": "Moroccan tomato, lentil and chickpea soup with lamb, herbs and warm spices, thickened and finished with lemon.",
+  "story": "Harira is the soup that traditionally opens the fast-breaking meal during Ramadan in Morocco, typically eaten with dates and sweets like chebakia. Each family has its own version, but tomato, lentils, chickpeas and fresh herbs are common. It is also served as a hearty winter supper.",
+  "prepMinutes": 25,
+  "cookMinutes": 75,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"items": [
+      {"name": "Lamb or beef, small cubes", "amount": "200 g"},
+      {"name": "Olive oil or smen", "amount": "2 tbsp"},
+      {"name": "Onion", "amount": "1 large", "note": "grated"},
+      {"name": "Celery stalks with leaves", "amount": "2", "note": "finely chopped"},
+      {"name": "Ground ginger", "amount": "1 tsp"},
+      {"name": "Ground turmeric", "amount": "1/2 tsp"},
+      {"name": "Ground cinnamon", "amount": "1/2 tsp"},
+      {"name": "Black pepper", "amount": "1/2 tsp"},
+      {"name": "Saffron threads", "amount": "pinch"},
+      {"name": "Ripe tomatoes", "amount": "800 g (about 5)", "note": "grated or blended; or one 800 g tin"},
+      {"name": "Brown or green lentils", "amount": "100 g (1/2 cup)", "note": "rinsed"},
+      {"name": "Cooked chickpeas", "amount": "200 g (1 cup)", "note": "drained"},
+      {"name": "Fresh coriander and parsley", "amount": "1 large bunch", "note": "finely chopped"},
+      {"name": "Water", "amount": "1.8 litres"},
+      {"name": "Plain flour", "amount": "3 tbsp"},
+      {"name": "Tomato paste", "amount": "1 tbsp"},
+      {"name": "Fine vermicelli or broken angel hair pasta", "amount": "50 g"},
+      {"name": "Lemon", "amount": "1", "note": "cut into wedges"},
+      {"name": "Salt", "amount": "1 1/2 tsp, to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Brown the meat", "text": "Heat the oil in a large pot over medium heat and brown the meat for 5 minutes. Add the onion, celery, ginger, turmeric, cinnamon, pepper and saffron and stir 3 minutes until fragrant.", "minutes": 8},
+    {"title": "Add tomatoes and herbs", "text": "Add the tomatoes, tomato paste and half the herbs and cook 10 minutes, stirring, until the tomato reduces and darkens slightly.", "minutes": 10},
+    {"title": "Add the pulses", "text": "Add the lentils and 1.5 litres of water. Bring to a boil, then lower the heat, cover, and simmer 30 minutes until the lentils are soft and the meat is almost tender.", "minutes": 30},
+    {"title": "Add chickpeas", "text": "Stir in the chickpeas and simmer a further 10 minutes. The meat should now be fork-tender; season with salt."},
+    {"title": "Make the tadouira", "text": "Whisk the flour with 300 ml cold water in a jug until perfectly smooth. This thickener is called tadouira.", "minutes": 2},
+    {"title": "Thicken the soup", "text": "Pour the flour mixture slowly into the soup, stirring constantly. Simmer 10 minutes until it is velvety and coats the back of a spoon, with no raw flour taste.", "minutes": 10},
+    {"title": "Cook the vermicelli", "text": "Add the vermicelli and remaining herbs and simmer 4 to 5 minutes until the noodles are soft. Add water if the soup is too thick.", "minutes": 5},
+    {"title": "Serve", "text": "Taste and adjust salt and pepper. Serve piping hot with lemon wedges and dates on the side."}
+  ],
+  "tips": [
+    "Whisk the flour mixture until completely smooth, and add it slowly while stirring, to avoid lumps.",
+    "Grated tomato gives a smoother base than chopped; remove the skins if they curl.",
+    "Harira thickens as it stands; add hot water when reheating.",
+    "For a vegetarian version, omit the meat and use vegetable stock."
+  ],
+  "swaps": [
+    {"ingredient": "Smen (aged butter)", "swap": "Use olive oil with a knob of butter; the flavour is milder."},
+    {"ingredient": "Fresh tomatoes", "swap": "Use one 800 g tin of whole tomatoes, blended."},
+    {"ingredient": "Flour thickener", "swap": "Use cornflour (2 tbsp) for a gluten-free soup, omitting the vermicelli."}
+  ],
+  "servesWith": ["chicken-tagine"],
+  "nutrition": {"calories": 310, "proteinG": 19, "carbsG": 38, "fatG": 9}
+}

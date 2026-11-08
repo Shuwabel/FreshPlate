@@ -1,0 +1,53 @@
+{
+  "slug": "moi-moi",
+  "name": "Moi Moi",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "side",
+  "tags": ["steamed", "party", "protein-rich", "gluten-free", "festive"],
+  "diet": {"vegetarian": true, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 1,
+  "summary": "A soft steamed pudding of peeled black-eyed peas blended with peppers, onion and oil, often with egg or fish.",
+  "story": "Moi moi is a steamed bean pudding eaten across Nigeria, usually alongside jollof rice, pap or as a snack. It is made from peeled black-eyed peas blended with pepper and steamed in leaves, foil or containers. It is common at parties and weekday meals.",
+  "prepMinutes": 45,
+  "cookMinutes": 50,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": null, "items": [
+      {"name": "Black-eyed peas (brown beans)", "amount": "2 cups (400 g)", "note": "soaked and peeled"},
+      {"name": "Red bell pepper", "amount": "2 medium"},
+      {"name": "Scotch bonnet", "amount": "1 to 2"},
+      {"name": "Onion", "amount": "1 medium"},
+      {"name": "Vegetable oil", "amount": "1/3 cup (80 ml)"},
+      {"name": "Ground crayfish", "amount": "2 tbsp"},
+      {"name": "Stock cube", "amount": "1 to 2"},
+      {"name": "Warm water or stock", "amount": "about 1 cup (240 ml)"},
+      {"name": "Boiled eggs", "amount": "3", "note": "peeled and halved, optional"},
+      {"name": "Canned mackerel or corned beef", "amount": "1 small can (about 100 g)", "note": "optional"},
+      {"name": "Salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Soak the beans", "text": "Soak the beans in water for 10 minutes, then rub vigorously between your hands so the skins loosen. Float off the skins by filling the bowl with water, repeating until most are gone.", "minutes": 20},
+    {"title": "Blend smooth", "text": "Blend the peeled beans with the peppers, onion and a little water until completely smooth with no grit. Add water only as needed; the batter should be thick.", "minutes": 8},
+    {"title": "Season the batter", "text": "Pour into a bowl and stir in the oil, crayfish, stock cube, salt and warm water. The batter should be thick but pourable, like a loose cake batter.", "minutes": 5},
+    {"title": "Fill the moulds", "text": "Pour batter into oiled ramekins, foil cups or leaf wraps, filling about three quarters. Place a half egg or a spoon of fish in the centre of each.", "minutes": 10},
+    {"title": "Set up steamer", "text": "Arrange the moulds in a large pot on a rack with 3 to 4 cm of boiling water in the bottom, making sure water does not reach the batter.", "minutes": 3},
+    {"title": "Steam", "text": "Cover and steam for 45 to 50 minutes on medium-low, topping up with boiling water if it runs low.", "minutes": 48},
+    {"title": "Check doneness", "text": "Insert a skewer in the centre; it should come out clean and the top should be firm and slightly shiny.", "minutes": 2},
+    {"title": "Rest and serve", "text": "Let rest 5 minutes before unmoulding. Serve warm with pap, jollof rice or bread.", "minutes": 5}
+  ],
+  "tips": [
+    "Peel the beans thoroughly; leftover skins make moi moi dark and grainy.",
+    "Blend until completely smooth for a soft, silky texture.",
+    "Do not let water touch the batter, or the moulds will be soggy."
+  ],
+  "swaps": [
+    {"ingredient": "Black-eyed peas (brown beans)", "swap": "Use any black-eyed peas; skinless dried ones save time. Canned peas work in a pinch but the texture is softer."},
+    {"ingredient": "Banana or uma leaves", "swap": "Foil cups or ramekins covered with foil."},
+    {"ingredient": "Crayfish", "swap": "A spoon of fish sauce or ground dried shrimp."}
+  ],
+  "servesWith": ["jollof-rice", "pap-akamu"],
+  "nutrition": {"calories": 290, "proteinG": 15, "carbsG": 28, "fatG": 13}
+}

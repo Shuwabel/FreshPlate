@@ -1,0 +1,56 @@
+{
+  "slug": "kilishi",
+  "name": "Kilishi",
+  "localName": "Kilishi",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "snack",
+  "tags": ["northern", "spicy", "snack", "dried meat", "make-ahead"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": true},
+  "spice": 3,
+  "summary": "Paper-thin sun-dried or oven-dried beef coated in a fiery peanut and spice paste, then grilled until chewy.",
+  "story": "Kilishi is a Hausa dried-meat snack from northern Nigeria, often described as a spicier cousin of jerky. It is sold in markets and given as a gift, and is eaten on its own as a snack.",
+  "prepMinutes": 40,
+  "cookMinutes": 240,
+  "servings": 6,
+  "difficulty": "Hard",
+  "ingredients": [
+    {"group": "For the meat", "items": [
+      {"name": "lean beef (topside or silverside)", "amount": "2 lb (900 g)", "note": "in one or two thick pieces"}
+    ]},
+    {"group": "For the yaji paste", "items": [
+      {"name": "roasted peanuts", "amount": "1 cup (150 g)", "note": "unsalted, skinned, ground fine"},
+      {"name": "cayenne or dried chilli powder", "amount": "2 tbsp"},
+      {"name": "ground ginger", "amount": "1 tbsp"},
+      {"name": "garlic powder", "amount": "1 tbsp"},
+      {"name": "onion powder", "amount": "1 tbsp"},
+      {"name": "paprika", "amount": "1 tbsp"},
+      {"name": "stock cube", "amount": "2", "note": "crushed"},
+      {"name": "salt", "amount": "2 tsp"},
+      {"name": "vegetable oil", "amount": "1/4 cup (60 ml)"},
+      {"name": "water", "amount": "a few tbsp", "note": "to loosen"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Freeze the meat", "text": "Trim all fat and sinew. Wrap the beef and freeze for about 1.5 hours until firm but not solid; this makes slicing paper-thin possible.", "minutes": 90},
+    {"title": "Slice thinly", "text": "Cut the meat against or with the grain into slices about 2-3 mm thick. A very sharp knife helps. The slices should be thin enough to see light through.", "minutes": 20},
+    {"title": "First drying", "text": "Lay the slices on racks in a single layer. Dry in a 70 C (160 F) oven with the door slightly ajar for 1.5-2 hours, turning once, until the meat is dry, leathery and no longer wet.", "minutes": 100},
+    {"title": "Mix the yaji", "text": "Combine all paste ingredients in a bowl, adding water a spoonful at a time, until it is a thick, spreadable paste like soft peanut butter. Taste a tiny bit and adjust salt.", "minutes": 8},
+    {"title": "Coat the meat", "text": "Spread the paste thinly on both sides of each slice. Do not leave thick lumps because they cook unevenly.", "minutes": 15},
+    {"title": "Second drying", "text": "Return the coated slices to the oven at 70 C for 1 hour, turning once, until the surface feels dry and tacky.", "minutes": 60},
+    {"title": "Grill to finish", "text": "Brush lightly with oil and grill or broil briefly for 1-2 minutes per side until fragrant and lightly charred at the edges. Watch closely as thin meat burns fast.", "minutes": 8},
+    {"title": "Cool and store", "text": "Cool completely on a rack, then store in an airtight container. It should be firm and chewy, not brittle or soft."}
+  ],
+  "tips": [
+    "Fat spoils dried meat, so trim thoroughly.",
+    "Uniform thin slices are what make or break kilishi.",
+    "Dry thoroughly before storing to prevent mould; it keeps about 2-3 weeks in a cool place.",
+    "Scale heat with the cayenne; traditional kilishi is quite hot."
+  ],
+  "swaps": [
+    {"ingredient": "Ground peanuts", "swap": "Peanut butter (no sugar) thinned with a little oil works; allergy sufferers can use toasted sesame paste but the taste differs."},
+    {"ingredient": "Sun drying", "swap": "Traditionally sun-dried; a low oven or dehydrator is the practical alternative outside hot climates."}
+  ],
+  "servesWith": ["kunu", "suya"],
+  "nutrition": {"calories": 260, "proteinG": 30, "carbsG": 6, "fatG": 13}
+}

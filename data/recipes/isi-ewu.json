@@ -1,0 +1,164 @@
+{
+  "slug": "isi-ewu",
+  "localName": "Isi Ewu",
+  "course": "main",
+  "tags": [
+    "party",
+    "Igbo",
+    "spicy",
+    "celebration",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 2,
+  "summary": "Igbo-style goat head, cooked until tender and tossed in a thick, spiced palm-oil sauce with utazi and onions.",
+  "story": "Isi ewu means \"goat head\" in Igbo and is a well-known delicacy from south-eastern Nigeria. It is served at celebrations, bars and restaurants, often in the evening with a cold drink.",
+  "prepMinutes": 35,
+  "cookMinutes": 120,
+  "servings": 6,
+  "difficulty": "Hard",
+  "ingredients": [
+    {
+      "group": "For the goat head",
+      "items": [
+        {
+          "name": "Goat head, cleaned and singed",
+          "amount": "1 small (about 1.5 kg)",
+          "note": "cut into chunks by your butcher"
+        },
+        {
+          "name": "Onion",
+          "amount": "1",
+          "note": "quartered"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Salt",
+          "amount": "1 tsp"
+        }
+      ]
+    },
+    {
+      "group": "For the sauce",
+      "items": [
+        {
+          "name": "Red palm oil",
+          "amount": "1/2 cup (120 ml)"
+        },
+        {
+          "name": "Potash (kaun)",
+          "amount": "1 tsp",
+          "note": "mixed with 3 tbsp water, see swaps"
+        },
+        {
+          "name": "Ground ehuru (calabash nutmeg)",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Ground crayfish",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Scotch bonnet peppers",
+          "amount": "2 to 3",
+          "note": "finely chopped"
+        },
+        {
+          "name": "Seasoning cube",
+          "amount": "1"
+        },
+        {
+          "name": "Red onion",
+          "amount": "1 large",
+          "note": "half chopped, half sliced thinly"
+        },
+        {
+          "name": "Utazi leaves",
+          "amount": "8 to 10",
+          "note": "finely sliced"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare the head",
+      "text": "Rinse the goat head chunks well and check that all hair has been singed off. Wash again under cold running water.",
+      "minutes": 10
+    },
+    {
+      "title": "Boil until tender",
+      "text": "Place in a pot with the quartered onion, cubes and salt, cover with water and simmer for 1 1/2 to 2 hours, or pressure-cook for 45 minutes. It is ready when the meat and skin are soft and the bone pulls away easily.",
+      "minutes": 110
+    },
+    {
+      "title": "Drain and chop",
+      "text": "Lift out the meat and let it cool slightly. Chop into bite-size pieces, removing any small bone fragments. Keep about 1/2 cup of the stock.",
+      "minutes": 10
+    },
+    {
+      "title": "Make the potash liquid",
+      "text": "Let the potash water settle and pour off only the clear liquid, leaving any grit behind. A small spoonful is all you need to thicken the palm oil.",
+      "minutes": 3
+    },
+    {
+      "title": "Thicken the palm oil",
+      "text": "Warm the palm oil gently in a pot, add about 1 tbsp of the clear potash liquid, and stir until it turns thick, creamy and a lighter orange, about 2 to 3 minutes. Do not allow it to boil.",
+      "minutes": 4
+    },
+    {
+      "title": "Add seasonings",
+      "text": "Stir in the ehuru, crayfish, scotch bonnet, cube and chopped onion. Loosen with a spoonful of stock if the sauce is too stiff.",
+      "minutes": 3
+    },
+    {
+      "title": "Fold in the goat",
+      "text": "Add the hot goat meat and stir until fully coated. Add the utazi and sliced onion, check salt, and serve warm, ideally in a wooden bowl.",
+      "minutes": 3
+    }
+  ],
+  "tips": [
+    "Buy the head already cleaned and singed, and check for hair.",
+    "Potash needs care: start with a little and taste.",
+    "Keep the sauce warm, not boiling, after thickening.",
+    "A pressure cooker saves well over an hour."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Goat head",
+      "swap": "Goat shoulder with bone plus a little tripe, or cow foot, gives a similar rich texture. It will be less gelatinous."
+    },
+    {
+      "ingredient": "Potash",
+      "swap": "A pinch of baking soda dissolved in water; use sparingly."
+    },
+    {
+      "ingredient": "Utazi",
+      "swap": "Endive or a few rocket leaves for a bitter note."
+    }
+  ],
+  "servesWith": [
+    "nkwobi"
+  ],
+  "nutrition": {
+    "calories": 440,
+    "proteinG": 38,
+    "carbsG": 5,
+    "fatG": 30
+  },
+  "name": "Isi Ewu",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

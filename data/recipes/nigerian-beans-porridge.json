@@ -1,0 +1,147 @@
+{
+  "slug": "nigerian-beans-porridge",
+  "course": "main",
+  "tags": [
+    "comfort",
+    "one-pot",
+    "weeknight",
+    "palm oil",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 2,
+  "summary": "Creamy brown beans simmered with palm oil, onions, pepper and smoked fish into a thick, savoury porridge.",
+  "story": "Beans porridge is an everyday Nigerian one-pot meal, eaten at home for lunch or dinner and sold at roadside canteens. It is often served with fried plantain, bread or garri.",
+  "prepMinutes": 15,
+  "cookMinutes": 100,
+  "servings": 6,
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        {
+          "name": "Brown or honey beans",
+          "amount": "2 cups (400 g)",
+          "note": "picked over and rinsed"
+        },
+        {
+          "name": "Water",
+          "amount": "about 6 cups (1.5 litres)",
+          "note": "plus extra hot water"
+        },
+        {
+          "name": "Onion",
+          "amount": "1 large",
+          "note": "half chopped, half blended"
+        },
+        {
+          "name": "Red bell pepper",
+          "amount": "1",
+          "note": "blended"
+        },
+        {
+          "name": "Scotch bonnet pepper",
+          "amount": "1 to 2",
+          "note": "blended"
+        },
+        {
+          "name": "Red palm oil",
+          "amount": "1/3 cup (80 ml)"
+        },
+        {
+          "name": "Ground crayfish",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Smoked fish (mackerel or catfish)",
+          "amount": "150 g",
+          "note": "cleaned and flaked"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        },
+        {
+          "name": "Ripe plantain",
+          "amount": "1",
+          "note": "optional, cubed, cooked in the beans for sweetness"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Boil the beans",
+      "text": "Put the beans, chopped onion and water in a large pot and bring to a boil. Reduce to a simmer, partly covered, and cook for 45 to 60 minutes (or about 25 minutes in a pressure cooker). The beans should be about 70 percent soft at this stage.",
+      "minutes": 60
+    },
+    {
+      "title": "Skim and top up",
+      "text": "Skim off any foam that rises and add hot water if the level falls below the beans. Cold water slows cooking.",
+      "minutes": 2
+    },
+    {
+      "title": "Blend the peppers",
+      "text": "Blend the bell pepper, scotch bonnet and the remaining onion until smooth and pour into the pot.",
+      "minutes": 3
+    },
+    {
+      "title": "Add flavour",
+      "text": "Stir in the palm oil, crayfish, smoked fish, cubes and plantain if using. Season lightly with salt, as the fish and cubes add salt too.",
+      "minutes": 3
+    },
+    {
+      "title": "Simmer to a porridge",
+      "text": "Cook uncovered for 25 to 30 minutes, stirring occasionally. The beans are done when completely soft and the broth turns creamy and thick, with oil floating on top.",
+      "minutes": 30
+    },
+    {
+      "title": "Mash and thicken",
+      "text": "Mash a ladleful of beans against the side of the pot and stir them back in to thicken the porridge. Adjust salt and let it rest for 5 minutes before serving.",
+      "minutes": 5
+    }
+  ],
+  "tips": [
+    "Never add salt at the start: it can toughen beans.",
+    "Add hot water, not cold, while the beans cook.",
+    "Soak the beans overnight to shorten cooking and reduce gas.",
+    "Keep the palm oil added later so it does not boil away its flavour."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Honey beans",
+      "swap": "Black-eyed peas cook faster, in about 35 minutes, and taste a little milder."
+    },
+    {
+      "ingredient": "Smoked fish",
+      "swap": "Smoked turkey or a little flaked tinned mackerel work as well. Omit for a vegan version."
+    },
+    {
+      "ingredient": "Red palm oil",
+      "swap": "Use vegetable oil plus 1/2 tsp smoked paprika. The flavour will be lighter."
+    }
+  ],
+  "servesWith": [
+    "dodo",
+    "eba"
+  ],
+  "nutrition": {
+    "calories": 430,
+    "proteinG": 22,
+    "carbsG": 54,
+    "fatG": 15
+  },
+  "name": "Nigerian Beans Porridge",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

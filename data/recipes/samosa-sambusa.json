@@ -1,0 +1,63 @@
+{
+  "slug": "samosa-sambusa",
+  "name": "Sambusa",
+  "localName": "Sambusa / Sambuus",
+  "country": "East Africa",
+  "region": "East Africa",
+  "course": "snack",
+  "tags": ["street food", "fried", "party", "ramadan", "spicy"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": false, "containsNuts": false},
+  "spice": 2,
+  "summary": "Crisp triangular pastries packed with cumin-scented spiced beef and leek, fried until blistered and golden.",
+  "story": "Sambusa is a staple of East African snack tables, from Somali and Ethiopian homes to Swahili coast stalls. It is especially loved at the evening meal that breaks the Ramadan fast, and at weddings and holidays. Fillings vary from minced meat to lentils or vegetables.",
+  "prepMinutes": 50,
+  "cookMinutes": 30,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the filling", "items": [
+      {"name": "Minced beef", "amount": "400 g"},
+      {"name": "Onion", "amount": "1 large", "note": "finely chopped"},
+      {"name": "Leek or spring onions", "amount": "1 cup (about 80 g)", "note": "finely sliced"},
+      {"name": "Garlic", "amount": "3 cloves", "note": "minced"},
+      {"name": "Fresh ginger", "amount": "2 tsp", "note": "grated"},
+      {"name": "Ground cumin", "amount": "2 tsp"},
+      {"name": "Ground coriander", "amount": "1 tsp"},
+      {"name": "Turmeric", "amount": "1/2 tsp"},
+      {"name": "Green chilli", "amount": "1 to 2", "note": "finely chopped"},
+      {"name": "Fresh coriander", "amount": "3 tbsp", "note": "chopped"},
+      {"name": "Salt", "amount": "1 tsp, to taste"},
+      {"name": "Oil", "amount": "2 tbsp"}
+    ]},
+    {"group": "For the wrappers", "items": [
+      {"name": "Spring roll or samosa pastry sheets", "amount": "20 sheets (about 25 cm square)"},
+      {"name": "Plain flour", "amount": "2 tbsp"},
+      {"name": "Water", "amount": "3 tbsp", "note": "to make a paste for sealing"},
+      {"name": "Oil for deep frying", "amount": "about 750 ml"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the meat", "text": "Heat the oil in a wide pan and fry the onion over medium heat for 5 minutes until soft and translucent. Add the beef and break it up with a spoon; cook until no pink remains and the juices have reduced, about 8 minutes.", "minutes": 13},
+    {"title": "Add the spices", "text": "Stir in the garlic, ginger, cumin, coriander, turmeric and chilli and cook 2 minutes until the kitchen smells fragrant. Add the leek and salt and cook 3 more minutes until the leek softens but still shows some green.", "minutes": 5},
+    {"title": "Dry and cool", "text": "The filling must be dry or the pastry will tear and the sambusa will turn soggy. Keep cooking until no liquid pools when you tilt the pan, fold in the fresh coriander, then spread on a plate and cool completely.", "minutes": 15},
+    {"title": "Make the paste", "text": "Whisk the flour and water in a small bowl into a smooth, glue-like paste with no lumps. Keep the pastry sheets under a damp cloth so they do not dry and crack."},
+    {"title": "Cut the strips", "text": "Cut each pastry sheet in half to make two long rectangles about 12 cm wide. Work with one strip at a time and keep the rest covered."},
+    {"title": "Fold the cones", "text": "Fold the bottom corner of a strip up to the opposite edge to form a triangle, then fold once more to make a cone with a pocket. Fill the pocket with about 1.5 tablespoons of filling, without overfilling."},
+    {"title": "Seal the triangle", "text": "Fold the cone over the filling to close the triangle, then keep folding along the strip like a flag. Brush the last flap with paste and press hard so the edge is fully sealed.", "minutes": 20},
+    {"title": "Fry until golden", "text": "Heat the oil to 170 C, or until a pinch of pastry sizzles steadily without browning at once. Fry 4 to 5 sambusa at a time for 3 to 4 minutes, turning, until deep golden and blistered.", "minutes": 15},
+    {"title": "Drain and serve", "text": "Lift out with a slotted spoon and drain on paper or a rack so they stay crisp. Serve hot with a green chilli sauce or lemon wedges."}
+  ],
+  "tips": [
+    "Cool the filling fully before wrapping; warm filling steams the pastry from inside and makes it tear.",
+    "Seal the final flap with plenty of paste, or the sambusa will open in the hot oil.",
+    "Oil that is too cool makes greasy sambusa; oil that is too hot browns the outside before the pastry cooks through.",
+    "Folded, unfried sambusa freeze well on a tray and can be fried straight from the freezer for 5 to 6 minutes."
+  ],
+  "swaps": [
+    {"ingredient": "Sambusa pastry sheets", "swap": "Use spring roll wrappers or filo brushed with oil; filo gives a flakier, less bubbly crust."},
+    {"ingredient": "Leek", "swap": "Spring onions work well; the flavour is slightly sharper."},
+    {"ingredient": "Minced beef", "swap": "Minced lamb or chicken, or cooked brown lentils for a vegetarian version."}
+  ],
+  "servesWith": ["mandazi", "doro-wat"],
+  "nutrition": {"calories": 340, "proteinG": 15, "carbsG": 28, "fatG": 18}
+}

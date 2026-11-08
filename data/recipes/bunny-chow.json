@@ -1,0 +1,61 @@
+{
+  "slug": "bunny-chow",
+  "name": "Bunny Chow",
+  "country": "South Africa",
+  "region": "Southern Africa",
+  "course": "street-food",
+  "tags": ["street food", "curry", "spicy", "durban", "handheld"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": false, "containsNuts": false},
+  "spice": 3,
+  "summary": "A hollowed quarter loaf of white bread filled with a rich, fiery Durban chicken curry.",
+  "story": "Bunny chow comes from Durban's South African Indian community, and is now a city-wide favourite, eaten by hand with the bread as both bowl and mop. Its exact origin is debated, but it is commonly said to have started as a portable lunch. Mutton, chicken, and bean fillings are all popular.",
+  "prepMinutes": 25,
+  "cookMinutes": 50,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the curry", "items": [
+      {"name": "Chicken thighs, bone-in", "amount": "800 g", "note": "skinned, cut in pieces"},
+      {"name": "Oil", "amount": "3 tbsp"},
+      {"name": "Cinnamon stick", "amount": "1 small"},
+      {"name": "Cardamom pods", "amount": "3", "note": "bruised"},
+      {"name": "Curry leaves", "amount": "10", "note": "fresh if possible"},
+      {"name": "Onions", "amount": "2 large", "note": "finely chopped"},
+      {"name": "Garlic and ginger paste", "amount": "2 tbsp"},
+      {"name": "Durban masala or hot curry powder", "amount": "2 1/2 tbsp"},
+      {"name": "Ground cumin", "amount": "1 tsp"},
+      {"name": "Ripe tomatoes", "amount": "3", "note": "grated or finely chopped"},
+      {"name": "Potatoes", "amount": "2 medium", "note": "peeled, cut in 3 cm cubes"},
+      {"name": "Water", "amount": "300 ml"},
+      {"name": "Salt", "amount": "1 1/2 tsp, to taste"},
+      {"name": "Fresh coriander", "amount": "small handful", "note": "chopped"}
+    ]},
+    {"group": "To serve", "items": [
+      {"name": "Unsliced white loaf", "amount": "1 large (about 800 g), cut into 4 quarters"},
+      {"name": "Carrot and cabbage sambal", "amount": "1 cup", "note": "grated, tossed with chilli, salt and lemon"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Bloom the whole spices", "text": "Heat the oil in a heavy pot over medium heat. Add the cinnamon, cardamom and curry leaves and cook 30 seconds until they sizzle and smell fragrant.", "minutes": 1},
+    {"title": "Brown the onions", "text": "Add the onions and cook 10 to 12 minutes, stirring, until deep golden brown. This colour gives the curry its depth, so be patient.", "minutes": 12},
+    {"title": "Add the spice base", "text": "Stir in the garlic and ginger paste and cook 2 minutes. Add the masala and cumin with a splash of water and fry 2 minutes until the oil begins to separate.", "minutes": 4},
+    {"title": "Cook the tomato", "text": "Add the tomatoes and salt and cook 6 to 8 minutes until the mixture is jammy and the oil shines on top.", "minutes": 8},
+    {"title": "Add chicken", "text": "Add the chicken and stir to coat in the masala. Fry for 5 minutes until the surface turns opaque.", "minutes": 5},
+    {"title": "Simmer with potato", "text": "Add the potatoes and 300 ml water, cover and simmer on low for 25 minutes. The curry is ready when the chicken is tender, the potatoes are soft, and the gravy is thick but still saucy.", "minutes": 25},
+    {"title": "Prepare the bread", "text": "Cut the loaf into four quarters and scoop out the soft middle of each, leaving a 2 cm wall and base. Keep the removed bread to use as a lid."},
+    {"title": "Fill and serve", "text": "Stir the coriander into the curry. Pack each hollow loaf with curry, letting the gravy soak into the walls, top with the sambal, and set the bread lid on. Eat with your fingers by tearing off pieces of bread."}
+  ],
+  "tips": [
+    "Use a firm white loaf; thinly sliced bread or a soft roll falls apart when filled.",
+    "Make the gravy a little thicker than for rice, so it stays in the loaf.",
+    "Adjust the heat by choice of masala; true Durban curry is quite hot.",
+    "Fill just before serving; a filled loaf softens in about 15 minutes."
+  ],
+  "swaps": [
+    {"ingredient": "Durban masala", "swap": "Use hot Madras curry powder plus 1 tsp chilli powder and 1/2 tsp ground fenugreek."},
+    {"ingredient": "Chicken", "swap": "Lamb or mutton is traditional but needs 1 to 1 1/2 hours of simmering; or use cooked butter beans for a vegetarian version."},
+    {"ingredient": "Curry leaves", "swap": "Leave out if unavailable; the curry will lack that aroma but still taste good."}
+  ],
+  "servesWith": ["pap-chakalaka"],
+  "nutrition": {"calories": 680, "proteinG": 38, "carbsG": 72, "fatG": 25}
+}
