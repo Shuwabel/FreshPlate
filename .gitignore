@@ -19,3 +19,6 @@ data/library.json
 data/index.json
 public/data/recipes/
 *.tsbuildinfo
+
+.vercel
+.env*
