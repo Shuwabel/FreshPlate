@@ -1,0 +1,171 @@
+{
+  "slug": "ewa-agoyin",
+  "course": "street-food",
+  "tags": [
+    "street food",
+    "comfort",
+    "spicy",
+    "Lagos",
+    "vegan"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 3,
+  "summary": "Soft, mashed-down beans served with a dark, smoky crushed-pepper sauce, often eaten with warm bread.",
+  "story": "Ewa agoyin is a Lagos street food of soft, well-cooked beans with a dark, spicy sauce made from dried chillies fried in palm oil. It is commonly eaten with soft bread such as agege bread.",
+  "prepMinutes": 15,
+  "cookMinutes": 120,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": "For the beans",
+      "items": [
+        {
+          "name": "Brown beans (honey beans)",
+          "amount": "2 cups (400 g)",
+          "note": "picked over and rinsed"
+        },
+        {
+          "name": "Onion",
+          "amount": "1",
+          "note": "chopped"
+        },
+        {
+          "name": "Salt",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Water",
+          "amount": "about 6 cups (1.5 litres)"
+        }
+      ]
+    },
+    {
+      "group": "For the sauce",
+      "items": [
+        {
+          "name": "Red palm oil",
+          "amount": "1/2 cup (120 ml)"
+        },
+        {
+          "name": "Dried chilli peppers or dried cayenne",
+          "amount": "12 to 15",
+          "note": "soaked and drained, roughly chopped"
+        },
+        {
+          "name": "Onions",
+          "amount": "2 large",
+          "note": "sliced"
+        },
+        {
+          "name": "Ground crayfish",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Iru (locust beans)",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Seasoning cube",
+          "amount": "1"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        }
+      ]
+    },
+    {
+      "group": "To serve",
+      "items": [
+        {
+          "name": "Soft bread (agege or any soft loaf)",
+          "amount": "1 loaf",
+          "note": "sliced"
+        },
+        {
+          "name": "Ripe plantain, fried (dodo)",
+          "amount": "2",
+          "note": "optional"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cook the beans",
+      "text": "Combine the beans, half the onion, oil and water in a large pot. Boil gently for 1 1/2 to 2 hours, topping up with hot water when needed. Beans are ready when they are completely soft and can be crushed easily between your fingers.",
+      "minutes": 100
+    },
+    {
+      "title": "Mash and thicken",
+      "text": "Add the salt, then mash a few spoonfuls against the side of the pot with a wooden spoon until the pot is thick and creamy while keeping some whole beans. Cook until most of the water has evaporated and the beans are moist, not soupy.",
+      "minutes": 15
+    },
+    {
+      "title": "Soak the chillies",
+      "text": "While the beans cook, soak the dried chillies in hot water for 10 minutes. Drain and blend coarsely, keeping some texture.",
+      "minutes": 12
+    },
+    {
+      "title": "Heat the palm oil",
+      "text": "In a heavy pan, heat the palm oil for 5 to 8 minutes over medium-low heat until it is very hot, darkens slightly and gives off a smoky aroma. Be careful of splatter.",
+      "minutes": 8
+    },
+    {
+      "title": "Fry the onions",
+      "text": "Add the sliced onions and fry slowly for 10 to 15 minutes until deep brown and almost caramelised. Add the iru for the last 2 minutes.",
+      "minutes": 15
+    },
+    {
+      "title": "Add the chilli",
+      "text": "Stir in the crushed chilli, crayfish and cube. Fry on low heat for 10 to 15 minutes until the sauce is very dark, almost black-brown, and the oil separates. Do not rush: it should smell rich and smoky, not burnt.",
+      "minutes": 15
+    },
+    {
+      "title": "Serve",
+      "text": "Spoon the beans onto a plate, add a generous amount of sauce on top and serve with warm bread and plantain."
+    }
+  ],
+  "tips": [
+    "Cook the sauce slowly. Rushing it makes it taste bitter.",
+    "Mash some beans but keep others whole for texture.",
+    "Soak the beans overnight to cut cooking time to about 1 hour.",
+    "Keep the sauce fiery. A drizzle goes a long way for mild eaters."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Honey beans",
+      "swap": "Black-eyed peas or small brown lentils will cook faster and give a slightly different texture."
+    },
+    {
+      "ingredient": "Dried chillies",
+      "swap": "Use 1 1/2 tbsp ground cayenne or dried chilli flakes, fried briefly in the oil."
+    },
+    {
+      "ingredient": "Iru",
+      "swap": "Omit or use a teaspoon of miso for savoury depth."
+    }
+  ],
+  "servesWith": [
+    "dodo"
+  ],
+  "nutrition": {
+    "calories": 520,
+    "proteinG": 19,
+    "carbsG": 62,
+    "fatG": 23
+  },
+  "name": "Ewa Agoyin",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

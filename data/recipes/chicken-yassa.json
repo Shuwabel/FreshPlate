@@ -1,0 +1,58 @@
+{
+  "slug": "chicken-yassa",
+  "name": "Chicken Yassa",
+  "localName": "Yassa ginaar",
+  "country": "Senegal",
+  "region": "West Africa",
+  "course": "main",
+  "tags": ["chicken", "citrus", "weeknight", "tangy", "family"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "Chicken marinated in lemon, mustard and a mountain of onions, grilled then simmered into a sharp, sweet sauce.",
+  "story": "Yassa comes from the Casamance region in southern Senegal and is now eaten across the country and in neighbouring Gambia. It is a popular dish for family meals and gatherings, served over white rice.",
+  "prepMinutes": 20,
+  "cookMinutes": 55,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the marinade", "items": [
+      {"name": "chicken legs and thighs", "amount": "3 lb (1.4 kg)", "note": "bone-in, skin on"},
+      {"name": "lemon juice", "amount": "1/2 cup (120 ml)", "note": "about 4 lemons"},
+      {"name": "Dijon mustard", "amount": "3 tbsp"},
+      {"name": "garlic", "amount": "5 cloves", "note": "crushed"},
+      {"name": "scotch bonnet", "amount": "1", "note": "pierced or chopped"},
+      {"name": "black pepper", "amount": "1 tsp"},
+      {"name": "salt", "amount": "1.5 tsp"},
+      {"name": "vegetable oil", "amount": "3 tbsp"}
+    ]},
+    {"group": "For the sauce", "items": [
+      {"name": "onions", "amount": "6 large (about 1 kg)", "note": "thinly sliced"},
+      {"name": "carrot", "amount": "1", "note": "sliced, optional"},
+      {"name": "green olives", "amount": "1/2 cup", "note": "optional"},
+      {"name": "stock cube", "amount": "1"},
+      {"name": "water or stock", "amount": "1/2 cup (120 ml)"},
+      {"name": "cooked white rice", "amount": "4 cups", "note": "to serve"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Marinate", "text": "Mix the lemon juice, mustard, garlic, pepper, salt, oil and half the sliced onions. Add the chicken and coat well. Marinate for at least 2 hours, ideally overnight in the fridge.", "minutes": 120},
+    {"title": "Grill the chicken", "text": "Lift the chicken out, keeping the marinade and onions. Grill or broil for 8-10 minutes per side until deeply browned and lightly charred. It does not need to cook through.", "minutes": 20},
+    {"title": "Cook the onions", "text": "Heat a little oil in a heavy pot and add the remaining onions with the marinated onions. Cook on medium-low for 15-20 minutes, stirring, until completely soft, golden and sweet.", "minutes": 20},
+    {"title": "Add the sauce liquid", "text": "Pour in the leftover marinade, stock cube, carrot and water. Bring to a simmer and cook for 5 minutes, then add the whole scotch bonnet.", "minutes": 8},
+    {"title": "Simmer the chicken", "text": "Nestle the grilled chicken in the onions, cover and simmer on low for 25 minutes until the meat is tender and pulls from the bone and the sauce is thick.", "minutes": 25},
+    {"title": "Finish", "text": "Stir in the olives and taste. It should be sharp, sweet and peppery; add a squeeze of lemon if flat and more salt if needed. Remove the pepper before serving.", "minutes": 3},
+    {"title": "Serve", "text": "Spoon over steaming white rice with plenty of the onion sauce."}
+  ],
+  "tips": [
+    "Do not rush the onions; slow cooking makes the sauce sweet and silky.",
+    "Marinate long enough for the lemon to soften the meat.",
+    "Keep the scotch bonnet whole for flavour without overwhelming heat.",
+    "Grilling first adds a smoky depth that is the signature of good yassa."
+  ],
+  "swaps": [
+    {"ingredient": "Dijon mustard", "swap": "Traditional recipes use Senegalese mustard; Dijon is the closest match."},
+    {"ingredient": "Chicken", "swap": "Use fish such as tilapia (yassa poisson); reduce simmering time to 10 minutes."}
+  ],
+  "servesWith": ["thieboudienne"],
+  "nutrition": {"calories": 520, "proteinG": 36, "carbsG": 48, "fatG": 20}
+}

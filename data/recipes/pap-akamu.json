@@ -1,0 +1,53 @@
+{
+  "slug": "pap-akamu",
+  "name": "Pap (Ogi/Akamu) with Akara",
+  "localName": "Ogi / Akamu",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "breakfast",
+  "tags": ["breakfast", "comfort", "vegan", "fermented", "traditional"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 1,
+  "summary": "Smooth, tangy fermented corn porridge served with crisp, spicy black-eyed pea fritters.",
+  "story": "Ogi (Yoruba) or akamu (Igbo) is a fermented cereal porridge that is a classic Nigerian breakfast, and is also given to babies and the unwell. Pairing it with fried akara bean fritters is a beloved morning combination.",
+  "prepMinutes": 45,
+  "cookMinutes": 30,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the pap", "items": [
+      {"name": "ogi (fermented corn starch)", "amount": "1 cup (about 150 g)", "note": "ready-made, or see steps for homemade"},
+      {"name": "cold water", "amount": "1 cup (240 ml)", "note": "to mix"},
+      {"name": "boiling water", "amount": "3 cups (720 ml)"},
+      {"name": "sugar and evaporated milk", "amount": "to taste", "note": "optional"}
+    ]},
+    {"group": "For the akara", "items": [
+      {"name": "black-eyed peas", "amount": "1.5 cups (300 g)", "note": "soaked 1 hour, skins removed"},
+      {"name": "onion", "amount": "1 small"},
+      {"name": "scotch bonnet", "amount": "1", "note": "or to taste"},
+      {"name": "salt", "amount": "1 tsp"},
+      {"name": "vegetable oil", "amount": "3 cups (700 ml)", "note": "for frying"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Prepare the beans", "text": "Soak the peas in cold water for about 1 hour, then rub them between your palms in water until the skins float off. Pour off the skins and rinse until the beans are white and clean.", "minutes": 25},
+    {"title": "Blend the batter", "text": "Blend the peeled beans with the onion and pepper using as little water as you can, until a thick, fluffy paste forms. It should hold on a spoon and not run.", "minutes": 5},
+    {"title": "Beat the batter", "text": "Add the salt and beat vigorously with a wooden spoon for 3-4 minutes. The batter turns pale and airy, which makes the akara light.", "minutes": 4},
+    {"title": "Fry the akara", "text": "Heat the oil to about 180 C (350 F). Scoop spoonfuls of batter into the oil and fry for 3-4 minutes, turning, until deep golden and crisp. Drain on paper towels.", "minutes": 15},
+    {"title": "Mix the ogi", "text": "Stir the ogi with the cold water in a bowl until completely smooth with no lumps. Have the boiling water ready.", "minutes": 3},
+    {"title": "Cook the pap", "text": "Pour the boiling water onto the ogi in a thin stream while stirring fast. It will thicken and turn translucent and glossy. If it stays pale and thin, return it to low heat and stir for 2-3 minutes.", "minutes": 5},
+    {"title": "Serve hot", "text": "Spoon into bowls, sweeten and add milk if you like, and serve alongside the hot akara.", "minutes": 2}
+  ],
+  "tips": [
+    "Add boiling water gradually and stir continuously or lumps form.",
+    "Beans must be dry-ish and well beaten for fluffy akara; too much water makes it flat and oily.",
+    "Wet your spoon for scooping batter so it releases cleanly.",
+    "Pap thickens as it cools, so loosen with hot water if needed."
+  ],
+  "swaps": [
+    {"ingredient": "Ogi", "swap": "Fine cornmeal or custard-style corn starch gives a similar texture, but lacks the tangy fermented taste."},
+    {"ingredient": "Black-eyed peas", "swap": "Peeled brown beans are common in Nigeria; dried skinless black-eyed peas from African shops save the peeling step."}
+  ],
+  "servesWith": ["akara", "moi-moi"],
+  "nutrition": {"calories": 380, "proteinG": 12, "carbsG": 48, "fatG": 16}
+}

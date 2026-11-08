@@ -1,0 +1,56 @@
+{
+  "slug": "red-red",
+  "name": "Red Red",
+  "localName": "Red Red",
+  "country": "Ghana",
+  "region": "West Africa",
+  "course": "main",
+  "tags": ["vegan", "comfort", "weeknight", "beans", "one-pot"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "Black-eyed peas stewed in a palm oil and tomato sauce, served with sweet fried plantain.",
+  "story": "Red red is a Ghanaian bean stew named for the red colour of the palm oil and the ripe fried plantain. It is a staple everyday dish, filling and inexpensive, and is often served with gari.",
+  "prepMinutes": 15,
+  "cookMinutes": 50,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"group": "For the beans", "items": [
+      {"name": "black-eyed peas", "amount": "2 cups (400 g)", "note": "soaked overnight, drained"},
+      {"name": "red palm oil", "amount": "1/3 cup (80 ml)"},
+      {"name": "onions", "amount": "2 medium", "note": "chopped"},
+      {"name": "fresh tomatoes", "amount": "3 large (400 g)", "note": "blended"},
+      {"name": "tomato paste", "amount": "2 tbsp"},
+      {"name": "fresh ginger", "amount": "1 inch (25 g)", "note": "grated"},
+      {"name": "garlic", "amount": "3 cloves", "note": "crushed"},
+      {"name": "scotch bonnet", "amount": "1", "note": "chopped"},
+      {"name": "dried shrimp or crayfish", "amount": "2 tbsp", "note": "ground, optional"},
+      {"name": "salt", "amount": "to taste"}
+    ]},
+    {"group": "To serve", "items": [
+      {"name": "ripe plantains", "amount": "3", "note": "sliced and fried"},
+      {"name": "gari", "amount": "1 cup", "note": "optional"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the beans", "text": "Cover the soaked beans with plenty of fresh water and simmer for 40 minutes until just tender but not splitting. Drain, keeping a cup of the cooking water.", "minutes": 40},
+    {"title": "Heat the palm oil", "text": "Warm the palm oil in a heavy pot over medium heat for 2 minutes until it smells nutty and thins out. Do not let it smoke.", "minutes": 3},
+    {"title": "Soften the aromatics", "text": "Add onion, ginger and garlic and fry for 5 minutes until the onion is soft and golden.", "minutes": 5},
+    {"title": "Cook the tomato", "text": "Add tomato paste, blended tomatoes and scotch bonnet. Fry for 10-12 minutes until the sauce reduces, darkens and the oil rises to the top.", "minutes": 12},
+    {"title": "Combine", "text": "Add the beans, ground shrimp and a splash of the reserved water. Season with salt, cover and simmer for 10-15 minutes so the beans take on the sauce and the stew is thick.", "minutes": 15},
+    {"title": "Fry the plantain", "text": "Heat oil to medium-high and fry the plantain slices for 2-3 minutes per side until deep golden with caramelised edges. Drain on paper towels.", "minutes": 8},
+    {"title": "Serve", "text": "Spoon the beans onto plates and serve with the plantain and gari sprinkled over."}
+  ],
+  "tips": [
+    "Do not add salt to the beans while boiling or they stay hard.",
+    "Red palm oil gives the signature flavour, so do not replace it if you can help it.",
+    "Mash a few beans into the sauce for a thicker, creamier stew.",
+    "Use very ripe plantain for sweetness against the spicy sauce."
+  ],
+  "swaps": [
+    {"ingredient": "Red palm oil", "swap": "Use sustainably sourced unrefined palm oil if possible; otherwise vegetable oil plus a teaspoon of paprika for colour, though the flavour is milder."},
+    {"ingredient": "Dried shrimp", "swap": "Leave out for a fully vegan dish; add a pinch of smoked paprika for depth."}
+  ],
+  "servesWith": ["kelewele", "waakye"],
+  "nutrition": {"calories": 560, "proteinG": 18, "carbsG": 80, "fatG": 20}
+}

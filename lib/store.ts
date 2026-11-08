@@ -1,159 +1,102 @@
-// Zustand store for app state management
-import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
-import type { RecipeCard, MealPlan, UserPreferences } from '@/types/recipe';
+'use client'
 
-interface RecipeStore {
-  // User preferences
-  favorites: RecipeCard[];
-  routine: RecipeCard[];
-  dietPreference: 'vegan' | 'vegetarian' | 'all';
-  theme: 'light' | 'dark' | 'system';
+import { create } from 'zustand'
+import { persist } from 'zustand/middleware'
+import type { IngredientGroup, MealPlan, MealSlot } from './types'
 
-  // Search/browse state
-  searchResults: RecipeCard[];
-  isSearching: boolean;
-  selectedCategory: string | null;
-  selectedCuisine: string | null;
-
-  // Meal plans
-  mealPlans: MealPlan[];
-  activeMealPlanId: string | null;
-
-  // Recent recipes
-  recentlyViewed: RecipeCard[];
-
-  // Actions - Favorites
-  addFavorite: (recipe: RecipeCard) => void;
-  removeFavorite: (recipeId: string) => void;
-  isFavorite: (recipeId: string) => boolean;
-
-  // Actions - Routine
-  addToRoutine: (recipe: RecipeCard) => void;
-  removeFromRoutine: (recipeId: string) => void;
-  isInRoutine: (recipeId: string) => boolean;
-
-  // Actions - Search
-  setSearchResults: (results: RecipeCard[]) => void;
-  setIsSearching: (searching: boolean) => void;
-  setSelectedCategory: (category: string | null) => void;
-  setSelectedCuisine: (cuisine: string | null) => void;
-  clearSearch: () => void;
-
-  // Actions - Meal Plans
-  addMealPlan: (plan: MealPlan) => void;
-  removeMealPlan: (planId: string) => void;
-  setActiveMealPlan: (planId: string) => void;
-  updateMealPlan: (plan: MealPlan) => void;
-
-  // Actions - Recently Viewed
-  addRecentlyViewed: (recipe: RecipeCard) => void;
-  clearRecentlyViewed: () => void;
-
-  // Actions - Preferences
-  setDietPreference: (diet: 'vegan' | 'vegetarian' | 'all') => void;
-  setTheme: (theme: 'light' | 'dark' | 'system') => void;
+export interface ListSource {
+  slug: string
+  name: string
+  baseServings: number
+  servings: number
+  ingredients: IngredientGroup[]
 }
 
-export const useRecipeStore = create<RecipeStore>()(
+export interface CustomItem {
+  id: string
+  name: string
+  amount: string
+}
+
+interface FreshPlateState {
+  favourites: string[]
+  recent: string[]
+  plans: MealPlan[]
+  activePlanId: string | null
+  listSources: ListSource[]
+  customItems: CustomItem[]
+  /** Ingredient key -> ticked. Keys come from the shopping list builder. */
+  ticked: Record<string, boolean>
+
+  toggleFavourite: (slug: string) => void
+  pushRecent: (slug: string) => void
+
+  savePlan: (plan: MealPlan) => void
+  removePlan: (id: string) => void
+  setActivePlan: (id: string) => void
+  setMeal: (planId: string, dayIndex: number, slot: MealSlot, slug: string | null) => void
+
+  addToList: (source: ListSource) => void
+  removeFromList: (slug: string) => void
+  addCustomItem: (name: string, amount: string) => void
+  removeCustomItem: (id: string) => void
+  toggleTick: (key: string) => void
+  clearTicked: () => void
+  clearList: () => void
+}
+
+const uid = () => (globalThis.crypto?.randomUUID?.() ?? `id-${Date.now()}-${Math.random().toString(36).slice(2)}`)
+
+export const useFreshPlate = create<FreshPlateState>()(
   persist(
-    (set, get) => ({
-      // Initial state
-      favorites: [],
-      routine: [],
-      dietPreference: 'all',
-      theme: 'system',
-      searchResults: [],
-      isSearching: false,
-      selectedCategory: null,
-      selectedCuisine: null,
-      mealPlans: [],
-      activeMealPlanId: null,
-      recentlyViewed: [],
+    (set) => ({
+      favourites: [],
+      recent: [],
+      plans: [],
+      activePlanId: null,
+      listSources: [],
+      customItems: [],
+      ticked: {},
 
-      // Favorites
-      addFavorite: (recipe) =>
-        set((state) => {
-          if (state.favorites.some((f) => f.id === recipe.id)) {
-            return state;
-          }
-          return { favorites: [...state.favorites, recipe] };
+      toggleFavourite: (slug) =>
+        set((s) => ({
+          favourites: s.favourites.includes(slug) ? s.favourites.filter((x) => x !== slug) : [slug, ...s.favourites],
+        })),
+      pushRecent: (slug) => set((s) => ({ recent: [slug, ...s.recent.filter((x) => x !== slug)].slice(0, 12) })),
+
+      savePlan: (plan) =>
+        set((s) => ({
+          plans: [plan, ...s.plans.filter((p) => p.id !== plan.id)],
+          activePlanId: plan.id,
+        })),
+      removePlan: (id) =>
+        set((s) => {
+          const plans = s.plans.filter((p) => p.id !== id)
+          return { plans, activePlanId: s.activePlanId === id ? (plans[0]?.id ?? null) : s.activePlanId }
         }),
-
-      removeFavorite: (recipeId) =>
-        set((state) => ({
-          favorites: state.favorites.filter((f) => f.id !== recipeId),
+      setActivePlan: (id) => set({ activePlanId: id }),
+      setMeal: (planId, dayIndex, slot, slug) =>
+        set((s) => ({
+          plans: s.plans.map((p) =>
+            p.id !== planId
+              ? p
+              : { ...p, days: p.days.map((d, i) => (i === dayIndex ? { ...d, [slot]: slug } : d)) },
+          ),
         })),
 
-      isFavorite: (recipeId) => get().favorites.some((f) => f.id === recipeId),
-
-      // Routine
-      addToRoutine: (recipe) =>
-        set((state) => {
-          if (state.routine.some((r) => r.id === recipe.id)) {
-            return state;
-          }
-          return { routine: [...state.routine, recipe] };
-        }),
-
-      removeFromRoutine: (recipeId) =>
-        set((state) => ({
-          routine: state.routine.filter((r) => r.id !== recipeId),
-        })),
-
-      isInRoutine: (recipeId) => get().routine.some((r) => r.id === recipeId),
-
-      // Search
-      setSearchResults: (results) => set({ searchResults: results }),
-      setIsSearching: (searching) => set({ isSearching: searching }),
-      setSelectedCategory: (category) => set({ selectedCategory: category }),
-      setSelectedCuisine: (cuisine) => set({ selectedCuisine: cuisine }),
-      clearSearch: () =>
-        set({
-          searchResults: [],
-          isSearching: false,
-          selectedCategory: null,
-          selectedCuisine: null,
-        }),
-
-      // Meal Plans
-      addMealPlan: (plan) =>
-        set((state) => ({
-          mealPlans: [...state.mealPlans, plan],
-        })),
-
-      removeMealPlan: (planId) =>
-        set((state) => ({
-          mealPlans: state.mealPlans.filter((p) => p.id !== planId),
-          activeMealPlanId:
-            state.activeMealPlanId === planId ? null : state.activeMealPlanId,
-        })),
-
-      setActiveMealPlan: (planId) => set({ activeMealPlanId: planId }),
-
-      updateMealPlan: (plan) =>
-        set((state) => ({
-          mealPlans: state.mealPlans.map((p) => (p.id === plan.id ? plan : p)),
-        })),
-
-      // Recently Viewed
-      addRecentlyViewed: (recipe) =>
-        set((state) => {
-          const filtered = state.recentlyViewed.filter((r) => r.id !== recipe.id);
-          return {
-            recentlyViewed: [recipe, ...filtered].slice(0, 10), // Keep last 10
-          };
-        }),
-
-      clearRecentlyViewed: () => set({ recentlyViewed: [] }),
-
-      // Preferences
-      setDietPreference: (diet) => set({ dietPreference: diet }),
-      setTheme: (theme) => set({ theme }),
+      addToList: (source) =>
+        set((s) => ({ listSources: [source, ...s.listSources.filter((x) => x.slug !== source.slug)] })),
+      removeFromList: (slug) => set((s) => ({ listSources: s.listSources.filter((x) => x.slug !== slug) })),
+      addCustomItem: (name, amount) => set((s) => ({ customItems: [...s.customItems, { id: uid(), name, amount }] })),
+      removeCustomItem: (id) => set((s) => ({ customItems: s.customItems.filter((x) => x.id !== id) })),
+      toggleTick: (key) => set((s) => ({ ticked: { ...s.ticked, [key]: !s.ticked[key] } })),
+      clearTicked: () => set({ ticked: {} }),
+      clearList: () => set({ listSources: [], customItems: [], ticked: {} }),
     }),
-    {
-      name: 'freshplate-store',
-      version: 1,
-    }
-  )
-);
+    { name: 'freshplate:v2', version: 2 },
+  ),
+)
+
+export function newPlanId(): string {
+  return uid()
+}

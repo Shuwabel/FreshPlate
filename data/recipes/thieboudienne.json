@@ -1,0 +1,65 @@
+{
+  "slug": "thieboudienne",
+  "name": "Thieboudienne",
+  "localName": "Ceebu jën",
+  "country": "Senegal",
+  "region": "West Africa",
+  "course": "main",
+  "tags": ["fish", "one-pot", "festive", "national dish", "family"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "Senegal's national dish of herb-stuffed fish and vegetables simmered in tomato broth, with the rice cooked in the same pot.",
+  "story": "Thieboudienne, or ceebu jën in Wolof, is widely regarded as Senegal's national dish and is made for family lunches and special occasions. It is traditionally served on a large communal platter, with the crispy rice at the bottom, called xoñ, prized by many.",
+  "prepMinutes": 45,
+  "cookMinutes": 75,
+  "servings": 6,
+  "difficulty": "Hard",
+  "ingredients": [
+    {"group": "For the fish and stuffing (rof)", "items": [
+      {"name": "firm white fish steaks", "amount": "2 lb (900 g)", "note": "grouper, snapper or sea bass, cut thick"},
+      {"name": "parsley", "amount": "1 large bunch (60 g)"},
+      {"name": "garlic", "amount": "6 cloves"},
+      {"name": "scotch bonnet", "amount": "1", "note": "plus extra whole"},
+      {"name": "onion", "amount": "1 small"},
+      {"name": "salt and black pepper", "amount": "to taste"},
+      {"name": "stock cube", "amount": "1"}
+    ]},
+    {"group": "For the sauce", "items": [
+      {"name": "vegetable oil", "amount": "1/2 cup (120 ml)"},
+      {"name": "onions", "amount": "2 large", "note": "sliced"},
+      {"name": "tomato paste", "amount": "1/2 cup (130 g)"},
+      {"name": "tomatoes", "amount": "3", "note": "blended"},
+      {"name": "dried fish (yeet) or tamarind", "amount": "1 piece", "note": "optional but traditional"},
+      {"name": "water", "amount": "6 cups (1.4 litres)"}
+    ]},
+    {"group": "Vegetables and rice", "items": [
+      {"name": "cassava", "amount": "1 lb (450 g)", "note": "peeled, chunked"},
+      {"name": "carrots", "amount": "3", "note": "halved"},
+      {"name": "cabbage", "amount": "1/4 head", "note": "cut into wedges"},
+      {"name": "aubergine", "amount": "1 small", "note": "quartered"},
+      {"name": "broken or long-grain rice", "amount": "3 cups (600 g)", "note": "rinsed"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Make the stuffing", "text": "Pound or blend the parsley, garlic, scotch bonnet, onion, stock cube, salt and pepper into a coarse green paste. Cut deep slits in the fish and press the paste in, saving a spoonful.", "minutes": 15},
+    {"title": "Fry the fish", "text": "Heat the oil in a wide pot and fry the stuffed fish for 3-4 minutes per side until golden. Lift out gently and set aside; the fish is not fully cooked yet.", "minutes": 10},
+    {"title": "Build the sauce", "text": "In the same oil, fry the onions for 5 minutes. Add tomato paste and cook for 10 minutes, stirring, until it darkens and the oil separates. Add blended tomatoes and the spare paste and cook 5 more minutes.", "minutes": 20},
+    {"title": "Add water and vegetables", "text": "Pour in the water, add the dried fish and bring to a boil. Add cassava and carrots first and simmer for 15 minutes, then add cabbage, aubergine and a whole scotch bonnet for another 10-15 minutes until all are tender.", "minutes": 30},
+    {"title": "Cook the fish", "text": "Return the fish to the broth and simmer 8-10 minutes until the flesh flakes. Lift fish and vegetables onto a dish and keep warm.", "minutes": 10},
+    {"title": "Cook the rice", "text": "Measure out the broth: use about 5 cups, topped up with water if short. Stir the rinsed rice into it, bring to a boil, cover and cook on lowest heat for 20-25 minutes until the grains are tender and have absorbed the red broth.", "minutes": 25},
+    {"title": "Crisp the bottom", "text": "Keep the heat low for the last 5 minutes so a golden, crunchy layer, the xoñ, forms on the base. The rice is ready when it smells toasty and releases from the pot.", "minutes": 5},
+    {"title": "Serve on a platter", "text": "Mound the rice on a big platter, arrange fish and vegetables on top and serve with lime and any pepper sauce left."}
+  ],
+  "tips": [
+    "Pat the fish very dry before frying to prevent splattering.",
+    "Do not stir the rice once covered; steam does the work.",
+    "Season the broth strongly because the rice absorbs it.",
+    "Save the crispy bottom rice for guests; it is a prized part."
+  ],
+  "swaps": [
+    {"ingredient": "Dried fish (yeet)", "swap": "Use a teaspoon of fish sauce or tamarind paste for a salty-sour depth."},
+    {"ingredient": "Cassava", "swap": "Sweet potato or yam are good substitutes, but add them later as they cook faster."}
+  ],
+  "servesWith": [],
+  "nutrition": {"calories": 640, "proteinG": 38, "carbsG": 80, "fatG": 18}
+}

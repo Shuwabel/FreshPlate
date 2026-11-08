@@ -1,0 +1,57 @@
+{
+  "slug": "amala-ewedu-gbegiri",
+  "name": "Amala with Ewedu and Gbegiri",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "main",
+  "tags": ["swallow", "festive", "comfort", "yoruba", "stew"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "Dark yam flour dough served with slippery jute leaf soup, velvety bean soup and a spicy stew.",
+  "story": "Amala is a Yoruba staple made from yam flour (elubo), and is often eaten with ewedu, gbegiri and a spicy stew, a combination known as abula. It is a favourite in homes and amala restaurants across south-western Nigeria. Many people enjoy it for lunch or at gatherings.",
+  "prepMinutes": 30,
+  "cookMinutes": 70,
+  "servings": 4,
+  "difficulty": "Hard",
+  "ingredients": [
+    {"group": "Gbegiri", "items": [
+      {"name": "Brown beans", "amount": "1 cup (200 g)", "note": "peeled, rinsed"},
+      {"name": "Palm oil", "amount": "3 tbsp"},
+      {"name": "Ground crayfish", "amount": "1 tbsp"},
+      {"name": "Onion", "amount": "1/2", "note": "chopped"}
+    ]},
+    {"group": "Ewedu", "items": [
+      {"name": "Fresh ewedu (jute) leaves", "amount": "300 g", "note": "picked and washed"},
+      {"name": "Iru (locust beans)", "amount": "1 tbsp"},
+      {"name": "Potash (kaun) or baking soda", "amount": "a pinch"},
+      {"name": "Salt", "amount": "to taste"}
+    ]},
+    {"group": "Amala and stew", "items": [
+      {"name": "Yam flour (elubo)", "amount": "2 cups (about 280 g)"},
+      {"name": "Water", "amount": "3 cups (720 ml)"},
+      {"name": "Nigerian stew (see recipe)", "amount": "2 cups (480 ml)"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the beans", "text": "Boil the peeled beans in plenty of water for 40 to 50 minutes until they collapse when pressed. Add more water if it runs low.", "minutes": 45},
+    {"title": "Blend gbegiri", "text": "Blend the beans until completely smooth, return to the pot, and simmer with palm oil, crayfish, onion and salt for 10 minutes, stirring, until velvety.", "minutes": 12},
+    {"title": "Cook ewedu", "text": "Boil 2 cups water with a pinch of potash, add the leaves and cook for 8 to 10 minutes until very soft and dark green.", "minutes": 10},
+    {"title": "Mash ewedu", "text": "Use a wooden ewedu whisk or blender to mash the leaves into a smooth, slippery soup. Add iru and salt and simmer for 3 minutes.", "minutes": 6},
+    {"title": "Warm the stew", "text": "Reheat the stew gently until bubbling and the oil rises on top. Taste and adjust salt.", "minutes": 8},
+    {"title": "Make the amala", "text": "Bring 2 cups of water to a boil. Sprinkle in flour while stirring quickly to prevent lumps, then lower the heat and cover for 3 minutes.", "minutes": 6},
+    {"title": "Beat the dough", "text": "Turn with a wooden spoon, adding the rest of the water in splashes, and beat firmly for 5 to 7 minutes until smooth, dark and elastic.", "minutes": 7},
+    {"title": "Serve", "text": "Shape into balls and serve with ewedu, gbegiri and stew in separate bowls so each can be spooned over.", "minutes": 3}
+  ],
+  "tips": [
+    "Pour the flour in gradually and stir fast; this prevents lumps.",
+    "Peeled beans make gbegiri smoother and lighter in colour.",
+    "A small pinch of potash helps the ewedu break down but too much tastes soapy."
+  ],
+  "swaps": [
+    {"ingredient": "Ewedu leaves", "swap": "Frozen jute (molokhia) from Middle Eastern or African shops is a good match."},
+    {"ingredient": "Potash", "swap": "A pinch of baking soda."},
+    {"ingredient": "Yam flour", "swap": "Cassava flour or plantain flour can make amala, with different colour and taste."}
+  ],
+  "servesWith": ["nigerian-stew"],
+  "nutrition": {"calories": 620, "proteinG": 22, "carbsG": 96, "fatG": 18}
+}

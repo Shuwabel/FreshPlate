@@ -1,0 +1,57 @@
+{
+  "slug": "doro-wat",
+  "name": "Doro Wat",
+  "localName": "ዶሮ ወጥ",
+  "country": "Ethiopia",
+  "region": "East Africa",
+  "course": "main",
+  "tags": ["festive", "spicy", "stew", "slow-cooked", "holiday"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 3,
+  "summary": "Chicken slow-simmered in a deep red sauce of caramelised onion, spiced butter and berbere, with hard-boiled eggs.",
+  "story": "Doro wat is widely regarded as Ethiopia's celebratory dish, served on holidays such as Easter, Christmas and Enkutatash, and at weddings. The sauce begins with a large quantity of onion cooked slowly without oil, which gives it its body. It is eaten with injera, shared from a common platter.",
+  "prepMinutes": 40,
+  "cookMinutes": 90,
+  "servings": 6,
+  "difficulty": "Hard",
+  "ingredients": [
+    {"items": [
+      {"name": "Chicken legs and thighs", "amount": "1.5 kg (8 pieces)", "note": "skinned"},
+      {"name": "Lemon juice", "amount": "3 tbsp"},
+      {"name": "Red onions", "amount": "1 kg (about 6 medium)", "note": "very finely chopped"},
+      {"name": "Niter kibbeh (spiced clarified butter)", "amount": "100 g (about 1/2 cup)"},
+      {"name": "Berbere spice blend", "amount": "4 to 5 tbsp"},
+      {"name": "Garlic", "amount": "5 cloves", "note": "minced"},
+      {"name": "Fresh ginger", "amount": "1 tbsp", "note": "grated"},
+      {"name": "Tomato paste", "amount": "1 tbsp"},
+      {"name": "Dry white wine or tej (optional)", "amount": "60 ml"},
+      {"name": "Water", "amount": "about 400 ml"},
+      {"name": "Salt", "amount": "1 1/2 tsp, to taste"},
+      {"name": "Eggs", "amount": "6", "note": "hard-boiled and peeled"},
+      {"name": "Ground cardamom", "amount": "1/4 tsp"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Marinate the chicken", "text": "Make shallow cuts in the chicken pieces and rub with the lemon juice and a pinch of salt. Leave for 20 minutes, then rinse and pat dry; this freshens the flavour and tenderises the surface.", "minutes": 20},
+    {"title": "Dry-cook the onions", "text": "Put the chopped onions in a large heavy pot over medium heat with no fat. Stir often for 20 to 25 minutes, adding a splash of water if they catch, until they collapse into a soft, pale, jammy mass.", "minutes": 25},
+    {"title": "Add the butter", "text": "Stir in the niter kibbeh and cook 10 minutes, until the onions turn golden and the butter separates and shimmers at the edges. Add the garlic and ginger for 2 minutes until fragrant.", "minutes": 12},
+    {"title": "Cook the berbere", "text": "Add the tomato paste and berbere with a splash of water and cook on low for 10 minutes, stirring so it does not scorch. The sauce is ready when it is thick, dark red and the oil rises to the top.", "minutes": 10},
+    {"title": "Add the chicken", "text": "Pour in the wine, if using, and let it bubble for 1 minute. Add the chicken and turn each piece to coat in the sauce, then add 300 ml water and the salt."},
+    {"title": "Simmer gently", "text": "Cover and simmer on low for 45 to 50 minutes, turning the chicken twice and adding water as needed to keep a thick, spoonable sauce. It is done when the meat is tender and nearly falling from the bone.", "minutes": 50},
+    {"title": "Add the eggs", "text": "Prick each boiled egg a few times with a fork so the sauce can enter. Slide them into the pot with the cardamom and simmer 10 minutes, until the eggs are tinted red.", "minutes": 10},
+    {"title": "Rest and serve", "text": "Taste for salt, then rest off the heat for 10 minutes; the flavour deepens as it sits. Serve hot on injera, one egg and a piece of chicken per person."}
+  ],
+  "tips": [
+    "Do not rush the onions; they are the base of the dish and need the full dry-cooking time.",
+    "Stir the berbere often as it cooks. Scorched berbere turns bitter and cannot be rescued.",
+    "The sauce thickens and tastes better the next day, so it is a good make-ahead dish.",
+    "Berbere brands vary a lot in heat; start with 4 tablespoons and add more at the end."
+  ],
+  "swaps": [
+    {"ingredient": "Niter kibbeh", "swap": "Melt ghee with a pinch each of cardamom, fenugreek, turmeric and a slice of ginger and strain; plain ghee works but is less aromatic."},
+    {"ingredient": "Berbere", "swap": "Mix sweet paprika, cayenne, ground ginger, garlic powder, fenugreek, cardamom and cloves; it will taste similar though less complex."},
+    {"ingredient": "Tej", "swap": "Dry white wine, or a little honey stirred into water if avoiding alcohol."}
+  ],
+  "servesWith": ["injera"],
+  "nutrition": {"calories": 520, "proteinG": 38, "carbsG": 14, "fatG": 34}
+}

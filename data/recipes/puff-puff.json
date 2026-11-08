@@ -1,0 +1,129 @@
+{
+  "slug": "puff-puff",
+  "course": "snack",
+  "tags": [
+    "street food",
+    "party",
+    "fried",
+    "sweet",
+    "vegan"
+  ],
+  "diet": {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": false,
+    "containsNuts": false
+  },
+  "spice": 0,
+  "summary": "Golden, airy yeast-risen dough balls fried until crisp outside and cloud-soft within, lightly sweet and dusted with sugar if you like.",
+  "story": "Puff puff is one of Nigeria's most common fried snacks, sold at roadsides and served at weddings, birthdays and other celebrations. It is simple street food that nearly everyone has a family way of making, with some cooks adding nutmeg, pepper or a little more sugar.",
+  "prepMinutes": 75,
+  "cookMinutes": 25,
+  "servings": 6,
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        {
+          "name": "All-purpose flour",
+          "amount": "3 cups (375 g)"
+        },
+        {
+          "name": "Granulated sugar",
+          "amount": "1/3 cup (65 g)",
+          "note": "plus more for dusting, optional"
+        },
+        {
+          "name": "Instant yeast",
+          "amount": "2 1/4 tsp (7 g)"
+        },
+        {
+          "name": "Fine salt",
+          "amount": "1/2 tsp"
+        },
+        {
+          "name": "Freshly grated nutmeg",
+          "amount": "1/2 tsp",
+          "note": "optional but traditional"
+        },
+        {
+          "name": "Warm water",
+          "amount": "about 1 1/2 cups (360 ml)",
+          "note": "around 38°C, comfortably warm to the touch"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "about 4 cups (1 litre)",
+          "note": "for deep frying"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mix the batter",
+      "text": "Whisk the flour, sugar, yeast, salt and nutmeg in a large bowl. Pour in most of the warm water and beat with your hand or a wooden spoon for 2 to 3 minutes. The batter should be thick, stretchy and fall off the spoon in a slow ribbon, thicker than pancake batter. Add the remaining water only if it feels stiff.",
+      "minutes": 5
+    },
+    {
+      "title": "Let it rise",
+      "text": "Cover the bowl with a clean cloth and leave it somewhere warm for 45 to 60 minutes. It is ready when it has doubled, the surface is bubbly and it smells pleasantly yeasty.",
+      "minutes": 60
+    },
+    {
+      "title": "Stir down briefly",
+      "text": "Give the batter one or two gentle stirs to knock out the biggest bubbles but keep it airy. Do not beat it again or the puffs will turn dense.",
+      "minutes": 1
+    },
+    {
+      "title": "Heat the oil",
+      "text": "Pour the oil into a deep pot to a depth of about 6 cm and heat to 170 to 175°C. Test with a small drop of batter: it should sink briefly, then rise and sizzle steadily within a few seconds.",
+      "minutes": 8
+    },
+    {
+      "title": "Shape and fry",
+      "text": "Scoop batter in your fist and squeeze it out between thumb and forefinger, or use two oiled spoons, to drop walnut-sized balls into the oil. Fry 5 to 6 at a time so the temperature stays steady. They will puff and roll over on their own.",
+      "minutes": 10
+    },
+    {
+      "title": "Turn until golden",
+      "text": "Keep turning the puffs every minute or so for 4 to 6 minutes in total. They are done when deep golden brown all over and sound hollow when tapped. Break one open to check there is no raw dough inside.",
+      "minutes": 6
+    },
+    {
+      "title": "Drain and serve",
+      "text": "Lift out with a slotted spoon and drain on paper towels or a wire rack. Roll in sugar while still warm if you wish, and eat the same day, preferably within the hour.",
+      "minutes": 2
+    }
+  ],
+  "tips": [
+    "Oil that is too hot browns the outside before the centre cooks; too cool and the puffs soak up oil and go greasy. Adjust the heat between batches.",
+    "Do not over-ferment the batter. If it smells sharply sour, the puffs will taste sour.",
+    "A slightly wet, sticky batter gives the lightest puffs. A stiff dough makes dense ones.",
+    "Use a thermometer if you have one; otherwise rely on the drop test."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Instant yeast",
+      "swap": "Use 1 tbsp active dry yeast dissolved in the warm water with a pinch of sugar for 10 minutes first. Rise time is similar."
+    },
+    {
+      "ingredient": "Nutmeg",
+      "swap": "Ground cinnamon or a pinch of ground ginger gives a different but pleasant warmth."
+    }
+  ],
+  "servesWith": [
+    "akara",
+    "chin-chin"
+  ],
+  "nutrition": {
+    "calories": 310,
+    "proteinG": 5,
+    "carbsG": 48,
+    "fatG": 11
+  },
+  "name": "Puff Puff",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

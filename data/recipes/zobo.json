@@ -1,0 +1,49 @@
+{
+  "slug": "zobo",
+  "name": "Zobo (Hibiscus Drink)",
+  "localName": "Zobo",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "drink",
+  "tags": ["drink", "vegan", "party", "refreshing", "make-ahead"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 1,
+  "summary": "A ruby-red chilled drink of dried hibiscus petals simmered with ginger, cloves and pineapple, sweet-tart and refreshing.",
+  "story": "Zobo is made from dried roselle (hibiscus) calyces and is a popular cold drink across Nigeria, especially in the north. It is served at parties, weddings and naming ceremonies, and sold in bottles on roadsides.",
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "servings": 6,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"items": [
+      {"name": "dried hibiscus (zobo) leaves", "amount": "2 cups (about 60 g)", "note": "rinsed well"},
+      {"name": "fresh ginger", "amount": "3 tbsp (30 g)", "note": "peeled and sliced"},
+      {"name": "whole cloves", "amount": "6"},
+      {"name": "pineapple peel or chunks", "amount": "1 cup (150 g)"},
+      {"name": "water", "amount": "8 cups (2 litres)"},
+      {"name": "sugar or honey", "amount": "1/2 to 3/4 cup (100-150 g)", "note": "to taste"},
+      {"name": "fresh mint leaves", "amount": "a small handful", "note": "optional"},
+      {"name": "orange or lime slices", "amount": "to serve"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Rinse the petals", "text": "Wash the dried hibiscus in a bowl of cold water two or three times, rubbing gently, until any dust and grit settles and the water runs clear-ish red.", "minutes": 5},
+    {"title": "Add the spices", "text": "Put the petals in a large pot with the ginger, cloves and pineapple. Pour in the water and bring to a boil over high heat.", "minutes": 8},
+    {"title": "Simmer", "text": "Reduce to medium-low and simmer for 20 minutes. The liquid should turn deep ruby and smell tangy and spicy. Longer boiling makes it bitter.", "minutes": 20},
+    {"title": "Steep", "text": "Turn off the heat, cover and leave to steep for at least 30 minutes. This deepens colour and flavour.", "minutes": 30},
+    {"title": "Strain and sweeten", "text": "Pour through a fine sieve into a jug, pressing the petals to extract all the liquid. While still warm, stir in sugar or honey until dissolved. Add a little at a time and taste, because the sourness is strong.", "minutes": 5},
+    {"title": "Chill and serve", "text": "Add mint if using and refrigerate for at least 2 hours. Serve over ice with citrus slices.", "minutes": 120}
+  ],
+  "tips": [
+    "Do not over-boil; 20 minutes is enough or the drink turns harsh.",
+    "Fresh ginger gives the signature kick; add more for a sharper drink.",
+    "Keeps for about 5 days in the fridge in a clean bottle.",
+    "Dilute with a little cold water if it is too tart rather than adding lots of sugar."
+  ],
+  "swaps": [
+    {"ingredient": "Dried zobo leaves", "swap": "Use dried hibiscus flowers sold as 'flor de Jamaica' in Latin shops or hibiscus tea; the flavour is the same."},
+    {"ingredient": "Pineapple", "swap": "Use a splash of pineapple juice or a few slices of apple; the drink will be slightly less fruity."}
+  ],
+  "servesWith": ["nigerian-meat-pie", "puff-puff", "suya"],
+  "nutrition": {"calories": 90, "proteinG": 0, "carbsG": 23, "fatG": 0}
+}

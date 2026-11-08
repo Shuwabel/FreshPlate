@@ -1,0 +1,54 @@
+{
+  "slug": "nigerian-egg-roll",
+  "name": "Nigerian Egg Roll",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "snack",
+  "tags": ["fried", "party", "snack", "street food", "make-ahead"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": false, "containsNuts": false},
+  "spice": 0,
+  "summary": "A whole boiled egg wrapped in soft, lightly sweet dough and deep-fried to a golden, crisp-edged roll.",
+  "story": "Egg roll is a fixture of Nigerian party tables and bakery counters, often sold next to meat pie and chin-chin. It is typically a boiled egg wrapped in a fried dough, eaten as a filling snack on the go or at celebrations.",
+  "prepMinutes": 45,
+  "cookMinutes": 30,
+  "servings": 8,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the dough", "items": [
+      {"name": "plain flour", "amount": "4 cups (500 g)", "note": "plus extra for dusting"},
+      {"name": "sugar", "amount": "3 tbsp"},
+      {"name": "salt", "amount": "1/2 tsp"},
+      {"name": "baking powder", "amount": "1 tsp"},
+      {"name": "butter or margarine", "amount": "1/4 cup (60 g)", "note": "cold, cubed"},
+      {"name": "ground nutmeg", "amount": "1/2 tsp"},
+      {"name": "egg", "amount": "1", "note": "beaten"},
+      {"name": "milk", "amount": "about 1/2 cup (120 ml)"}
+    ]},
+    {"group": "To assemble", "items": [
+      {"name": "eggs", "amount": "8 small", "note": "hard-boiled and peeled"},
+      {"name": "vegetable oil", "amount": "4 cups (1 litre)", "note": "for deep frying"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Boil the eggs", "text": "Lower the eggs into boiling water and cook for 10 minutes. Cool them in cold water, then peel carefully and pat dry. Small eggs wrap more neatly.", "minutes": 15},
+    {"title": "Rub in butter", "text": "Mix the flour, sugar, salt, baking powder and nutmeg. Rub in the butter with your fingertips until the mixture feels like fine breadcrumbs.", "minutes": 5},
+    {"title": "Mix the dough", "text": "Add the beaten egg and enough milk to make a firm, smooth dough that does not stick to your hands. Knead for 3-4 minutes until elastic, then cover and rest for 15 minutes.", "minutes": 20},
+    {"title": "Portion the dough", "text": "Divide the dough into 8 equal balls. Roll each into a circle or oval about 3 mm thick and large enough to cover an egg fully.", "minutes": 10},
+    {"title": "Wrap the eggs", "text": "Place an egg in the centre, bring the dough up around it and pinch the seams firmly closed. Roll gently between your palms to smooth. Any gap will burst open in the oil.", "minutes": 10},
+    {"title": "Heat the oil", "text": "Heat the oil to about 170 C (340 F). A small piece of dough dropped in should sizzle and rise steadily within a few seconds, not brown instantly.", "minutes": 8},
+    {"title": "Fry gently", "text": "Fry 2-3 rolls at a time, turning often, for 8-10 minutes until deep golden all over. Medium heat matters because the dough must cook through before it darkens.", "minutes": 20},
+    {"title": "Drain and cool", "text": "Lift out with a slotted spoon and drain on paper towels. Serve warm or cold, cut in half to show the egg."}
+  ],
+  "tips": [
+    "Peel the eggs while still slightly warm for a smooth surface, and dry them well so the dough sticks.",
+    "If the oil is too hot the outside burns while the dough stays raw inside.",
+    "Do not overcrowd the pot; the oil temperature drops and the rolls turn greasy.",
+    "Cooled egg rolls keep for a day at room temperature, good for packed lunches."
+  ],
+  "swaps": [
+    {"ingredient": "Margarine", "swap": "Butter or white vegetable shortening both work; butter tastes richer, shortening gives a softer bite."},
+    {"ingredient": "Deep frying", "swap": "Bake at 190 C (375 F) for 25-30 minutes after brushing with egg wash; the result is drier and less crisp but lighter."}
+  ],
+  "servesWith": ["nigerian-meat-pie", "chin-chin", "zobo"],
+  "nutrition": {"calories": 430, "proteinG": 13, "carbsG": 52, "fatG": 19}
+}

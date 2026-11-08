@@ -1,0 +1,46 @@
+{
+  "dodo": {
+    "file": "/dishes/dodo.jpg",
+    "alt": "Fried ripe plantain slices, golden brown, piled in a pan",
+    "title": "File:Dodo fried.jpg",
+    "author": "Setor33",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dodo_fried.jpg",
+    "width": 1280,
+    "height": 1707
+  },
+  "mandazi": {
+    "file": "/dishes/mandazi.jpg",
+    "alt": "A white plate of golden fried mandazi dough pieces beside a cup of tea",
+    "title": "File:Mandazis.jpg",
+    "author": "@sadq70",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mandazis.jpg",
+    "width": 1200,
+    "height": 1600
+  },
+  "samosa-sambusa": {
+    "file": "/dishes/samosa-sambusa.jpg",
+    "alt": "A plate of five golden fried triangular samosas",
+    "title": "File:Samosa fried.JPG",
+    "author": "Miansari66",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samosa_fried.JPG",
+    "width": 1280,
+    "height": 960
+  },
+  "nigerian-stew": {
+    "file": "/dishes/nigerian-stew.jpg",
+    "alt": "A glass bowl of dark red Nigerian pepper stew served beside boiled yam or potato pieces",
+    "title": "File:Boiled Potatoes and stew ( Nigerian dish).jpg",
+    "author": "Beendy234",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boiled_Potatoes_and_stew_(_Nigerian_dish).jpg",
+    "width": 1280,
+    "height": 1707
+  }
+}

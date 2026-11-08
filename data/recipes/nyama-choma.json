@@ -1,0 +1,57 @@
+{
+  "slug": "nyama-choma",
+  "name": "Nyama Choma",
+  "localName": "Nyama choma",
+  "country": "Kenya",
+  "region": "East Africa",
+  "course": "main",
+  "tags": ["grilled", "party", "bbq", "festive", "weekend"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 1,
+  "summary": "Simply seasoned goat or beef slowly grilled over coals, served with kachumbari and ugali.",
+  "story": "Nyama choma means 'grilled meat' in Swahili and is a social meal in Kenya, enjoyed with friends at roadside spots and weekend gatherings. The meat is usually goat or beef, served on a board with salt, kachumbari and ugali.",
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the meat", "items": [
+      {"name": "goat ribs or beef short ribs", "amount": "3 lb (1.4 kg)", "note": "bone-in"},
+      {"name": "garlic", "amount": "4 cloves", "note": "crushed"},
+      {"name": "fresh ginger", "amount": "1 tbsp", "note": "grated"},
+      {"name": "lemon juice", "amount": "3 tbsp"},
+      {"name": "vegetable oil", "amount": "2 tbsp"},
+      {"name": "salt", "amount": "2 tsp"},
+      {"name": "black pepper", "amount": "1 tsp"}
+    ]},
+    {"group": "For the kachumbari", "items": [
+      {"name": "tomatoes", "amount": "3 firm", "note": "diced"},
+      {"name": "red onion", "amount": "1", "note": "finely sliced"},
+      {"name": "fresh chilli", "amount": "1", "note": "finely chopped"},
+      {"name": "coriander", "amount": "1/4 cup", "note": "chopped"},
+      {"name": "lime juice", "amount": "2 tbsp"},
+      {"name": "salt", "amount": "1/2 tsp"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Marinate the meat", "text": "Mix the garlic, ginger, lemon juice, oil, salt and pepper and rub it into the ribs. Leave for at least 1 hour, or overnight in the fridge for more flavour.", "minutes": 60},
+    {"title": "Make kachumbari", "text": "Soak the sliced onion in cold salted water for 5 minutes to mellow it, then drain. Toss with the tomatoes, chilli, coriander, lime and salt and chill until serving.", "minutes": 10},
+    {"title": "Prepare the fire", "text": "Light charcoal and let it burn until the coals are covered in grey ash, about 25 minutes. Spread them for medium, indirect heat. You should be able to hold your hand over the grill for 5 seconds.", "minutes": 25},
+    {"title": "Grill slowly", "text": "Place the ribs on the grill away from direct flames. Cover if you can and cook slowly for 40-50 minutes, turning every 10 minutes, until the meat is tender and pulling back from the bones.", "minutes": 50},
+    {"title": "Char to finish", "text": "Move the meat over the hot coals for 2-3 minutes per side until crisp and charred at the edges. The juices should run clear when pierced.", "minutes": 6},
+    {"title": "Rest and carve", "text": "Rest the meat for 5-10 minutes, then chop into bite-sized pieces on the bone with a heavy knife. Sprinkle with a little extra salt.", "minutes": 8},
+    {"title": "Serve", "text": "Serve on a board with the kachumbari, ugali and extra chilli sauce on the side."}
+  ],
+  "tips": [
+    "Slow, indirect heat is key; rushing over flames burns the outside and leaves the inside tough.",
+    "Goat is lean, so keep turning and do not overcook it.",
+    "Do not salt the kachumbari until just before serving or it turns watery.",
+    "Use a meat thermometer; goat is best around 85-90 C (185-195 F) for tenderness."
+  ],
+  "swaps": [
+    {"ingredient": "Goat", "swap": "Lamb ribs or beef short ribs; lamb is fattier and cooks a little faster."},
+    {"ingredient": "Charcoal grill", "swap": "Oven at 160 C (320 F) for 1.5-2 hours, then finish under a hot grill for the char."}
+  ],
+  "servesWith": ["ugali-sukuma-wiki"],
+  "nutrition": {"calories": 520, "proteinG": 45, "carbsG": 8, "fatG": 34}
+}

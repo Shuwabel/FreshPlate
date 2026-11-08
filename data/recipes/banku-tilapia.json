@@ -1,0 +1,63 @@
+{
+  "slug": "banku-tilapia",
+  "name": "Banku with Grilled Tilapia",
+  "localName": "Banku ne apɔmuden",
+  "country": "Ghana",
+  "region": "West Africa",
+  "course": "main",
+  "tags": ["fermented", "grilled", "spicy", "festive", "weekend"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 3,
+  "summary": "Tangy fermented corn and cassava dough served with spice-rubbed grilled tilapia and a fiery fresh pepper sauce.",
+  "story": "Banku is a smooth, slightly sour dough of fermented corn and cassava, popular in southern Ghana. Paired with grilled tilapia and a raw pepper sauce called shito or pepper, it is a favourite at restaurants and weekend gatherings.",
+  "prepMinutes": 40,
+  "cookMinutes": 45,
+  "servings": 4,
+  "difficulty": "Hard",
+  "ingredients": [
+    {"group": "For the banku", "items": [
+      {"name": "fermented corn dough", "amount": "2 cups (about 300 g)", "note": "fresh or from an African grocer"},
+      {"name": "cassava dough", "amount": "1 cup (150 g)", "note": "or cassava flour"},
+      {"name": "water", "amount": "3 cups (720 ml)"},
+      {"name": "salt", "amount": "1 tsp"}
+    ]},
+    {"group": "For the tilapia", "items": [
+      {"name": "whole tilapia", "amount": "2 medium (600 g each)", "note": "scaled, gutted, slashed"},
+      {"name": "onion", "amount": "1", "note": "blended"},
+      {"name": "fresh ginger", "amount": "1 inch (25 g)"},
+      {"name": "garlic", "amount": "4 cloves"},
+      {"name": "lime juice", "amount": "2 tbsp"},
+      {"name": "salt", "amount": "1.5 tsp"},
+      {"name": "vegetable oil", "amount": "3 tbsp"}
+    ]},
+    {"group": "For the pepper sauce", "items": [
+      {"name": "ripe tomatoes", "amount": "3", "note": "diced"},
+      {"name": "red onion", "amount": "1", "note": "diced"},
+      {"name": "scotch bonnet", "amount": "2", "note": "or to taste"},
+      {"name": "fresh ginger", "amount": "1/2 inch (12 g)"},
+      {"name": "salt", "amount": "1/2 tsp"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Marinate the fish", "text": "Blend the onion, ginger, garlic, lime juice and salt to a paste. Rub it inside the fish and into the slashes and marinate for 30 minutes.", "minutes": 30},
+    {"title": "Grind the pepper sauce", "text": "Pound or blend the tomatoes, onion, scotch bonnet, ginger and salt coarsely, so it is chunky and not smooth. Set aside.", "minutes": 8},
+    {"title": "Grill the fish", "text": "Brush fish with oil and grill over medium coals or under a hot grill for 8-10 minutes per side, until the skin is crisp and charred in places and the flesh flakes at the thickest part.", "minutes": 20},
+    {"title": "Mix the banku dough", "text": "Whisk the corn dough, cassava dough, salt and water in a pot until completely smooth with no lumps. The mixture will look like a thin batter.", "minutes": 5},
+    {"title": "Cook the batter", "text": "Cook over medium heat, stirring continually with a wooden spoon, for 10 minutes until the batter thickens into a heavy, sticky mass.", "minutes": 10},
+    {"title": "Steam and stir", "text": "Reduce heat, add a splash of water, cover and steam for 5 minutes. Stir and press vigorously against the pot side for 5 minutes until stretchy, glossy and smooth.", "minutes": 10},
+    {"title": "Shape the balls", "text": "Wet a bowl, scoop a portion of banku into it and rotate to form a smooth ball, or shape with a wet spoon. Wrap in cling film or leaves to keep warm.", "minutes": 5},
+    {"title": "Serve", "text": "Plate the banku with a whole fish and a generous spoonful of pepper sauce. Eat with your right hand, pinching off banku and dipping."}
+  ],
+  "tips": [
+    "Lumps are the enemy; whisk the raw dough smooth before cooking.",
+    "Keep stirring during cooking or the base scorches.",
+    "Slash the fish deeply so the marinade reaches the flesh and it cooks evenly.",
+    "Banku is eaten fresh and firms up as it cools."
+  ],
+  "swaps": [
+    {"ingredient": "Fermented corn dough", "swap": "Mix fine cornmeal with a spoon of plain yogurt and water, rest overnight; it approximates the sourness."},
+    {"ingredient": "Tilapia", "swap": "Sea bream, sea bass or mackerel; cooking time changes with thickness."}
+  ],
+  "servesWith": ["kelewele"],
+  "nutrition": {"calories": 520, "proteinG": 42, "carbsG": 58, "fatG": 14}
+}

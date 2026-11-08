@@ -1,0 +1,51 @@
+{
+  "slug": "kelewele",
+  "name": "Kelewele",
+  "localName": "Kelewele",
+  "country": "Ghana",
+  "region": "West Africa",
+  "course": "snack",
+  "tags": ["street food", "spicy", "vegan", "snack", "quick"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "Cubes of ripe plantain marinated in ginger, chilli and spices, fried until sticky, sweet and crisp-edged.",
+  "story": "Kelewele is a popular Ghanaian street snack, sold in the evenings from roadside stands, often served in paper with roasted peanuts. It is made from very ripe plantain and a warming ginger-pepper spice mix.",
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"items": [
+      {"name": "very ripe plantains", "amount": "3 large", "note": "yellow with black spots, peeled"},
+      {"name": "fresh ginger", "amount": "1 inch (25 g)", "note": "grated"},
+      {"name": "garlic", "amount": "2 cloves", "note": "crushed"},
+      {"name": "cayenne pepper or fresh chilli", "amount": "1 tsp", "note": "to taste"},
+      {"name": "ground cloves", "amount": "1/4 tsp"},
+      {"name": "ground nutmeg", "amount": "1/4 tsp"},
+      {"name": "salt", "amount": "1/2 tsp"},
+      {"name": "small onion", "amount": "1/2", "note": "grated, optional"},
+      {"name": "vegetable oil", "amount": "2 cups (480 ml)", "note": "for frying"},
+      {"name": "roasted peanuts", "amount": "1/2 cup", "note": "to serve"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cut the plantain", "text": "Cut the peeled plantains into 2 cm cubes or thick diagonal slices. Very ripe plantain is soft, so use a sharp knife.", "minutes": 5},
+    {"title": "Make the spice paste", "text": "Mash together the ginger, garlic, onion, cayenne, cloves, nutmeg and salt with 1 tablespoon of water into a thick paste.", "minutes": 5},
+    {"title": "Coat the plantain", "text": "Toss the plantain gently in the paste until each piece is evenly coated. Leave to marinate for 10-15 minutes.", "minutes": 15},
+    {"title": "Heat the oil", "text": "Heat the oil to about 170 C (340 F). Test with a cube: it should sizzle immediately and bubble steadily.", "minutes": 5},
+    {"title": "Fry in batches", "text": "Fry in small batches for 3-4 minutes, turning once, until deep golden brown with dark caramelised edges. Do not crowd the pan because the sugar burns quickly.", "minutes": 12},
+    {"title": "Drain and serve", "text": "Lift out with a slotted spoon and drain on paper towels. Serve hot with roasted peanuts."}
+  ],
+  "tips": [
+    "Choose plantains that are almost black; green or just yellow ones turn starchy rather than sweet.",
+    "Medium heat is key because the sugars in the fruit burn fast.",
+    "Eat straight away for the best crispy edges.",
+    "Add a squeeze of lime for brightness if you like."
+  ],
+  "swaps": [
+    {"ingredient": "Ground cloves and nutmeg", "swap": "A pinch of allspice or mixed spice replaces both."},
+    {"ingredient": "Deep frying", "swap": "Toss with 2 tbsp oil and bake at 220 C (425 F) for 20-25 minutes, turning once; less crisp but lighter."}
+  ],
+  "servesWith": ["waakye", "red-red"],
+  "nutrition": {"calories": 350, "proteinG": 3, "carbsG": 52, "fatG": 16}
+}

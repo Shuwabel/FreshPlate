@@ -1,0 +1,56 @@
+{
+  "slug": "ugali-sukuma-wiki",
+  "name": "Ugali with Sukuma Wiki",
+  "localName": "Ugali na sukuma wiki",
+  "country": "Kenya",
+  "region": "East Africa",
+  "course": "main",
+  "tags": ["staple", "vegan", "weeknight", "budget", "greens"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 1,
+  "summary": "Firm white maize porridge served with garlicky, tomato-braised collard greens.",
+  "story": "Ugali is the everyday staple of Kenya and much of East Africa, eaten with stews, fish or greens. Sukuma wiki, meaning roughly 'push the week' in Swahili, is a cheap sautéed collard dish that helps stretch the household budget.",
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"group": "For the ugali", "items": [
+      {"name": "white maize flour (posho)", "amount": "2 cups (250 g)"},
+      {"name": "water", "amount": "4 cups (1 litre)"},
+      {"name": "salt", "amount": "1/2 tsp", "note": "optional"}
+    ]},
+    {"group": "For the sukuma wiki", "items": [
+      {"name": "collard greens or kale", "amount": "1 large bunch (500 g)", "note": "stems removed, finely sliced"},
+      {"name": "vegetable oil", "amount": "2 tbsp"},
+      {"name": "onion", "amount": "1 large", "note": "chopped"},
+      {"name": "tomatoes", "amount": "2 medium", "note": "chopped"},
+      {"name": "garlic", "amount": "3 cloves", "note": "minced"},
+      {"name": "ground coriander", "amount": "1/2 tsp", "note": "optional"},
+      {"name": "salt", "amount": "to taste"},
+      {"name": "lemon juice", "amount": "1 tbsp", "note": "optional"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Slice the greens", "text": "Stack the collard leaves, roll them up and slice as thinly as you can. Rinse and drain well.", "minutes": 8},
+    {"title": "Fry the onion", "text": "Heat the oil in a large pan and cook the onion for 5 minutes until soft and translucent. Add the garlic for 1 minute.", "minutes": 6},
+    {"title": "Add tomatoes", "text": "Stir in the tomatoes and coriander and cook for 5 minutes until they collapse into a thick sauce.", "minutes": 5},
+    {"title": "Cook the greens", "text": "Add the greens in handfuls, stirring until each wilts. Season with salt, cover and cook on medium for 8-10 minutes until tender but still bright green. Finish with lemon.", "minutes": 12},
+    {"title": "Boil the water", "text": "While the greens cook, bring 3 cups of the water to a rolling boil in a heavy pot with the salt. Mix the remaining cup of water with a few spoons of the flour to make a thin paste and stir it in.", "minutes": 5},
+    {"title": "Add the flour", "text": "Reduce to medium heat and add the maize flour gradually, stirring constantly with a wooden spoon, until it begins to thicken into a firm mass with no dry lumps.", "minutes": 5},
+    {"title": "Cook and press", "text": "Cover and cook for 3-4 minutes. Then press and fold the ugali against the pot with the spoon for 3-5 minutes until stiff, smooth and pulling cleanly from the sides. It should smell cooked and no longer raw or floury.", "minutes": 8},
+    {"title": "Shape and serve", "text": "Wet a bowl, spoon the ugali in, turn it over onto a plate to form a dome. Serve with the sukuma wiki; pinch a piece of ugali, form a scoop and eat the greens with it."}
+  ],
+  "tips": [
+    "Add the flour slowly while stirring to avoid lumps.",
+    "Stir hard; it is a workout, and the vigorous mixing gives a smooth ugali.",
+    "Do not overcook the greens or they turn grey and bitter.",
+    "Great with nyama choma, fried fish or beef stew."
+  ],
+  "swaps": [
+    {"ingredient": "White maize flour", "swap": "Fine white cornmeal (not polenta) or the South African mealie meal; yellow cornmeal works but is coarser and less traditional."},
+    {"ingredient": "Collard greens", "swap": "Kale, spring greens or Swiss chard; softer greens need less time."}
+  ],
+  "servesWith": ["nyama-choma"],
+  "nutrition": {"calories": 360, "proteinG": 9, "carbsG": 66, "fatG": 7}
+}

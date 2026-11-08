@@ -1,0 +1,163 @@
+{
+  "slug": "coconut-rice",
+  "course": "main",
+  "tags": [
+    "festive",
+    "party",
+    "fragrant",
+    "one-pot",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 2,
+  "summary": "Parboiled rice cooked in rich coconut milk with a peppery tomato base, lightly sweet and fragrant, often topped with toasted coconut.",
+  "story": "Nigerian coconut rice is a celebration dish eaten at parties and weekends, especially in coastal regions where coconut is plentiful. Cooks use fresh coconut milk, a tomato and pepper sauce, and often serve it with fried fish or chicken.",
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": "Coconut milk",
+      "items": [
+        {
+          "name": "Fresh coconut or canned coconut milk",
+          "amount": "2 cups (480 ml) thick milk",
+          "note": "from 1 large coconut if fresh"
+        },
+        {
+          "name": "Warm water",
+          "amount": "1 cup (240 ml)"
+        }
+      ]
+    },
+    {
+      "group": "For the rice",
+      "items": [
+        {
+          "name": "Long-grain parboiled rice",
+          "amount": "3 cups (600 g)"
+        },
+        {
+          "name": "Red bell pepper",
+          "amount": "1 large",
+          "note": "blended"
+        },
+        {
+          "name": "Tomatoes",
+          "amount": "3 medium",
+          "note": "blended"
+        },
+        {
+          "name": "Scotch bonnet pepper",
+          "amount": "1 to 2",
+          "note": "blended"
+        },
+        {
+          "name": "Onion",
+          "amount": "1 large",
+          "note": "half blended, half sliced"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "1/3 cup (80 ml)"
+        },
+        {
+          "name": "Curry powder",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Dried thyme",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Bay leaf",
+          "amount": "1"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        },
+        {
+          "name": "Chicken or beef stock",
+          "amount": "1 cup (240 ml)"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Make the coconut milk",
+      "text": "Grate fresh coconut, add warm water and squeeze through muslin or a sieve to extract thick milk. If using canned milk, shake the can well and measure out.",
+      "minutes": 10
+    },
+    {
+      "title": "Blend the base",
+      "text": "Blend the bell pepper, tomatoes, scotch bonnet and half the onion into a smooth puree. Pour into a pot and simmer for 15 minutes to reduce the liquid by about half.",
+      "minutes": 15
+    },
+    {
+      "title": "Fry the sauce",
+      "text": "Heat the oil and fry the sliced onion for 2 minutes. Add the reduced puree, curry, thyme and bay leaf and fry for 10 to 12 minutes until the oil floats on top and the sauce is thick and deep red.",
+      "minutes": 12
+    },
+    {
+      "title": "Wash the rice",
+      "text": "Rinse the rice in warm water until the water is clearer, then drain well.",
+      "minutes": 3
+    },
+    {
+      "title": "Add the liquids",
+      "text": "Stir in the coconut milk, stock, cubes and salt. Bring to a gentle simmer. Taste: it should be slightly salty and savoury.",
+      "minutes": 3
+    },
+    {
+      "title": "Cook the rice",
+      "text": "Add the rice and stir once. Cover tightly with foil under the lid and cook over low heat for 25 to 30 minutes without lifting too often. The rice is done when it is tender, the liquid has been absorbed and the surface looks glossy.",
+      "minutes": 30
+    },
+    {
+      "title": "Rest and fluff",
+      "text": "Switch off the heat and leave covered for 10 minutes. Fluff gently with a fork. Serve with fried fish, chicken or plantain.",
+      "minutes": 10
+    }
+  ],
+  "tips": [
+    "Taste the cooking liquid before adding the rice. It should be a little salty as rice absorbs seasoning.",
+    "Keep the heat low to stop coconut milk scorching at the base.",
+    "Use only thick coconut milk. Watery milk makes the rice bland.",
+    "Toasted coconut flakes add crunch if you like."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Fresh coconut",
+      "swap": "Canned full-fat coconut milk is a convenient option. Dilute 1 can (400 ml) with 1/2 cup of stock."
+    },
+    {
+      "ingredient": "Parboiled rice",
+      "swap": "Basmati rice works, but reduce the liquid slightly and cook for 15 to 18 minutes."
+    }
+  ],
+  "servesWith": [
+    "dodo",
+    "suya"
+  ],
+  "nutrition": {
+    "calories": 560,
+    "proteinG": 10,
+    "carbsG": 82,
+    "fatG": 22
+  },
+  "name": "Nigerian Coconut Rice",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

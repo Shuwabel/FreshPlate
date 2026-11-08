@@ -1,112 +1,63 @@
-'use client';
+import Image from 'next/image'
+import Link from 'next/link'
+import { Clock, Flame, PlayCircle } from 'lucide-react'
+import FavouriteButton from '@/components/FavouriteButton'
+import type { RecipeSummary } from '@/lib/types'
+import { cn } from '@/lib/utils'
 
-import { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { Heart, Clock, Flame } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import type { RecipeCard as RecipeCardType } from '@/types/recipe';
-import { useRecipeStore } from '@/lib/store';
-import { cn } from '@/lib/utils';
-
-interface RecipeCardProps {
-  recipe: RecipeCardType;
-  category?: string;
+export function SpiceMark({ level, className }: { level: number; className?: string }) {
+  if (level <= 0) return null
+  return (
+    <span className={cn('inline-flex items-center gap-0.5', className)} role="img" aria-label={`Spice level ${level} of 3`}>
+      {Array.from({ length: level }).map((_, i) => (
+        <Flame key={i} className="h-3.5 w-3.5 fill-current" aria-hidden="true" />
+      ))}
+    </span>
+  )
 }
 
-export function RecipeCard({ recipe, category }: RecipeCardProps) {
-  const [imageError, setImageError] = useState(false);
-  const { addFavorite, removeFavorite, isFavorite } = useRecipeStore();
-  const isFav = isFavorite(recipe.id);
-
-  const handleFavoriteClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    if (isFav) {
-      removeFavorite(recipe.id);
-    } else {
-      addFavorite(recipe);
-    }
-  };
-
-  const recipeUrl = category
-    ? `/recipe/${recipe.id}?from=category&category=${encodeURIComponent(category)}`
-    : `/recipe/${recipe.id}`;
-
+/** A dish presented like a poster: photo in a cut-corner frame, title on a night strip. */
+export default function RecipeCard({
+  recipe,
+  priority = false,
+  className,
+}: {
+  recipe: RecipeSummary
+  priority?: boolean
+  className?: string
+}) {
   return (
-    <Link href={recipeUrl}>
-      <div className="group overflow-hidden rounded-lg border border-border bg-card shadow-sm transition-all hover:shadow-md hover:border-primary/30">
-        {/* Image Container */}
-        <div className="relative h-48 w-full overflow-hidden bg-muted">
-          {!imageError && recipe.image ? (
-            <Image
-              src={recipe.image}
-              alt={recipe.name}
-              fill
-              className="object-cover transition-transform group-hover:scale-105"
-              onError={() => setImageError(true)}
-            />
-          ) : (
-            <div className="flex items-center justify-center h-full bg-gradient-to-br from-primary/20 to-primary/5">
-              <span className="text-muted-foreground text-4xl">🍽️</span>
-            </div>
-          )}
-
-          {/* Favorite Button */}
-          <button
-            onClick={handleFavoriteClick}
-            className="absolute top-2 right-2 rounded-full bg-white/90 p-2 shadow-sm transition-all hover:bg-white active:scale-95"
-            aria-label={isFav ? 'Remove from favorites' : 'Add to favorites'}
-          >
-            <Heart
-              size={18}
-              className={cn('transition-colors', isFav ? 'fill-red-500 text-red-500' : 'text-gray-600')}
-            />
-          </button>
-        </div>
-
-        {/* Content */}
-        <div className="space-y-2 p-3">
-          {/* Tags */}
-          <div className="flex flex-wrap gap-1">
-            {recipe.isVegan && (
-              <Badge variant="secondary" className="text-xs">
-                Vegan
-              </Badge>
-            )}
-            {recipe.isVegetarian && !recipe.isVegan && (
-              <Badge variant="secondary" className="text-xs">
-                Vegetarian
-              </Badge>
-            )}
-            <Badge variant="outline" className="text-xs">
-              {recipe.difficulty}
-            </Badge>
+    <article className={cn('group relative', className)}>
+      <Link href={`/recipe/${recipe.slug}`} className="block focus-visible:outline-offset-4">
+        <div className="vignette relative aspect-[4/5] overflow-hidden bg-night">
+          <Image
+            src={recipe.image.file}
+            alt={recipe.image.alt}
+            fill
+            priority={priority}
+            sizes="(min-width: 1024px) 22vw, (min-width: 640px) 33vw, 50vw"
+            className="object-cover transition-transform duration-500 ease-out group-hover:scale-105 motion-reduce:transition-none"
+          />
+          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-night via-night/85 to-transparent px-3 pb-3 pt-12 text-chalk">
+            <h3 className="display text-lg leading-tight text-chalk md:text-xl">{recipe.name}</h3>
+            <p className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-semibold text-chalk/85">
+              <span>{recipe.country}</span>
+              <span className="inline-flex items-center gap-1 tnum">
+                <Clock className="h-3.5 w-3.5" aria-hidden="true" />
+                {recipe.totalMinutes >= 60 ? `${Math.floor(recipe.totalMinutes / 60)}h ${recipe.totalMinutes % 60 || ''}${recipe.totalMinutes % 60 ? 'm' : ''}`.trim() : `${recipe.totalMinutes}m`}
+              </span>
+              <SpiceMark level={recipe.spice} className="text-gold" />
+              {recipe.hasVideo && (
+                <span className="inline-flex items-center gap-1 text-gold">
+                  <PlayCircle className="h-3.5 w-3.5" aria-hidden="true" />
+                  Video
+                </span>
+              )}
+            </p>
           </div>
-
-          {/* Title */}
-          <h3 className="line-clamp-2 text-sm font-semibold text-foreground group-hover:text-primary transition-colors">
-            {recipe.name}
-          </h3>
-
-          {/* Meta Info */}
-          <div className="flex items-center gap-3 text-xs text-muted-foreground">
-            <div className="flex items-center gap-1">
-              <Clock size={14} />
-              <span>{recipe.cookTime} min</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Flame size={14} />
-              <span>{recipe.calories} cal</span>
-            </div>
-          </div>
-
-          {/* Cuisine */}
-          <p className="text-xs text-muted-foreground line-clamp-1">
-            {recipe.cuisine}
-          </p>
         </div>
-      </div>
-    </Link>
-  );
+      </Link>
+      <FavouriteButton slug={recipe.slug} name={recipe.name} className="absolute right-2 top-2" />
+    </article>
+  )
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "masa",
+  "name": "Masa (Northern Rice Cakes)",
+  "localName": "Masa",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "street-food",
+  "tags": ["northern", "breakfast", "street food", "fermented", "vegan"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 0,
+  "summary": "Fluffy, slightly tangy fermented rice pancakes with crisp edges, cooked in a hollowed pan.",
+  "story": "Masa is a Hausa fermented rice cake sold in the mornings and evenings across northern Nigeria. It is cooked in a special pan with round hollows and is often eaten with spicy yaji powder, sugar or a vegetable stew.",
+  "prepMinutes": 30,
+  "cookMinutes": 30,
+  "servings": 4,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"items": [
+      {"name": "long-grain rice", "amount": "2 cups (400 g)", "note": "washed"},
+      {"name": "cooked rice", "amount": "1/2 cup (90 g)", "note": "left over, soft"},
+      {"name": "instant yeast", "amount": "1 tsp"},
+      {"name": "sugar", "amount": "2 tbsp"},
+      {"name": "baking powder", "amount": "1 tsp"},
+      {"name": "salt", "amount": "1/2 tsp"},
+      {"name": "warm water", "amount": "about 1.5 cups (360 ml)"},
+      {"name": "vegetable oil", "amount": "1/4 cup (60 ml)", "note": "for the pan"},
+      {"name": "onion", "amount": "1 small", "note": "finely chopped, optional"},
+      {"name": "yaji or suya spice", "amount": "to serve"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Soak the rice", "text": "Wash the raw rice and soak it in cold water for 4-6 hours until you can crush a grain easily between your fingers.", "minutes": 300},
+    {"title": "Blend the batter", "text": "Drain the rice and blend with the cooked rice and the warm water until very smooth with no gritty bits. The batter should be thick like pancake batter.", "minutes": 8},
+    {"title": "Ferment", "text": "Stir in the yeast and sugar, cover and leave in a warm place for 2-4 hours. It is ready when it is bubbly, has risen and smells pleasantly sour.", "minutes": 180},
+    {"title": "Season the batter", "text": "Stir in the salt and baking powder and fold in the onion if using. Stir gently so the bubbles are not knocked out. Add a spoon of water if too stiff.", "minutes": 2},
+    {"title": "Heat the pan", "text": "Heat a masa pan, an aebleskiver pan or a cast-iron muffin tin over medium heat. Brush each hollow with oil and wait until a drop of batter sizzles.", "minutes": 4},
+    {"title": "Cook the first side", "text": "Fill each hollow about three-quarters with batter. Cover and cook for 3-4 minutes until the bottom is deep golden and the top is set around the edges.", "minutes": 4},
+    {"title": "Flip and finish", "text": "Turn each cake with a skewer or fork and cook for 2 minutes until golden all around and springy in the centre. Repeat with remaining batter, oiling the pan each time.", "minutes": 20},
+    {"title": "Serve", "text": "Eat hot, dusted with yaji, or sprinkled with sugar, or with miyan taushe or a tomato sauce."}
+  ],
+  "tips": [
+    "Make sure the rice is fully ground; a coarse batter gives dense masa.",
+    "Do not skip fermentation; it gives the cakes their softness and tang.",
+    "Keep the heat medium; high heat burns the outside and leaves the middle raw.",
+    "Leftover cakes reheat well in a dry pan."
+  ],
+  "swaps": [
+    {"ingredient": "Masa pan", "swap": "Use a non-stick mini muffin tin on the stove or a small frying pan for flat pancakes; the shape changes but the taste does not."},
+    {"ingredient": "Yaji", "swap": "Mix ground roasted peanuts, cayenne, ginger and a pinch of stock powder; the heat and nutty flavour will be similar."}
+  ],
+  "servesWith": ["kunu", "suya", "kilishi"],
+  "nutrition": {"calories": 310, "proteinG": 6, "carbsG": 58, "fatG": 6}
+}

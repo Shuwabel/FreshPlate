@@ -1,0 +1,41 @@
+{
+  "slug": "eba",
+  "name": "Eba (Garri)",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "side",
+  "tags": ["swallow", "staple", "quick", "gluten-free", "weeknight"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": true, "containsNuts": false},
+  "spice": 0,
+  "summary": "A firm dough of cassava garri stirred into hot water in minutes, made for scooping soups and stews.",
+  "story": "Eba is one of the most common swallows in Nigeria, made by stirring garri, a dried granulated cassava product, into hot water. It is eaten daily in many homes with soups such as okra, egusi and ogbono. Yellow garri, made with palm oil, is popular in the east and south.",
+  "prepMinutes": 3,
+  "cookMinutes": 5,
+  "servings": 2,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"group": null, "items": [
+      {"name": "Garri (white or yellow)", "amount": "1 cup (150 g)"},
+      {"name": "Boiling water", "amount": "1 cup (240 ml)", "note": "adjust to the garri"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Boil water", "text": "Bring the water to a full rolling boil in a kettle or pot. It must be boiling, not just hot.", "minutes": 4},
+    {"title": "Pour into the bowl", "text": "Pour the boiling water into a clean bowl or pot. Heat in a bowl will cook the garri properly.", "minutes": 1},
+    {"title": "Add the garri", "text": "Sprinkle garri evenly over the water until it forms a small mound that has absorbed the water. Let it sit for 30 seconds.", "minutes": 1},
+    {"title": "Stir to a dough", "text": "Using a wooden spoon, press and stir vigorously, folding the dough over, until it is smooth, stretchy and free of dry lumps. This takes 2 to 3 minutes.", "minutes": 3},
+    {"title": "Adjust", "text": "If it is too stiff, add a splash of boiling water; if too soft, add a little more garri. Mix again.", "minutes": 1},
+    {"title": "Serve", "text": "Shape into a ball with a wet spoon or bowl and serve right away while it is hot and soft.", "minutes": 1}
+  ],
+  "tips": [
+    "Water must be at a rolling boil; lukewarm water gives a raw, lumpy dough.",
+    "Use fine garri for smoother eba, coarse for a firmer texture.",
+    "Eat it fresh; it hardens as it cools."
+  ],
+  "swaps": [
+    {"ingredient": "Garri", "swap": "Sold in African shops as garri or gari; there is no true substitute, but fine cassava flour can be used with a slightly different texture."},
+    {"ingredient": "Yellow garri", "swap": "Add a teaspoon of palm oil to white garri for a similar colour and nutty taste."}
+  ],
+  "servesWith": ["egusi-soup", "okra-soup", "ogbono-soup", "efo-riro"],
+  "nutrition": {"calories": 360, "proteinG": 1, "carbsG": 88, "fatG": 0}
+}

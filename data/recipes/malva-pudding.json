@@ -1,0 +1,59 @@
+{
+  "slug": "malva-pudding",
+  "name": "Malva Pudding",
+  "country": "South Africa",
+  "region": "Southern Africa",
+  "course": "dessert",
+  "tags": ["baked", "sweet", "comfort", "family", "festive"],
+  "diet": {"vegetarian": true, "vegan": false, "glutenFree": false, "containsNuts": false},
+  "spice": 0,
+  "summary": "A spongy apricot-jam pudding soaked in hot cream sauce while still warm, served with custard or ice cream.",
+  "story": "Malva pudding is a much-loved South African dessert of Cape Dutch origin, often served at family gatherings and in restaurants alike. Its sponge is light and caramelised on top, then soaked in a buttery cream sauce until it turns sticky and tender. Custard is the classic partner.",
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 8,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"group": "For the sponge", "items": [
+      {"name": "Eggs", "amount": "2 large"},
+      {"name": "Caster sugar", "amount": "200 g (1 cup)"},
+      {"name": "Smooth apricot jam", "amount": "2 tbsp"},
+      {"name": "Plain flour", "amount": "170 g (1 1/3 cups)"},
+      {"name": "Bicarbonate of soda", "amount": "1 tsp"},
+      {"name": "Salt", "amount": "pinch"},
+      {"name": "Butter", "amount": "1 tbsp", "note": "melted"},
+      {"name": "White vinegar", "amount": "1 tsp"},
+      {"name": "Milk", "amount": "125 ml (1/2 cup)"}
+    ]},
+    {"group": "For the sauce", "items": [
+      {"name": "Cream", "amount": "250 ml (1 cup)"},
+      {"name": "Butter", "amount": "100 g"},
+      {"name": "Sugar", "amount": "100 g (1/2 cup)"},
+      {"name": "Hot water", "amount": "120 ml"},
+      {"name": "Vanilla extract", "amount": "1 tsp"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Prepare the oven", "text": "Heat the oven to 180 C and grease a 23 cm baking dish, about 6 cm deep, with butter."},
+    {"title": "Whisk eggs and sugar", "text": "Beat the eggs and sugar for 4 to 5 minutes with an electric whisk until pale, thick and doubled in volume. Beat in the apricot jam until blended.", "minutes": 5},
+    {"title": "Mix the dry", "text": "Sift the flour, bicarbonate and salt together. In a jug, mix the melted butter, vinegar and milk."},
+    {"title": "Fold the batter", "text": "Fold the dry ingredients and the milk mixture into the eggs alternately, in two or three additions, until just combined. Stop as soon as no flour shows, or the sponge will be tough."},
+    {"title": "Bake the sponge", "text": "Pour into the dish and bake 30 to 35 minutes. It is done when deeply golden brown, risen, and a skewer in the centre comes out clean.", "minutes": 35},
+    {"title": "Make the sauce", "text": "While it bakes, warm the cream, butter, sugar, hot water and vanilla in a pan over low heat, stirring until the butter melts and the sugar dissolves. Do not boil.", "minutes": 5},
+    {"title": "Soak the pudding", "text": "As soon as the pudding leaves the oven, prick it all over with a skewer and slowly pour over the hot sauce. It will look like too much but the sponge absorbs it in 10 minutes.", "minutes": 10},
+    {"title": "Rest and serve", "text": "Leave to stand 10 minutes more so the sauce settles. Serve warm in squares with hot custard, cream or vanilla ice cream."}
+  ],
+  "tips": [
+    "Pour the sauce over the pudding while both are hot; cold sponge soaks up the sauce badly.",
+    "Use plenty of skewer holes so the sauce reaches the bottom layer.",
+    "It reheats well in a low oven or the microwave.",
+    "Whisking eggs and sugar until pale is what gives the sponge its light texture."
+  ],
+  "swaps": [
+    {"ingredient": "Apricot jam", "swap": "Use any smooth, tangy jam such as peach; avoid jams with large chunks."},
+    {"ingredient": "Cream", "swap": "Evaporated milk gives a slightly lighter sauce; the sponge stays moist."},
+    {"ingredient": "Caster sugar", "swap": "Use fine white sugar, or part soft brown sugar for a deeper caramel flavour."}
+  ],
+  "servesWith": [],
+  "nutrition": {"calories": 470, "proteinG": 6, "carbsG": 60, "fatG": 23}
+}

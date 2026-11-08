@@ -1,0 +1,141 @@
+{
+  "slug": "boli",
+  "localName": "Bole",
+  "course": "street-food",
+  "tags": [
+    "street food",
+    "grilled",
+    "smoky",
+    "vegan",
+    "snack"
+  ],
+  "diet": {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 1,
+  "summary": "Plantain roasted over charcoal until smoky and charred, traditionally eaten with roasted peanuts or a fiery pepper sauce.",
+  "story": "Boli, also called bole, is roasted plantain, a popular roadside food in Port Harcourt and elsewhere in southern Nigeria. It is traditionally sold hot from a charcoal grill and eaten with groundnuts or a spicy fish and pepper sauce.",
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "group": "For the boli",
+      "items": [
+        {
+          "name": "Plantains (ripe or half-ripe)",
+          "amount": "4",
+          "note": "peeled or in skins"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "1 tbsp",
+          "note": "for brushing"
+        },
+        {
+          "name": "Salt",
+          "amount": "a pinch"
+        }
+      ]
+    },
+    {
+      "group": "For the pepper sauce",
+      "items": [
+        {
+          "name": "Palm oil",
+          "amount": "3 tbsp"
+        },
+        {
+          "name": "Onion",
+          "amount": "1 small",
+          "note": "finely chopped"
+        },
+        {
+          "name": "Ground dried chilli",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Ground crayfish",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        }
+      ]
+    },
+    {
+      "group": "To serve",
+      "items": [
+        {
+          "name": "Roasted peanuts",
+          "amount": "1/2 cup (70 g)",
+          "note": "optional"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare the plantain",
+      "text": "Peel the plantains, or score the skins lengthwise and leave them on for a smokier result. Brush peeled plantains with a little oil.",
+      "minutes": 5
+    },
+    {
+      "title": "Heat the grill",
+      "text": "Light charcoal and wait until the coals are glowing with a thin ash. Alternatively use a grill pan, or an oven at 230°C with the grill setting on.",
+      "minutes": 12
+    },
+    {
+      "title": "Roast",
+      "text": "Place the plantains on the grill and turn every 3 to 4 minutes. Cook 20 to 25 minutes until the skin is charred in patches and the flesh gives when pressed. The aroma should be sweet and smoky.",
+      "minutes": 25
+    },
+    {
+      "title": "Check for doneness",
+      "text": "Press the thickest part with a finger: it should yield softly, and the skin or surface should be blistered with dark char marks. If the outside is black but the middle is firm, move the plantain to a cooler part of the grill for 5 more minutes.",
+      "minutes": 5
+    },
+    {
+      "title": "Make the sauce",
+      "text": "Warm the palm oil in a pan, add the onion and fry for 2 minutes. Stir in the chilli, crayfish and salt and cook another minute until fragrant and slightly thick.",
+      "minutes": 5
+    },
+    {
+      "title": "Serve",
+      "text": "Remove any burnt skin if you like and cut the plantain into thick pieces. Serve hot with the pepper sauce and roasted peanuts."
+    }
+  ],
+  "tips": [
+    "Turn often. Plantain sugars scorch quickly over strong heat.",
+    "Half-ripe plantain gives firmer boli with a mild sweetness; very ripe gives a soft, sweet one.",
+    "Press the plantain lightly to check doneness.",
+    "Roast in the skins for the most smoke flavour."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Charcoal grill",
+      "swap": "Use a gas grill or an oven grill on high. You lose some smokiness, so add a pinch of smoked paprika to the sauce."
+    },
+    {
+      "ingredient": "Palm oil sauce",
+      "swap": "Use groundnut oil with cayenne and onion if you cannot find palm oil."
+    }
+  ],
+  "servesWith": [
+    "asun"
+  ],
+  "nutrition": {
+    "calories": 260,
+    "proteinG": 3,
+    "carbsG": 54,
+    "fatG": 6
+  },
+  "name": "Boli (Roasted Plantain)",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

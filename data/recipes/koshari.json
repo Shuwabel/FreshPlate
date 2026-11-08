@@ -1,0 +1,65 @@
+{
+  "slug": "koshari",
+  "name": "Koshari",
+  "localName": "كشري",
+  "country": "Egypt",
+  "region": "North Africa",
+  "course": "street-food",
+  "tags": ["street food", "vegan", "comfort", "budget", "vegetarian"],
+  "diet": {"vegetarian": true, "vegan": true, "glutenFree": false, "containsNuts": false},
+  "spice": 2,
+  "summary": "Egypt's beloved layered bowl of rice, lentils, macaroni and chickpeas with spiced tomato sauce and crisp fried onions.",
+  "story": "Koshari is widely considered Egypt's national dish and is sold in small restaurants and street stalls across Cairo. It is filling, inexpensive and entirely plant-based. Each bowl is built up in layers and finished with tomato sauce, garlic vinegar and hot sauce according to taste.",
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "For the base", "items": [
+      {"name": "Brown lentils", "amount": "200 g (1 cup)", "note": "rinsed"},
+      {"name": "Short-grain or long-grain rice", "amount": "200 g (1 cup)", "note": "rinsed"},
+      {"name": "Elbow macaroni or short pasta", "amount": "200 g"},
+      {"name": "Vermicelli", "amount": "50 g", "note": "broken, optional"},
+      {"name": "Cooked chickpeas", "amount": "200 g (1 cup)"},
+      {"name": "Oil", "amount": "2 tbsp"},
+      {"name": "Cumin", "amount": "1 tsp"},
+      {"name": "Salt", "amount": "to taste"}
+    ]},
+    {"group": "For the crispy onions", "items": [
+      {"name": "Onions", "amount": "3 large", "note": "thinly sliced"},
+      {"name": "Plain flour", "amount": "2 tbsp"},
+      {"name": "Oil for frying", "amount": "200 ml"}
+    ]},
+    {"group": "For the tomato sauce", "items": [
+      {"name": "Garlic", "amount": "4 cloves", "note": "minced"},
+      {"name": "Tomato sauce or passata", "amount": "500 g"},
+      {"name": "Ground cumin", "amount": "1 tsp"},
+      {"name": "Ground coriander", "amount": "1/2 tsp"},
+      {"name": "White vinegar", "amount": "2 tbsp"},
+      {"name": "Chilli flakes or hot sauce", "amount": "1/2 tsp, to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Fry the onions", "text": "Toss the onion slices with the flour and a pinch of salt. Fry in hot oil in batches for 6 to 8 minutes until deep golden and crisp, then drain on paper. Keep 2 tablespoons of the onion oil.", "minutes": 20},
+    {"title": "Cook the lentils", "text": "Cover the lentils with plenty of water, bring to a boil, then simmer 20 minutes until tender but still holding their shape. Drain and salt lightly.", "minutes": 20},
+    {"title": "Cook the rice", "text": "Warm 2 tbsp onion oil in a pot, stir in the cumin and vermicelli until browned, then add the rice and 400 ml water with salt. Cover and cook on low 15 minutes until the water is absorbed and the grains are fluffy.", "minutes": 18},
+    {"title": "Boil the pasta", "text": "Cook the macaroni in salted boiling water per packet directions, 8 minutes, until tender with a slight bite. Drain well.", "minutes": 8},
+    {"title": "Make the sauce", "text": "Cook the garlic in a little onion oil for 30 seconds, then add the tomato sauce, cumin, coriander and chilli. Simmer 15 minutes until thick and darker in colour, then stir in the vinegar and salt.", "minutes": 15},
+    {"title": "Warm the chickpeas", "text": "Warm the chickpeas in a small pan with a splash of water, salt and a pinch of cumin for 5 minutes until hot."},
+    {"title": "Layer the bowls", "text": "In each bowl, layer rice, lentils and pasta, then top with chickpeas. Ladle over the tomato sauce and finish with a heap of crispy onions.", "minutes": 5},
+    {"title": "Serve with dressings", "text": "Serve with extra sauce, a garlic-vinegar dressing (garlic, vinegar, water, pinch of cumin) and hot sauce, so everyone can season their own."}
+  ],
+  "tips": [
+    "Fry the onions in batches so they crisp rather than steam.",
+    "Cook each component separately; mixing the cooking pots dulls the textures.",
+    "Everything except the onions can be made a day ahead and reheated.",
+    "The vinegar sauce is what makes koshari sing; don't skip it."
+  ],
+  "swaps": [
+    {"ingredient": "Egyptian short-grain rice", "swap": "Use any medium-grain or basmati rice."},
+    {"ingredient": "Crispy fried onions", "swap": "Store-bought fried onions work in a pinch but are less fresh in flavour."},
+    {"ingredient": "Elbow macaroni", "swap": "Any small tubular pasta such as ditalini works."}
+  ],
+  "servesWith": [],
+  "nutrition": {"calories": 610, "proteinG": 22, "carbsG": 98, "fatG": 14}
+}

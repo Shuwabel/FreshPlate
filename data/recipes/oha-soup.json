@@ -1,0 +1,51 @@
+{
+  "slug": "oha-soup",
+  "name": "Oha Soup",
+  "localName": "Ofe Oha",
+  "country": "Nigeria",
+  "region": "West Africa",
+  "course": "soup",
+  "tags": ["festive", "swallow", "regional", "comfort", "protein-rich"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": false},
+  "spice": 2,
+  "summary": "An Igbo soup of tender oha leaves in a cocoyam-thickened palm oil base with meat, stockfish and ogiri.",
+  "story": "Oha soup is a traditional Igbo dish made with the leaves of the oha tree, and is often served at ceremonies and important meals. It is thickened with cocoyam or sometimes ofor, and eaten with swallows like pounded yam or fufu. The leaves are added at the end to keep their fragrance.",
+  "prepMinutes": 25,
+  "cookMinutes": 60,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {"group": "Soup", "items": [
+      {"name": "Oha leaves", "amount": "200 g", "note": "washed, torn by hand"},
+      {"name": "Cocoyam", "amount": "3 medium (about 400 g)", "note": "boiled and pounded"},
+      {"name": "Palm oil", "amount": "1/2 cup (120 ml)"},
+      {"name": "Assorted meat and cow skin", "amount": "500 g"},
+      {"name": "Stockfish and dried fish", "amount": "150 g", "note": "soaked"},
+      {"name": "Ground crayfish", "amount": "3 tbsp"},
+      {"name": "Ogiri", "amount": "1 tbsp"},
+      {"name": "Ground pepper", "amount": "1 to 2 tsp"},
+      {"name": "Onion", "amount": "1 medium"},
+      {"name": "Stock cubes and salt", "amount": "to taste"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Cook the meat", "text": "Boil the meat and cow skin with onion, stock cubes and salt until tender. Add stockfish for the last 15 minutes and keep the stock.", "minutes": 45},
+    {"title": "Prepare cocoyam", "text": "Boil the cocoyam until a knife slides in easily, 20 to 25 minutes. Peel and pound or blend to a smooth paste.", "minutes": 25},
+    {"title": "Thicken", "text": "Add the cocoyam paste in small lumps to the meat stock, cover and leave for 10 minutes. Stir until it dissolves into a smooth, slightly thick base.", "minutes": 12},
+    {"title": "Add oil and seasoning", "text": "Add the palm oil, crayfish, ogiri and pepper. Simmer for 8 to 10 minutes until the oil floats on top and the soup smells savoury.", "minutes": 10},
+    {"title": "Add the oha leaves", "text": "Stir in the torn oha leaves and cook for just 3 to 5 minutes, until they are tender and still fragrant.", "minutes": 5},
+    {"title": "Adjust and serve", "text": "Taste, add salt and stock as needed. The soup should coat the back of a spoon and not be watery.", "minutes": 2}
+  ],
+  "tips": [
+    "Tear oha leaves by hand rather than cutting them to protect their flavour.",
+    "Do not overcook the leaves; they should stay lightly green.",
+    "Add cocoyam slowly; too much makes the soup heavy."
+  ],
+  "swaps": [
+    {"ingredient": "Oha leaves", "swap": "Oha is hard to find abroad; frozen oha from African shops is best. Fresh baby spinach with a little arugula is a rough stand-in, with a different flavour."},
+    {"ingredient": "Cocoyam", "swap": "Boiled and mashed potato or yam."},
+    {"ingredient": "Ogiri", "swap": "Iru, or a little miso."}
+  ],
+  "servesWith": ["pounded-yam", "eba", "tuwo-shinkafa"],
+  "nutrition": {"calories": 510, "proteinG": 35, "carbsG": 15, "fatG": 34}
+}

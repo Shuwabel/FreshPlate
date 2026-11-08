@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  // Lets the dev server be opened from 127.0.0.1 and a phone on the same network.
+  allowedDevOrigins: ['127.0.0.1', 'localhost'],
   images: {
-    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
   },
 }
 

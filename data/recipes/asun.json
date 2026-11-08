@@ -1,0 +1,159 @@
+{
+  "slug": "asun",
+  "course": "snack",
+  "tags": [
+    "spicy",
+    "party",
+    "grilled",
+    "smoky",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 3,
+  "summary": "Smoky, chilli-hot grilled goat meat chopped into bite-size pieces and tossed with onions and peppers in a fiery sauce.",
+  "story": "Asun is a Yoruba party favourite, usually made with goat meat that is boiled until tender, grilled for smoky edges and tossed in a peppery sauce. It is commonly served at celebrations and in bars as a spicy small plate.",
+  "prepMinutes": 25,
+  "cookMinutes": 90,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": "For the goat",
+      "items": [
+        {
+          "name": "Goat meat on the bone",
+          "amount": "1 kg (2 lb)",
+          "note": "cut into small chunks"
+        },
+        {
+          "name": "Onion",
+          "amount": "1",
+          "note": "quartered"
+        },
+        {
+          "name": "Garlic",
+          "amount": "4 cloves"
+        },
+        {
+          "name": "Fresh thyme",
+          "amount": "3 sprigs"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Salt",
+          "amount": "1 tsp"
+        }
+      ]
+    },
+    {
+      "group": "For the pepper sauce",
+      "items": [
+        {
+          "name": "Red bell peppers (tatashe)",
+          "amount": "2 large",
+          "note": "roughly chopped"
+        },
+        {
+          "name": "Scotch bonnet peppers",
+          "amount": "3 to 5",
+          "note": "to taste"
+        },
+        {
+          "name": "Red onions",
+          "amount": "2",
+          "note": "1 chopped, 1 thinly sliced"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "1/4 cup (60 ml)"
+        },
+        {
+          "name": "Garlic",
+          "amount": "2 cloves"
+        },
+        {
+          "name": "Ground ginger",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        },
+        {
+          "name": "Spring onion",
+          "amount": "2 stalks",
+          "note": "sliced, for garnish"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Season and boil",
+      "text": "Put the goat in a pot with the quartered onion, garlic, thyme, cubes and salt. Add just enough water to barely cover. Cover and simmer gently for 50 to 70 minutes until a knife slides in easily but the meat is not falling off the bone.",
+      "minutes": 70
+    },
+    {
+      "title": "Reduce the stock",
+      "text": "Remove the meat and keep it. Boil the remaining stock hard for a few minutes to reduce it to about 1/3 cup, which will add concentrated flavour later.",
+      "minutes": 10
+    },
+    {
+      "title": "Dry and grill",
+      "text": "Pat the goat dry and spread it on a tray. Grill under a hot oven grill or over charcoal for 12 to 15 minutes, turning once, until the edges are browned and slightly charred and the surface looks dry.",
+      "minutes": 15
+    },
+    {
+      "title": "Blend the peppers",
+      "text": "Blend the bell peppers, scotch bonnets, the chopped onion and the garlic coarsely, only until chunky. Do not add water.",
+      "minutes": 3
+    },
+    {
+      "title": "Cook the sauce",
+      "text": "Heat the oil and fry the sliced onion for 2 minutes. Add the pepper mix and cook over medium-high heat for 12 to 15 minutes, stirring, until the water has cooked away and the sauce thickens and glistens with oil.",
+      "minutes": 15
+    },
+    {
+      "title": "Toss together",
+      "text": "Stir in the ginger and the reduced stock, then season. Add the grilled goat and toss over heat for 2 minutes until each piece is glossy and coated. Garnish with spring onion and serve warm.",
+      "minutes": 3
+    }
+  ],
+  "tips": [
+    "Goat can be tough. Boil it until just tender before grilling, as the grill only adds colour.",
+    "Pat the meat very dry before grilling for better char.",
+    "The scotch bonnet gives the heat; remove seeds for a milder dish.",
+    "Asun reheats well in a hot pan."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Goat meat",
+      "swap": "Use lamb shoulder or beef shin with the same method. The flavour is milder, and lamb will cook slightly faster."
+    },
+    {
+      "ingredient": "Scotch bonnet",
+      "swap": "Habanero is the closest match; for less heat use a milder red chilli."
+    }
+  ],
+  "servesWith": [
+    "jollof-rice",
+    "boli"
+  ],
+  "nutrition": {
+    "calories": 310,
+    "proteinG": 33,
+    "carbsG": 8,
+    "fatG": 16
+  },
+  "name": "Asun (Spicy Goat Meat)",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

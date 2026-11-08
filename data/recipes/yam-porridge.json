@@ -1,0 +1,156 @@
+{
+  "slug": "yam-porridge",
+  "localName": "Asaro",
+  "course": "main",
+  "tags": [
+    "comfort",
+    "one-pot",
+    "weeknight",
+    "palm oil",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 2,
+  "summary": "Chunks of yam simmered in a tomato, pepper and palm oil sauce until they soften and thicken the pot into a hearty porridge.",
+  "story": "Yam porridge, called asaro in Yoruba, is a comforting one-pot meal of yam cooked down in a spiced pepper sauce. It is a popular family dinner, and cooks often add fish, smoked turkey or leafy greens.",
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "group": null,
+      "items": [
+        {
+          "name": "White yam",
+          "amount": "800 g (1 3/4 lb)",
+          "note": "peeled, cut into 3 cm cubes"
+        },
+        {
+          "name": "Red palm oil",
+          "amount": "1/4 cup (60 ml)"
+        },
+        {
+          "name": "Onion",
+          "amount": "1 large",
+          "note": "half chopped, half blended"
+        },
+        {
+          "name": "Tomatoes",
+          "amount": "2 medium",
+          "note": "blended"
+        },
+        {
+          "name": "Red bell pepper",
+          "amount": "1",
+          "note": "blended"
+        },
+        {
+          "name": "Scotch bonnet pepper",
+          "amount": "1 to 2",
+          "note": "blended"
+        },
+        {
+          "name": "Ground crayfish",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Smoked fish",
+          "amount": "100 g",
+          "note": "flaked, optional"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Water or stock",
+          "amount": "about 2 cups (480 ml)"
+        },
+        {
+          "name": "Ugu or spinach",
+          "amount": "2 big handfuls",
+          "note": "sliced, optional"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prepare the yam",
+      "text": "Peel the yam, cut into cubes and rinse in cold water to remove excess starch. Drain well. Soak in lightly salted water if you cannot cook straight away.",
+      "minutes": 8
+    },
+    {
+      "title": "Blend the base",
+      "text": "Blend the tomatoes, bell pepper, scotch bonnet and the blending half of the onion until fairly smooth.",
+      "minutes": 3
+    },
+    {
+      "title": "Heat the palm oil",
+      "text": "Heat the palm oil in a medium pot over medium heat for about 2 minutes until it is hot and smells fragrant but is not smoking. Fry the chopped onion for 2 minutes.",
+      "minutes": 4
+    },
+    {
+      "title": "Fry the sauce",
+      "text": "Add the blended mixture and fry for 10 to 12 minutes, stirring, until the sauce has darkened and thickened and oil rises to the top.",
+      "minutes": 12
+    },
+    {
+      "title": "Add yam and liquid",
+      "text": "Stir in the crayfish, cubes and fish. Add the yam and just enough water to nearly cover. Season with salt.",
+      "minutes": 2
+    },
+    {
+      "title": "Simmer",
+      "text": "Cover and cook on medium-low for 15 to 20 minutes until the yam pieces are fork tender. Mash a few pieces against the side of the pot with a spoon to thicken the porridge naturally.",
+      "minutes": 20
+    },
+    {
+      "title": "Add greens",
+      "text": "Stir in the greens, if using, and cook for 2 minutes until just wilted. Taste, adjust salt and serve hot.",
+      "minutes": 3
+    }
+  ],
+  "tips": [
+    "Do not stir too often or the yam will break down before it is cooked.",
+    "Add the water gradually. You want a thick porridge, not a soup.",
+    "Cooked greens added at the end keep their colour.",
+    "Use firm, white yam for the best texture."
+  ],
+  "swaps": [
+    {
+      "ingredient": "White yam",
+      "swap": "Use sweet potato for a sweeter, softer porridge or firm potatoes in a pinch. Cooking time will be shorter."
+    },
+    {
+      "ingredient": "Red palm oil",
+      "swap": "Vegetable oil with a little paprika gives colour but not the same flavour."
+    },
+    {
+      "ingredient": "Ugu leaves",
+      "swap": "Spinach or kale make easy substitutes."
+    }
+  ],
+  "servesWith": [
+    "dodo"
+  ],
+  "nutrition": {
+    "calories": 380,
+    "proteinG": 6,
+    "carbsG": 60,
+    "fatG": 14
+  },
+  "name": "Yam Porridge (Asaro)",
+  "country": "Nigeria",
+  "region": "West Africa"
+}

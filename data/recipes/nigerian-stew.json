@@ -1,0 +1,155 @@
+{
+  "slug": "nigerian-stew",
+  "name": "Nigerian Tomato Stew",
+  "localName": "Obe Ata",
+  "course": "main",
+  "tags": [
+    "staple",
+    "spicy",
+    "weeknight",
+    "make-ahead",
+    "gluten-free"
+  ],
+  "diet": {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "containsNuts": false
+  },
+  "spice": 2,
+  "summary": "The all-purpose red stew of tomatoes, red bell peppers and scotch bonnets, fried in oil until deep red, served with rice, yam or plantain.",
+  "story": "Obe ata, the Nigerian red pepper stew, is the base of many Nigerian dishes and a staple of home cooking. It is served with white rice, boiled yam, plantain, beans or swallows, and made in large batches for the week.",
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "servings": 6,
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "group": "For the stew",
+      "items": [
+        {
+          "name": "Ripe tomatoes",
+          "amount": "6 medium (about 700 g)"
+        },
+        {
+          "name": "Red bell peppers (tatashe)",
+          "amount": "3 large"
+        },
+        {
+          "name": "Scotch bonnet peppers",
+          "amount": "2 to 3",
+          "note": "to taste"
+        },
+        {
+          "name": "Onions",
+          "amount": "2 medium",
+          "note": "1 for blending, 1 chopped"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "1/2 cup (120 ml)"
+        },
+        {
+          "name": "Tomato paste",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Beef, chicken or assorted meat",
+          "amount": "600 g (1 1/4 lb)",
+          "note": "boiled and kept with stock"
+        },
+        {
+          "name": "Curry powder",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Dried thyme",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Bay leaf",
+          "amount": "1"
+        },
+        {
+          "name": "Seasoning cubes",
+          "amount": "2"
+        },
+        {
+          "name": "Salt",
+          "amount": "to taste"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Boil the meat",
+      "text": "Season the meat with onion, a cube, thyme and salt. Cook in a little water until tender, 30 to 45 minutes for chicken or 60 to 90 for beef. Remove the meat and reserve the stock.",
+      "minutes": 50
+    },
+    {
+      "title": "Blend the peppers",
+      "text": "Blend the tomatoes, bell peppers, scotch bonnets and 1 onion until smooth. Do not add water.",
+      "minutes": 4
+    },
+    {
+      "title": "Reduce the blend",
+      "text": "Pour the blend into a pot and boil uncovered over medium-high heat for 20 to 25 minutes, stirring now and then, until the volume has reduced by about half and it looks thick. This removes water and sourness.",
+      "minutes": 25
+    },
+    {
+      "title": "Fry the meat",
+      "text": "In another pot, heat the oil until hot but not smoking, then fry the cooked meat for 5 minutes until lightly browned. Lift the meat out and set aside.",
+      "minutes": 6
+    },
+    {
+      "title": "Fry the base",
+      "text": "Add the chopped onion to the oil and fry for 2 minutes. Add the tomato paste and fry for 2 minutes until it darkens, then stir in the reduced blend.",
+      "minutes": 5
+    },
+    {
+      "title": "Fry until it splits",
+      "text": "Fry for 20 to 25 minutes, stirring often to stop sticking, until the oil floats on the surface and the stew turns deep red, is thick and smells sweet rather than sharp.",
+      "minutes": 25
+    },
+    {
+      "title": "Season and simmer",
+      "text": "Add curry, bay leaf, cubes, meat, a cup of the reserved stock and salt. Simmer for 10 minutes. Taste: the stew should be rich, slightly sweet and peppery. Add more stock if too thick.",
+      "minutes": 10
+    }
+  ],
+  "tips": [
+    "Do not skip boiling the blend. Without it, the stew tastes raw and sour.",
+    "Fry until the oil visibly separates. This signals the stew is done.",
+    "If the stew is sour, add a pinch of sugar or a grated carrot while frying.",
+    "Stew freezes well for up to 3 months."
+  ],
+  "swaps": [
+    {
+      "ingredient": "Fresh tomatoes",
+      "swap": "Use 1 can (400 g) of whole peeled tomatoes plus 1 tbsp more tomato paste per 3 fresh tomatoes replaced."
+    },
+    {
+      "ingredient": "Tatashe (red bell pepper)",
+      "swap": "Standard red bell peppers work. Add a bit of paprika for colour."
+    },
+    {
+      "ingredient": "Scotch bonnet",
+      "swap": "Habanero is the closest. Use milder chillies for less heat."
+    }
+  ],
+  "servesWith": [
+    "jollof-rice",
+    "dodo",
+    "eba",
+    "ewa-agoyin"
+  ],
+  "nutrition": {
+    "calories": 410,
+    "proteinG": 30,
+    "carbsG": 14,
+    "fatG": 26
+  },
+  "country": "Nigeria",
+  "region": "West Africa"
+}

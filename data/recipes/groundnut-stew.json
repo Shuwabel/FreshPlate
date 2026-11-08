@@ -1,0 +1,56 @@
+{
+  "slug": "groundnut-stew",
+  "name": "Groundnut Stew (Maafe)",
+  "localName": "Maafe / Domoda",
+  "country": "Mali / Gambia",
+  "region": "West Africa",
+  "course": "main",
+  "tags": ["peanut", "stew", "comfort", "one-pot", "hearty"],
+  "diet": {"vegetarian": false, "vegan": false, "glutenFree": true, "containsNuts": true},
+  "spice": 2,
+  "summary": "Tender beef or chicken simmered in a rich peanut and tomato sauce with sweet potato, served over rice.",
+  "story": "Groundnut stew is cooked across West Africa under many names, including maafe in Mali and Senegal and domoda in the Gambia. It is an everyday family dish and a favourite for sharing, usually eaten with rice.",
+  "prepMinutes": 20,
+  "cookMinutes": 70,
+  "servings": 4,
+  "difficulty": "Easy",
+  "ingredients": [
+    {"items": [
+      {"name": "beef stew meat or chicken thighs", "amount": "1.5 lb (680 g)", "note": "cut into chunks"},
+      {"name": "vegetable oil", "amount": "3 tbsp"},
+      {"name": "onions", "amount": "2 medium", "note": "chopped"},
+      {"name": "garlic", "amount": "4 cloves", "note": "minced"},
+      {"name": "fresh ginger", "amount": "1 tbsp", "note": "grated"},
+      {"name": "tomato paste", "amount": "3 tbsp"},
+      {"name": "ripe tomatoes", "amount": "2", "note": "chopped"},
+      {"name": "natural peanut butter", "amount": "1/2 cup (130 g)", "note": "unsweetened, smooth"},
+      {"name": "sweet potatoes", "amount": "2 medium (400 g)", "note": "peeled, chunked"},
+      {"name": "carrots", "amount": "2", "note": "sliced"},
+      {"name": "scotch bonnet", "amount": "1", "note": "whole"},
+      {"name": "stock or water", "amount": "3 cups (720 ml)"},
+      {"name": "salt", "amount": "to taste"},
+      {"name": "cooked white rice", "amount": "4 cups", "note": "to serve"}
+    ]}
+  ],
+  "steps": [
+    {"title": "Brown the meat", "text": "Season the meat with salt and brown it in hot oil in batches for 6-8 minutes until deeply coloured on all sides. Remove and set aside.", "minutes": 10},
+    {"title": "Soften the aromatics", "text": "In the same pot, fry the onions for 6 minutes until soft and golden. Add garlic and ginger and cook one minute until fragrant.", "minutes": 7},
+    {"title": "Cook the tomato", "text": "Stir in tomato paste and chopped tomatoes. Cook for 8 minutes until darker and thick, with the oil showing at the edges.", "minutes": 8},
+    {"title": "Add stock and meat", "text": "Return the meat, add 2 cups of stock and the scotch bonnet. Cover and simmer gently for 30-40 minutes for beef (20 minutes for chicken), until the meat is nearly tender.", "minutes": 40},
+    {"title": "Make the peanut slurry", "text": "Whisk the peanut butter with a cup of warm liquid from the pot until smooth, then stir it back into the stew. This prevents lumps.", "minutes": 3},
+    {"title": "Add vegetables", "text": "Add the sweet potato and carrots and simmer uncovered for 15-20 minutes until the vegetables are tender and the sauce is thick, with a layer of reddish oil on top. Stir often to avoid sticking.", "minutes": 20},
+    {"title": "Season and serve", "text": "Taste and adjust salt. Remove the pepper and serve over rice."}
+  ],
+  "tips": [
+    "Use unsweetened natural peanut butter, as sweetened types spoil the savoury balance.",
+    "Stir regularly once the peanut butter is in because it catches on the bottom.",
+    "Skim off the oil if you prefer a lighter stew, or leave it for flavour.",
+    "It tastes even better the next day."
+  ],
+  "swaps": [
+    {"ingredient": "Peanut butter", "swap": "Freshly ground roasted peanuts are the most authentic; for a nut-free version, sunflower seed butter gives a similar creaminess but a different taste."},
+    {"ingredient": "Beef", "swap": "Chickpeas and extra sweet potato make a vegan version; cook for about 20 minutes only."}
+  ],
+  "servesWith": [],
+  "nutrition": {"calories": 610, "proteinG": 38, "carbsG": 50, "fatG": 29}
+}
