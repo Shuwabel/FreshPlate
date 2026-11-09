@@ -1,7 +1,5 @@
 # Product
 
-<!-- Inferred from the repo README and the owner's brief ("make it an experience worth having", Nigerian cuisine is a necessity). The owner asked not to be interviewed; every fact below is labelled as given or inferred. -->
-
 ## Platform
 
 web
